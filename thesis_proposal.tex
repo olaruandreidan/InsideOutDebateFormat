@@ -1,0 +1,291 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Uppsala University Thesis Proposal
+% LaTeX Document
+% Author: Andrei Olaru
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+
+% Language and encoding
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+% Mathematics
+\usepackage{amsmath}
+
+% Graphics and figures
+\usepackage{graphicx}
+\usepackage{float}
+
+% Page layout
+\usepackage[margin=1in]{geometry}
+
+% Bibliography
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{references.bib}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    citecolor=blue,
+}
+
+% Section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+% Todo notes
+\usepackage[colorinlistoftodos]{todonotes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TITLE PAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\center
+
+\textsc{\LARGE Uppsala University}\\[1.5cm]
+\includegraphics[scale=.1]{Uppsala_University_template/Uppsala_University_seal_svg.png}\\[1cm]
+\textsc{\Large Master's Thesis}\\[0.5cm]
+\textsc{\large Thesis Proposal}\\[0.5cm]
+
+\HRule \\[0.4cm]
+{\huge \bfseries Applying Transformative Game Design Theory to Competitive Debate}\\[0.4cm]
+\HRule \\[1.5cm]
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+Andrei Dan \textsc{Olaru}
+\end{flushleft}
+\end{minipage}\\[2cm]
+
+{\large \today}\\[2cm]
+
+\vfill
+
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{INTRODUCTION}
+
+\subsection{Brief Overview}
+
+Through my thesis project, I intend to apply transformative game design theory and best practices to create a new competitive debating format. This research employs Research through Design (RtD) methodology to develop and playtest an alternative debate format that addresses systematic problems in widely-used formats, particularly World Schools and British Parliamentary debate.
+
+\subsection{Motivation}
+
+I decided to engage in this labor in order to give back to the community that shaped me most. I have been deeply engaged with competitive debating for 15 years. As a high school student, I was active in the Romanian and international World Schools debating circuits, participating in over 50 competitions and representing my country at the World Schools Debating Championship. Beyond high school, I participated in hundreds of debate competitions worldwide as a debater, judge, club manager, chief adjudicator, competition organiser, and coach. I have spent the vast majority of my time between ages 15 and 25 within the debate world, and even afterwards have remained deeply engaged with the community.
+
+I believe debate is a class of role-playing games with immense transformative potential. I have experienced it firsthand, and personally owe most of my foundational skills and attitudes to my time as a dedicated debater. I have also witnessed as a teacher, trainer and coach hundreds of adolescents and young adults transformed by it, mostly for the better. In the meantime I developed strong opinions on how the transformative potential of most major formats, especially World Schools, is stunted by their design.
+
+\subsection{Problem Statement}
+
+I believe that the two most popular debate formats, World Schools and British Parliamentary, whose communities in Europe are deeply intertwined, have the following failings:
+
+\begin{itemize}
+    \item They push debaters towards value convergence, causing them to become at times less tolerant of people with different values and diminishing their ability to convince people from different backgrounds.
+    \item They teach debaters to speak very fast and with extreme information density, which diminishes their ability to meaningfully support their positions to people not trained as debate judges.
+    \item They push communities towards toxic, hierarchical behavior.
+\end{itemize}
+
+\subsection{Research Question}
+
+How can transformative game design theory inform the creation of a competitive debate format that better achieves stated transformational goals while addressing the systematic problems I just presented?
+
+\subsection{Scope and Limitations}
+
+This thesis aims to demonstrate proof of concept: that alternative debate formats can be systematically designed to address identified problems, and that such designs produce observable and articulable differences in participant experience. In particular it will try to demonstrate how a debate format can address one or more of the identified problems without sacrificing entertainment value, competitive appeal or educational potential.
+
+The thesis does not aim to produce robust claims about long-term educational efficacy or entertainment value, as such claims would require longitudinal studies with larger samples than a master's thesis permits. The research will involve approximately 10 playtest sessions over two months with experienced debaters from the Romanian debate community, culminating in qualitative analysis of observational and interview data.
+
+\section{BACKGROUND}
+
+\subsection{Topic Overview}
+
+Academic debate formats are games. Following Salen and Zimmerman's influential definition in \textit{Rules of Play} \parencite[p. 80]{salen2004rules}, ``a game is a system in which players engage in an artificial conflict, defined by rules, that results in a quantifiable outcome''. Academic debate clearly satisfies all these criteria: it has rules, participants, winners, losers, tournaments, and scoring systems. Alfred ``Tuna'' Snider's 1982 doctoral dissertation ``Gaming as a Paradigm for Academic Debate'' at the University of Kansas, along with his subsequent publications \parencite{snider1984gaming}, established the scholarly foundation for analyzing debate through game design principles whilst also indexing and robustly proving its many educational benefits.
+
+Empirical studies demonstrate debate's significant educational benefits. Mezuk's research on the Chicago Debate League \parencite{mezuk2009urban} found that debate participants were 70\% more likely to graduate and three times less likely to drop out than non-debaters. \textcite{colbert1985why} noted that debaters benefit in critical thinking, communication skills, and engagement with subject matter.
+
+However, I have yet to find any paper that critiques major formats from a game design perspective or presents academic debating as a role-playing game, though Bowman's 2014 literature review \parencite{bowman2014educational} acknowledges related pedagogical approaches such as process drama and simulation as role-playing games.
+
+Addressing this gap in literature, in applying game design lenses and expertiese to the analysis and improvement of debate formats is the main contribution to knowledge that I seek to start making through this paper.
+
+\subsection{Debate as Role-Playing Game}
+
+In the World Schools format, in every debate there are two teams which receive a motion (e.g., ``This House Would legalize the possession of drugs''). Teams are randomly assigned to opposite sides: Proposition/Government or Opposition. They deliver alternating speeches as if they were individuals supporting or opposing the motion. Judges listen as someone with no opinion on the motion, expert in debate rules, and averagely informed, deciding who most convinced the character they role-play. The debate ends with the judge ruling who won, explaining their decision and then offering feedback for improvement to the teams.
+
+Following \textcite{bowman2010functions} definition, role-playing games are ``co-creative experiences in which participants immerse into fictional characters and realities for a bounded period of time and improvise through spontaneous, emergent playfulness.'' Debate clearly fits: debaters adopt fictional personas (proponents or opponents regardless of personal belief), operate within a bounded fictional reality (the debate round), and engage in spontaneous improvisation responding to opponents' arguments.
+
+One might object that debate characters lack specific names, beliefs beyond the motion, or backgrounds, that they are thin roles. However, role-playing complexity is optional even in mainstream tabletop RPGs such as D\&D; the rules allow but don't demand it. Similarly, debate rules don't forbid deeper characterization. I personally remember debates in which I channeled passion by imagining myself as a grieving father, or another in which I inappropriately impersonated an Irish IRA militant, bad accent and all. Role-playing during case-building or speech-giving are techniques many coaches support. Much debate ethos is summoned through traditions that role-play 1800s British parliamentary etiquette: bench-pounding, heckling, Points of Intervention as if holding onto wigs. This is my argument for why debate is a role-playing game.
+
+\subsection{Literature Review and Theoretical Framework}
+
+\subsubsection{Transformative Mechanisms in Debate}
+
+Following \textcite{bowman2025transformative}, transformation in role-playing games can be understood as both ``a prolonged and sustained state of change'' and ``a process or series of processes that lead to growth,'' producing lasting after-effects that alter a person's abilities and worldview.
+
+The transformative role-playing games framework considers the game as a ``transformational container'' \parencite{bion1961experiences,winnicott1960theory,bowman2021magic}, a secure holding environment enabling playful experimentation and authentic self-expression. This connects to \textcite{huizinga1958homo} ``magic circle,'' the boundary separating game space from ordinary life, though porously.
+
+I argue debate is transformational through three mechanisms:
+
+First, through ``bleed'', the spillover of psychological contents between player and character \parencite{montola2010positive,bowman2013social,hugaas2024bleed}, it allows players to not condition tolerance on opinions. Hugaas identifies relevant bleed types including emotional bleed (emotional states between player and character) and memetic bleed (ideas, opinions, ideologies between player and character). As debaters argue positions contrary to their beliefs, they engage deeply with opposing viewpoints, potentially incorporating new perspectives. After years of debating, this develops epistemic humility, accepting that anything can be argued convincingly, that reasonable people can formulate opposing views without irrationality, and that argumentative power doesn't equate with being right. Following \textcite{bogost2007persuasive} procedural rhetoric framework, debate argues and debaters eventually bleed into believing that when deciding on logic alone, you discriminate on argumentative prowess, so better not to.
+
+Second, through \textcite{vygotsky1978mind} ``zone of proximal development'', the space between independent accomplishment and achievement with guidance, debate creates naturally occurring scaffolding. Debaters are power-paired against similar-skill teams; judges provide post-debate feedback. Following \textcite{kolb1984experiential} experiential learning cycle (concrete experience, reflective observation, abstract conceptualization, active experimentation), each debate round provides concrete experience, feedback sessions create reflective observation space, preparation requires abstract conceptualization, and the next round permits active experimentation. As \textcite{crookall2014engaging} and \textcite{daniau2016transformative} emphasize, the debrief is essential to transformation. Debate's oral critique serves as built-in debriefing, with judges explaining reasoning, identifying strengths/weaknesses, and offering improvements. Through this, debaters develop research methodology, logical reasoning, critical thinking, public speaking, time management, and collaborative strategizing, skills transferring to academic and professional contexts, qualifying these as transformative \parencite{bowman2010functions}. Even more, through procedural bleed, physical abilities, traits, habits, and other bodily states bleed between player and character. For debaters, this includes the rhetorical habits, speaking patterns, and argumentative reflexes developed through competition.
+
+Third, through the mechanism of emancipatory bleed \parencite{kemper2017battle,kemper2020wyrding}, in which players from marginalized backgrounds experience liberation through their characters, debate empowers. For students from backgrounds where eloquent public speaking wasn't modeled (the norm for example in Romania), debate provides a transformational container to discover and develop their voice. The competitive frame creates a ``holding environment'' \parencite{bowman2021magic}, simultaneously challenging and safe. For marginalized students, being taken seriously as intellectuals, having ideas weighed on merits rather than dismissed based on identity, produces emancipatory bleed. I've experienced this firsthand, as confidence developed in this bounded context bled into ordinary life, making myself and trained debaters more comfortable with public speaking, willing to engage in intellectual disagreement, and capable of self-advocacy.
+
+\subsubsection{Game Design Critique of Existing Formats}
+
+While these mechanisms explain debate's transformative potential, specific rules and cultures of major formats systematically undermine it. I noted these problems through my long-term observation and through informal conversations with fellow debaters. As no game-design studies on debate exist, the following theoretical constructions are my own and I have yet to find major studies to empirically back them.
+
+First of all, I have observed a phenomenon of value convergence in debate communities as they develop shared evaluative frameworks that paradoxically reduce genuine engagement with diverse perspectives. This occurs through strategic adaptation to the game's challenge, as success requires adapting to judges' expectations. When the audience is experienced debate judges with shared norms, adaptation narrows rather than broadens argumentative repertoire. As the roleplaying task to embody a ``neutral and averagely-informed individual'' is vague and thus very difficult, judges often fail at it and experience powerful ``bleed in'', bringing their own perspectives into the debate. When this becomes widespread, even judges that can cotrol the ``bleed'' more are under pressure to self-censor, to converge towards the appearance of an average judge. They lean towards doing ``safe'' evaluations of arguments, based on what are seen as academic values, or risk shunning from both fellow judges but also debaters or coaches. Strategic homogenization further occurs as winning strategies propagate through communities with arguments succeeding in out-rounds or from reputable debaters becoming templates. Over time, this produces convergence on limited argumentative approaches that may not transfer to real-world persuasion.
+
+Second of all, in part debate teaches skills inapplicable outside of it. Competitive debate, especially at high levels, rewards rapid delivery maximizing information density and aggressive, non-reconciliatory refutation scoring competitive points. While effective for winning rounds, these skills may actively impair effective communication in contexts without trained judges. When I joined game development and stopped being surrounded by ex-debaters, I had to relearn how to speak. As \textcite{bowman2010functions} framework suggests, effective RPGs should train skills transferring to daily life and speed-talking doesn't.
+
+Thirdly, I observed how debate communities exhibit toxic hierarchical behavior. As per \textcite{bowman2025transformative}, transformation is hardly possible in the absence of emotional comfort. When participants feel unsafe, unheard, or unappreciated in communities, such feelings can undermine the conditions necessary for growth. Psychological safety is essential for the development of a transformational container, meaning the secure holding environment within which players feel safe taking risks and engaging authentically \parencite{bion1961experiences}. Although equity procedures are treated seriously in debate communities I engaged with, competitive debate's emphasis on ranking, winning, and expertise-based hierarchies can produce toxic dynamics. In particular newcomers feel excluded or diminished by established members as success becomes conflated with personal worth.
+
+\section{METHODS}
+
+\subsection{Design Philosophy}
+
+This research employs Research through Design (RtD) as primary methodological framework. RtD positions the design process itself as inquiry, where knowledge emerges through making and iterating upon designed artifacts \parencite{coulton2017games,zimmerman2007research}. The design process follows \textcite{zimmerman2003play} iterative methodology, treating play as research. Each playtest generates data informing subsequent decisions, creating a spiral of refined understanding.
+
+\subsection{Development Process}
+
+I intend to unfold my process through three cyclical phases:
+
+In the first, generation oriented, phase I will explore potential mechanics and format elements solving expressed problems, based on game design and debate intuition and established theory. Brainstorming sessions, design conversations with debate peers, and analysis of existing formats will be tools I will use to expand possibilities under consideration.
+
+In the second, critical scrutiny oriented, phase I will dialectically evaluate whether candidate designs congruently address problems without introducing new difficulties (e.g., judge cognitive load, time limitations).
+
+In the third, validation oriented, phase surviving elements will undergo increasingly rigorous testing: firstly informal design conversations with experienced debaters to surface issues; then small pilot playtests identifying unexpected mechanical problems; and lastly a larger playtest with debate community members using structured observation and interview protocols.
+
+These phases spiral until the format demonstrates sufficient coherence, playability, and alignment with transformational goals, or allocated resources run out. I intend to run two small playtests of one debate each, then a larger playtest as a small full-day competition.
+
+\subsection{Research Methods}
+
+For analyzing the quality of the design I will organize playtests. During these playtests the research methods used will be observation and semi-structured interviews, followed by a qualitative data analysis.
+
+\subsubsection{Participant Observation}
+
+Following \textcite{baker2006observation}, I will adopt a participant-as-observer role during playtests. My researcher status will be known, but I'll participate actively in some debates to obtain firsthand understanding. When observing debates where not participating, I'll function as observer-as-participant: present and known but not actively engaged.
+
+Observation will focus on overall debate flow and more granularly on behaviors relevant to entertainment value, rule legibility and adherence ease, and elements distinct from standard formats, judging whether these indicate positive or negative tendencies vis-\`{a}-vis identified problems.
+
+Informed by the advice of \textcite{spradley1980participant}, I will record field notes in two phases: condensed and expanded. Condensed notes, taken during debates, will capture key moments, quotations, and behavioral observations using structured protocols. Expanded notes, written within 24h of the playtests, will elaborate, add contextual observations, and record analytical reflections. All debates will be audio/video-recorded with consent to enable field note verification and capture verbal content not fully documented real-time.
+
+Anticipated observation includes approximately 10 structured playtest sessions over two months: two sessions with 1--2 individual debates and one larger session with remaining debates.
+
+\subsubsection{Participants}
+
+I will recruit debaters for playtests with the aid of ARDOR Muntenia, the NGO managing the debate community in Bucharest and the south of Romania. They will both directly inquire various clubs if they are interesting in including a playtest as part of their weekly activity and will issue open calls for debaters in organizing the playtests, especially the small competition.
+
+In Romania, the young adults (not minors) debate community is quite homogenous regarding debate experience, as almost all are senior debaters with training experience. Many of these are students or professionals living in Bucharest. The sample answering my open call will likely be representative in debate experience for the most probable target outside this research: experienced, not novice, debaters.
+
+The majority of Romanian debaters are minors. Ideally, the study would involve minor participants, but ethical guidelines pushed toward this strategy as best alternative.
+
+\subsubsection{Semi-Structured Interviews}
+
+Interviews complement observation by accessing perspectives not directly observable. Interview participants will be recruited through purposive sampling from playtest participants, capturing diverse perspectives: both debaters and judges (offering distinct perspectives); winners and losers (as performance may affect format perception); and different educational backgrounds (primarily teachers/trainers versus debaters).
+
+Following \textcite{knott2022interviews}, the target is 12--15 interviews, sufficient for theoretical saturation while remaining feasible. Sampling continues until new interviews cease generating novel themes.
+
+Interviews will center on game feedback, following a topic guide developed based on the particular design reached and iterated upon. Topics will cover general experience (positive/negative, contrast with other formats, difficulty), intentions to play in this format or use elements of it, and issues related to transformative goals.
+
+Interviews will occur within one week of participation ensuring fresh recall, ideally immediately after debates. Duration will be approximately 15--20 minutes, conducted in person or via video call depending on preference, and transcribed for analysis.
+
+\subsection{Data Analysis}
+
+Analysis follows a design-oriented comparative approach. The primary purpose is not generating generalizable theory but informing ongoing design decisions and articulating how the designed format produces different experiences than existing formats. This aligns with experimental game design methodology \parencite{waern2015experimental}, where design experimentation becomes research when ``the aim is to understand something generic, some more fundamental aspect of game design.''
+
+\subsubsection{Iterative Design Analysis}
+
+Between playtest sessions, I'll conduct rapid analysis focused on actionable design insights, questioning three core points: What mechanics, rules, dynamics worked, produced intended effects and should be preserved/amplified? What didn't work, either by failing to address target problems or by causing confusion, disengagement or unintended consequences? What surprised me and how and do these suggest new opportunities?
+
+This rapid analysis follows directly from expanded field notes, identifying specific design modifications for next iterations and noting questions or hypotheses for subsequent sessions, treating playtesting as ``play as research'' \parencite{zimmerman2003play} with each session generating questions informing the next design cycle.
+
+\subsubsection{Final Comparative Analysis}
+
+After the final playtest, I'll conduct systematic comparative analysis of the complete dataset (field notes, observations, interview transcripts, design memos) in three phases.
+
+In the first phase of initial coding, following the advice of \textcite{lankoski2015formal}, I will identify and label data segments describing participant experiences, behaviors, and reflections. Codes will be descriptive rather than interpretive, capturing what happened rather than meaning.
+
+In the second phase, of comparative code analysis, I will organize descriptive codes into comparative categories structured around target problems. Within each category, I'll code for continuity (experiences similar to traditional formats), difference (experiences diverging from traditional formats), and novelty (experiences unique to the designed format).
+
+In the last phase I'll articulate design principles producing identified effects, connecting observed effects to specific format mechanics: Which rules, structures, or dynamics seem responsible? Why might these mechanics produce these effects? Drawing on formal game analysis techniques \parencite{lankoski2015formal}, this examines relationships between game components (rules, roles, constraints), player actions (what the format enables and constrains), and goals (what players are incentivized to pursue). The aim is producing not just observations of difference but explanatory accounts informing future format design.
+
+This approach is designed for proof-of-concept research. The analysis can demonstrate: (a) the designed format produces experiences participants describe as different from traditional formats; (b) specific format mechanics appear connected to specific experiential differences; and (c) these differences align with intended transformative design goals.
+
+The analysis cannot demonstrate that differences persist over time or across contexts, that educational or transformative outcomes are superior rather than different, or that findings generalize beyond the specific participant population. Such claims would require longitudinal, larger-scale research exceeding thesis scope. This limitation is appropriate for Research through Design, where contribution lies in demonstrating that systematic design can address identified problems and in articulating design principles meriting further investigation or usage.
+
+\subsection{Ethical Considerations}
+
+This research adheres to Uppsala University's ethical guidelines for research involving human participants. All playtest participants will be informed of the purpose and context, how data will be gathered, stored, and analyzed, both during and after recruitment. All will be able to offer and retract consent, granularly or wholesale, to participation in every process part and to data being collected, stored, or used. Peers whose input I use in developing this format will be informed of context and credited. All data will be stored securely in encrypted Microsoft OneDrive offered by Uppsala University, separated by content type, and deleted once thesis development and presentation is complete. All data will be anonymized and not publicly available.
+
+To ensure psychological safety, the rigorous ethical standards imposed by the ARDOR Ethical Guide and ARDOR Trainer Safety Guide will be followed. Debate topics will avoid personal trauma topics and debaters will be able refuse to engage with motions. Debaters will be able to always talk to a third-party equity officer regarding emotional safety issues and report abusive or distressing behavior. During debates, all debaters will be able to exit without explanation.
+
+Beyond these, all participants will have pre-session briefing and post-session debrief providing chances to address potential distressing elements before activity and discuss experience afterwards.
+
+\subsection{Positionality and Reflexivity}
+
+I approach this research as a complete community member \parencite{adler1987membership}. My fifteen years in competitive debate have shaped not only my knowledge but my values, assumptions, and emotional investments. This informs a few positions:
+
+First of all, a recognition of my own insider knowledge and blind spots. My familiarity with debate culture enables nuanced and hard to articulate understanding of implicit norms, unspoken hierarchies, and lived competition experience, but this may also create blind spots visible to outsiders.
+
+Second of all, an acceptance of my reformist motivation. This research emerges from genuine frustration with existing formats. This predisposes me toward confirming my critique and positions this research as holding rhetorical value within the debate community. I must remain alert to evidence complicating my assumptions and must be transparent throughout.
+
+Third of all, an identification of the novelty of my disciplinary lens. I approach debate through game design and transformative play lenses. This privileges certain questions (How do mechanics shape experience? What transformations does play enable?) while potentially obscuring others, especially educational or civic lenses most senior debaters are more used to applying when analyzing practices within the debate world.
+
+Last but not least, a reflection on power dynamics. My status as former Team Romania coach, ARDOR board member, and overall successful debater creates power asymmetries with participants. Some may wish to please or impress me; others to challenge or diminish my work. Former students, colleagues or mentees may feel particular pressure to provide supportive feedback.
+
+Several practices will support ongoing reflexive awareness. Throughout data collection and analysis, I'll maintain a reflexive journal documenting emotions, realizations, decisions, and dilemmas. Following \textcite{knott2022interviews}, each interview will be followed by a reflexive note. During analysis, I'll actively seek data contradicting expectations or emerging interpretations, trying not to marginalize negative cases. Regular discussion with my thesis supervisor and fellow researchers from within and outside the debate community will provide external perspectives.
+
+Given the likelihood some participants will be known to me, specific strategies will address relationship-related bias. Recruitment will be externalized to ARDOR Muntenia staff to include debaters I haven't previously coached or worked with directly. During analysis, I'll flag data from participants with whom I have close prior relationships and consider whether relationship dynamics may have influenced responses. Where possible, I'll triangulate self-report data with observational data less susceptible to social desirability effects.
+
+Complete elimination of positionality effects is neither possible nor desirable, as my insider knowledge and reputation are also resources enabling this research.
+
+\section{Conclusion}
+
+Alfred ``Tuna'' Snider was first to recognize debate as a game and to apply play logic to its analysis, doing this way before game design was a recognized discipline. Through his career as a teacher and scholar he championed the transformative power of playing this game with joy, passion and determination. Although many of his students, one of whom I was very priviledged to be, did continue his work in fields such as civics, education, rhetorics and his own specialty of forensics, none used game-design know-how to answer the question that most naturally flows from his argument that debate is a game: how can we make it a better game?
+
+Given the above, for long I longed for the opportunity to give back to the world of play that shaped me by doing a serious game-design foray into developing a new debate format that harnessed the strengths of the popular whilst simmering away, one iteration at a time, their weaknesses. The time is nigh.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TIMELINE ANNEX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\section*{Timeline Annex}
+\addcontentsline{toc}{section}{Timeline Annex}
+
+\begin{itemize}
+    \item \textbf{01--15 January:} Thesis proposal refining
+    \item \textbf{16--31 January:} Design of the new format, conversations with fellow senior debaters and with other game designers; organizing the first playtest
+    \item \textbf{01--15 February:} First pilot playtest, first interviews, announcing the mini-competition and opening registration, iteration on the game design
+    \item \textbf{16--28 February:} Second pilot playtest and interviews, finishing registrations for the mini-competition, iteration on the game design
+    \item \textbf{01--20 March:} Mini-competition extensive playtests, running all remaining interviews
+    \item \textbf{21 March--01 May:} Data analysis, further theoretical inquiries, thesis writing
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% REFERENCES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\printbibliography[title={REFERENCES}]
+
+\end{document}

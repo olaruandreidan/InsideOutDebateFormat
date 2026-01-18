@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber thesis_proposal"] 1768236190.69608 "thesis_proposal.bcf" "thesis_proposal.bbl" "thesis_proposal" 1768236724.32933 0
-  "references.bib" 1768228910 10828 de2793832e188d6103dc735ac1483804 ""
-  "thesis_proposal.bcf" 1768236724.26705 139635 009896d6d465c4e1a2e4dc5c9657b157 "pdflatex"
+["biber thesis_proposal"] 1768753048.63965 "thesis_proposal.bcf" "thesis_proposal.bbl" "thesis_proposal" 1768753062.29716 0
+  "references.bib" 1768753042.05655 12168 c4c85b30db221548c482f3495cbd04b8 ""
+  "thesis_proposal.bcf" 1768753062.10641 140286 e2ece28fdc709e0cbd642f9ef3079196 "pdflatex"
   (generated)
   "thesis_proposal.bbl"
   "thesis_proposal.blg"
   (rewritten before read)
-["pdflatex"] 1768236722.228 "/Users/andreiolaru/Documents/repos/MastersThesis/thesis_proposal.tex" "thesis_proposal.pdf" "thesis_proposal" 1768236724.32976 0
-  "/Users/andreiolaru/Documents/repos/MastersThesis/thesis_proposal.tex" 1768236719.00665 44517 a93b503cd96a3f045f8d1b9de28172ea ""
+["pdflatex"] 1768753057.2022 "/Users/andreiolaru/Documents/repos/MastersThesis/thesis_proposal.tex" "thesis_proposal.pdf" "thesis_proposal" 1768753062.29843 0
+  "/Users/andreiolaru/Documents/repos/MastersThesis/thesis_proposal.tex" 1768753039.07563 56806 e5f6e449b30f91def78fc49d48fa9a2a ""
   "/Users/andreiolaru/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1767796167.55143 14040 aea2e20c8a5ffc63ed99d7a6c0a7963b ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -18,7 +18,6 @@
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
-  "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm" 1136768653 1524 554068197b70979a55370e6c6495f441 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
@@ -29,7 +28,6 @@
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1136768653 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
-  "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb" 1248133631 36912 b448ef9ad9d7228ec3c6e71005136d55 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
   "/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -118,7 +116,6 @@
   "/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atveryend-ltx.sty" 1738182759 2378 14b657ee5031da98cf91648f19642694 ""
   "/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/ifthen.sty" 1738182759 5525 9dced5929f36b19fa837947f5175b331 ""
   "/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/inputenc.sty" 1738182759 5048 0270515b828149155424600fd2d58ac5 ""
-  "/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/omlcmr.fd" 1738182759 2470 cbfd89aa18d2d104ec0041c9de14e544 ""
   "/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size12.clo" 1738182759 8449 ffe4ba2166a344827c3a832d1d5e0a91 ""
   "/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx" 1756325488 15600 37755fda7731eef61e12daf78b772bcb ""
   "/usr/local/texlive/2025basic/texmf-dist/tex/latex/biblatex-apa/apa.bbx" 1756325488 70180 805807dcc28924942575038a9c641e96 ""
@@ -184,11 +181,11 @@
   "/usr/local/texlive/2025basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1767795204 2663822 250322ee63279c9766cc81d0dd9232ea ""
   "/usr/local/texlive/2025basic/texmf.cnf" 1741448314 628 81d1ada0f601fb1ffa62f1323192d946 ""
   "Uppsala_University_template/Uppsala_University_seal_svg.png" 1767776352 310687 45f3e98fb4533ad42245452777b9b4ab ""
-  "thesis_proposal.aux" 1768236724.2576 17969 e92b7461a1589b5f4b07251c3a4b647b "pdflatex"
-  "thesis_proposal.bbl" 1768236193.59213 99126 d6711b4e29529c742770e4f0a2e5ae62 "biber thesis_proposal"
-  "thesis_proposal.out" 1768236724.26386 6283 43e647cb88b1609a4c3861f1c71e40b3 "pdflatex"
-  "thesis_proposal.run.xml" 1768236724.26772 2504 aeb51e9aeac471341b7d39bb78019742 "pdflatex"
-  "thesis_proposal.tex" 1768236719.00665 44517 a93b503cd96a3f045f8d1b9de28172ea ""
+  "thesis_proposal.aux" 1768753062.08126 20491 dc50f4dc38cdada0b8c7cf92c3f4c809 "pdflatex"
+  "thesis_proposal.bbl" 1768753052.03212 140264 6d3898c33ff3506b702f21fee47556f7 "biber thesis_proposal"
+  "thesis_proposal.out" 1768753062.09781 7126 4889765b1d5f64b1e14451e648195a96 "pdflatex"
+  "thesis_proposal.run.xml" 1768753062.10895 2504 7acf996a07ac524f0ae1d77c3d2c24fa "pdflatex"
+  "thesis_proposal.tex" 1768753039.07563 56806 e5f6e449b30f91def78fc49d48fa9a2a ""
   (generated)
   "thesis_proposal.aux"
   "thesis_proposal.bcf"

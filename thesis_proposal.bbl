@@ -54,9 +54,56 @@
       \field{labeltitlesource}{title}
       \field{title}{Membership Roles in Field Research}
       \field{year}{1987}
-      \verb{doi}
-      \verb 10.4135/9781412984973
-      \endverb
+    \endentry
+    \entry{allen1999meta}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9a2753f7ec9da9b9550494b9fa2d4ee2}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bc8b6eff224c424a86e61bd3ec90862}{%
+           family={Berkowitz},
+           familyi={B\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf082467083de448d9069db40898998d}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f22d0d4b02ab9342fcb2e77053df2c9}{%
+           family={Louden},
+           familyi={L\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0eb73523214481d449a13af11044db21}
+      \strng{fullhash}{5e5b6fcd33b3dc1fe3505d8f6d745fe4}
+      \strng{fullhashraw}{5e5b6fcd33b3dc1fe3505d8f6d745fe4}
+      \strng{bibnamehash}{5e5b6fcd33b3dc1fe3505d8f6d745fe4}
+      \strng{authorbibnamehash}{5e5b6fcd33b3dc1fe3505d8f6d745fe4}
+      \strng{authornamehash}{0eb73523214481d449a13af11044db21}
+      \strng{authorfullhash}{5e5b6fcd33b3dc1fe3505d8f6d745fe4}
+      \strng{authorfullhashraw}{5e5b6fcd33b3dc1fe3505d8f6d745fe4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communication Education}
+      \field{number}{1}
+      \field{title}{A Meta-Analysis of the Impact of Forensics and Communication Education on Critical Thinking}
+      \field{volume}{48}
+      \field{year}{1999}
+      \field{pages}{18\bibrangedash 30}
+      \range{pages}{13}
     \endentry
     \entry{baker2006observation}{article}{}{}
       \name{author}{1}{}{%
@@ -89,9 +136,38 @@
       \field{year}{2006}
       \field{pages}{171\bibrangedash 189}
       \range{pages}{19}
-      \verb{doi}
-      \verb 10.1353/lib.2006.0045
-      \endverb
+    \endentry
+    \entry{bellon2000research}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f62eadc9956c870aab7df7c1030816cc}{%
+           family={Bellon},
+           familyi={B\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{fullhash}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{fullhashraw}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{bibnamehash}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{authorbibnamehash}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{authornamehash}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{authorfullhash}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{authorfullhashraw}{f62eadc9956c870aab7df7c1030816cc}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Argumentation and Advocacy}
+      \field{number}{3}
+      \field{title}{A Research-Based Justification for Debate Across the Curriculum}
+      \field{volume}{36}
+      \field{year}{2000}
+      \field{pages}{161\bibrangedash 175}
+      \range{pages}{15}
     \endentry
     \entry{bion1961experiences}{book}{}{}
       \name{author}{1}{}{%
@@ -184,38 +260,6 @@
       \field{title}{The Functions of Role-playing Games: How Participants Create Community, Solve Problems, and Explore Identity}
       \field{year}{2010}
     \endentry
-    \entry{bowman2013social}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bffbff2a3e9238d9de010343ec7c3090}{%
-           family={Bowman},
-           familyi={B\bibinitperiod},
-           given={Sarah\bibnamedelima Lynne},
-           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{fullhash}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{fullhashraw}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{bibnamehash}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{authorbibnamehash}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{authornamehash}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{authorfullhash}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{authorfullhashraw}{bffbff2a3e9238d9de010343ec7c3090}
-      \field{extraname}{2}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Role-Playing}
-      \field{title}{Social Conflict in Role-playing Communities: An Exploratory Qualitative Study}
-      \field{volume}{4}
-      \field{year}{2013}
-      \field{pages}{4\bibrangedash 25}
-      \range{pages}{22}
-    \endentry
     \entry{bowman2014educational}{inbook}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=bffbff2a3e9238d9de010343ec7c3090}{%
@@ -247,7 +291,7 @@
       \strng{editornamehash}{bffbff2a3e9238d9de010343ec7c3090}
       \strng{editorfullhash}{bffbff2a3e9238d9de010343ec7c3090}
       \strng{editorfullhashraw}{bffbff2a3e9238d9de010343ec7c3090}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -492,9 +536,6 @@
       \field{year}{2014}
       \field{pages}{416\bibrangedash 427}
       \range{pages}{12}
-      \verb{doi}
-      \verb 10.1177/1046878114559879
-      \endverb
     \endentry
     \entry{daniau2016transformative}{article}{}{}
       \name{author}{1}{}{%
@@ -527,9 +568,289 @@
       \field{year}{2016}
       \field{pages}{423\bibrangedash 444}
       \range{pages}{22}
-      \verb{doi}
-      \verb 10.1177/1046878116650765
-      \endverb
+    \endentry
+    \entry{deterding2018alibis}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4ad251c02d478d38f2fe79e126ae6bf1}{%
+           family={Deterding},
+           familyi={D\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77b7f2834ada9e806200ca66ed3767a4}{%
+           family={Dixon},
+           familyi={D\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{fullhash}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{fullhashraw}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{bibnamehash}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{authorbibnamehash}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{authornamehash}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{authorfullhash}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{authorfullhashraw}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Extended Abstracts on Human Factors in Computing Systems}
+      \field{title}{Gamification: Using Game Design Elements in Non-Gaming Contexts}
+      \field{year}{2018}
+    \endentry
+    \entry{english2007debate}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=8057d76b83fb267940a7ee81cc11ce2e}{%
+           family={English},
+           familyi={E\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4358823dcd521cdcd6b0b7a885a95e0}{%
+           family={Llano},
+           familyi={L\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d9ac923b4d876d790014653fe76100d}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Gordon\bibnamedelima R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70d21c7880d5bc5565d8ca2177cedd65}{%
+           family={Morrison},
+           familyi={M\bibinitperiod},
+           given={Catherine\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=042bce2ad085b9d1f94ddd32308924c5}{%
+           family={Rief},
+           familyi={R\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a79154e1ba23ddfa75160ec2d6ce2ae2}{%
+           family={Woods},
+           familyi={W\bibinitperiod},
+           given={Carly},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7fcc0e355b06586c040e61daebde0ae1}
+      \strng{fullhash}{c232cb3830a76dc73db38789b561394a}
+      \strng{fullhashraw}{c232cb3830a76dc73db38789b561394a}
+      \strng{bibnamehash}{c232cb3830a76dc73db38789b561394a}
+      \strng{authorbibnamehash}{c232cb3830a76dc73db38789b561394a}
+      \strng{authornamehash}{7fcc0e355b06586c040e61daebde0ae1}
+      \strng{authorfullhash}{c232cb3830a76dc73db38789b561394a}
+      \strng{authorfullhashraw}{c232cb3830a76dc73db38789b561394a}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communication and Critical/Cultural Studies}
+      \field{number}{2}
+      \field{title}{Debate as a Weapon of Mass Destruction}
+      \field{volume}{4}
+      \field{year}{2007}
+      \field{pages}{221\bibrangedash 225}
+      \range{pages}{5}
+    \endentry
+    \entry{greene2005lost}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2e00f464a5c74a898b131a89a2053fae}{%
+           family={Greene},
+           familyi={G\bibinitperiod},
+           given={Ronald\bibnamedelima Walter},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d53917327b7900eb6a6802f3be316145}{%
+           family={Hicks},
+           familyi={H\bibinitperiod},
+           given={Darrin},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{fullhash}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{fullhashraw}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{bibnamehash}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{authorbibnamehash}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{authornamehash}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{authorfullhash}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{authorfullhashraw}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cultural Studies}
+      \field{number}{1}
+      \field{title}{Lost Convictions: Debating Both Sides and the Ethical Self-Fashioning of Liberal Citizens}
+      \field{volume}{19}
+      \field{year}{2005}
+      \field{pages}{100\bibrangedash 126}
+      \range{pages}{27}
+    \endentry
+    \entry{hammer2024education}{inbook}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=cc5c358e0b241f0b2470ef6599f2ed15}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15f5339888407685776946bc81c14795}{%
+           family={To},
+           familyi={T\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff2c5c146df16e7b9243d97240c6d63e}{%
+           family={Schrier},
+           familyi={S\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bffbff2a3e9238d9de010343ec7c3090}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Sarah\bibnamedelima Lynne},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=484954df445b171c21bdd889cd6de765}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Geoff},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=4e30e680021e8a5cc3386a4e76898191}{%
+           family={Zagal},
+           familyi={Z\bibinitperiod},
+           given={José\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=4ad251c02d478d38f2fe79e126ae6bf1}{%
+           family={Deterding},
+           familyi={D\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{7edb654b4ddcaccb98b48a39d29f5617}
+      \strng{fullhash}{ddc6c340cb0bd34b7b47135f89f39a5a}
+      \strng{fullhashraw}{ddc6c340cb0bd34b7b47135f89f39a5a}
+      \strng{bibnamehash}{ddc6c340cb0bd34b7b47135f89f39a5a}
+      \strng{authorbibnamehash}{ddc6c340cb0bd34b7b47135f89f39a5a}
+      \strng{authornamehash}{7edb654b4ddcaccb98b48a39d29f5617}
+      \strng{authorfullhash}{ddc6c340cb0bd34b7b47135f89f39a5a}
+      \strng{authorfullhashraw}{ddc6c340cb0bd34b7b47135f89f39a5a}
+      \strng{editorbibnamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editornamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editorfullhash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editorfullhashraw}{8ba25a0647a76fd1de9090f44cf188cb}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Routledge Handbook of Role-Playing Game Studies}
+      \field{chapter}{15}
+      \field{title}{Learning and Role-Playing Games}
+      \field{year}{2024}
+      \field{pages}{299\bibrangedash 317}
+      \range{pages}{19}
+    \endentry
+    \entry{harrigan2008defense}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c4fa2e41ed788660a5d27526de58e45b}{%
+           family={Harrigan},
+           familyi={H\bibinitperiod},
+           given={Casey\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Wake Forest University}%
+      }
+      \strng{namehash}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{fullhash}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{fullhashraw}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{bibnamehash}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{authorbibnamehash}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{authornamehash}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{authorfullhash}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{authorfullhashraw}{c4fa2e41ed788660a5d27526de58e45b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Defense of Switch Side Debate}
+      \field{type}{Master's thesis}
+      \field{year}{2008}
+    \endentry
+    \entry{herbeck1987spreading}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=efe82ae54f2885071397b4e5d992e64a}{%
+           family={Herbeck},
+           familyi={H\bibinitperiod},
+           given={Dale},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a483f246f25514ce3762facf13cc38fb}{%
+           family={Katsulas},
+           familyi={K\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{fullhash}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{fullhashraw}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{bibnamehash}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{authorbibnamehash}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{authornamehash}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{authorfullhash}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{authorfullhashraw}{2f046b98c2761f4d57f33a63c3c42b29}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Forensic Association}
+      \field{number}{3}
+      \field{title}{The Affirmative Topicality Burden: Any Reasonable Example of the Resolution}
+      \field{volume}{24}
+      \field{year}{1987}
+      \field{pages}{133\bibrangedash 145}
+      \range{pages}{13}
     \endentry
     \entry{hugaas2024bleed}{article}{}{}
       \name{author}{1}{}{%
@@ -739,9 +1060,6 @@
       \field{year}{2022}
       \field{pages}{Article 73}
       \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1038/s43586-022-00150-6
-      \endverb
     \endentry
     \entry{kolb1984experiential}{book}{}{}
       \name{author}{1}{}{%
@@ -772,6 +1090,36 @@
       \field{labeltitlesource}{title}
       \field{title}{Experiential Learning: Experience as the Source of Learning and Development}
       \field{year}{1984}
+    \endentry
+    \entry{kuhn2005education}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f5172f2cc42709d18b2b8fcfdcee23a}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Deanna},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{fullhash}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{fullhashraw}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{bibnamehash}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{authorbibnamehash}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{authornamehash}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{authorfullhash}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{authorfullhashraw}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Education for Thinking}
+      \field{year}{2005}
     \endentry
     \entry{lankoski2015formal}{inbook}{}{}
       \name{author}{2}{}{%
@@ -828,6 +1176,50 @@
       \field{pages}{23\bibrangedash 35}
       \range{pages}{13}
     \endentry
+    \entry{merrell2015intersection}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bcfe291a62189133327c4bf0cdf6d7b3}{%
+           family={Merrell},
+           familyi={M\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e079578acc3128e9bbf495180f956d0}{%
+           family={Calderwood},
+           familyi={C\bibinitperiod},
+           given={Kevin\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52a82229db6f68c14b469f267dccd59b}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d406943a3afe579f9a0475b3350c19f5}
+      \strng{fullhash}{9dc96479a9af287b2e287cd95a780550}
+      \strng{fullhashraw}{9dc96479a9af287b2e287cd95a780550}
+      \strng{bibnamehash}{9dc96479a9af287b2e287cd95a780550}
+      \strng{authorbibnamehash}{9dc96479a9af287b2e287cd95a780550}
+      \strng{authornamehash}{d406943a3afe579f9a0475b3350c19f5}
+      \strng{authorfullhash}{9dc96479a9af287b2e287cd95a780550}
+      \strng{authorfullhashraw}{9dc96479a9af287b2e287cd95a780550}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communication Studies}
+      \field{number}{4}
+      \field{title}{The Intersection of Competitions and Classrooms in Forensics Pedagogy}
+      \field{volume}{66}
+      \field{year}{2015}
+      \field{pages}{433\bibrangedash 447}
+      \range{pages}{15}
+    \endentry
     \entry{mezuk2009urban}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=55333f4b3b8fa1d7273a79207e68cf36}{%
@@ -859,34 +1251,6 @@
       \field{year}{2009}
       \field{pages}{290\bibrangedash 304}
       \range{pages}{15}
-    \endentry
-    \entry{montola2010positive}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=074da2e44888e0ebfb2149ea9edd6be4}{%
-           family={Montola},
-           familyi={M\bibinitperiod},
-           given={Markus},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{fullhash}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{fullhashraw}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{bibnamehash}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{authorbibnamehash}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{authornamehash}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{authorfullhash}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{authorfullhashraw}{074da2e44888e0ebfb2149ea9edd6be4}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of Nordic DiGRA 2010: Experiencing Games: Games, Play and Players}
-      \field{title}{The Positive Negative Experience in Extreme Role-playing}
-      \field{year}{2010}
     \endentry
     \entry{salen2004rules}{book}{}{}
       \name{author}{2}{}{%
@@ -941,6 +1305,7 @@
       \strng{authornamehash}{0c811dfee25166bc5ee18425066249a4}
       \strng{authorfullhash}{0c811dfee25166bc5ee18425066249a4}
       \strng{authorfullhashraw}{0c811dfee25166bc5ee18425066249a4}
+      \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -955,6 +1320,79 @@
       \field{year}{1984}
       \field{pages}{119\bibrangedash 134}
       \range{pages}{16}
+    \endentry
+    \entry{snider1999code}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c811dfee25166bc5ee18425066249a4}{%
+           family={Snider},
+           familyi={S\bibinitperiod},
+           given={Alfred\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Burlington, VT}%
+      }
+      \list{publisher}{1}{%
+        {World Debate Institute}%
+      }
+      \strng{namehash}{0c811dfee25166bc5ee18425066249a4}
+      \strng{fullhash}{0c811dfee25166bc5ee18425066249a4}
+      \strng{fullhashraw}{0c811dfee25166bc5ee18425066249a4}
+      \strng{bibnamehash}{0c811dfee25166bc5ee18425066249a4}
+      \strng{authorbibnamehash}{0c811dfee25166bc5ee18425066249a4}
+      \strng{authornamehash}{0c811dfee25166bc5ee18425066249a4}
+      \strng{authorfullhash}{0c811dfee25166bc5ee18425066249a4}
+      \strng{authorfullhashraw}{0c811dfee25166bc5ee18425066249a4}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Code of the Debater: Introduction to the Way of Reason}
+      \field{year}{1999}
+    \endentry
+    \entry{snider2002many}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0c811dfee25166bc5ee18425066249a4}{%
+           family={Snider},
+           familyi={S\bibinitperiod},
+           given={Alfred\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9b6e28e8cbd6c595954ea0a988d22f5}{%
+           family={Schnurer},
+           familyi={S\bibinitperiod},
+           given={Maxwell},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {International Debate Education Association}%
+      }
+      \strng{namehash}{0419fb55883ac5a3f9820788057beef0}
+      \strng{fullhash}{0419fb55883ac5a3f9820788057beef0}
+      \strng{fullhashraw}{0419fb55883ac5a3f9820788057beef0}
+      \strng{bibnamehash}{0419fb55883ac5a3f9820788057beef0}
+      \strng{authorbibnamehash}{0419fb55883ac5a3f9820788057beef0}
+      \strng{authornamehash}{0419fb55883ac5a3f9820788057beef0}
+      \strng{authorfullhash}{0419fb55883ac5a3f9820788057beef0}
+      \strng{authorfullhashraw}{0419fb55883ac5a3f9820788057beef0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Many Sides: Debate Across the Curriculum}
+      \field{year}{2002}
     \endentry
     \entry{spradley1980participant}{book}{}{}
       \name{author}{1}{}{%
@@ -1103,6 +1541,65 @@
       \field{pages}{585\bibrangedash 595}
       \range{pages}{11}
     \endentry
+    \entry{zagal2024definitions}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4e30e680021e8a5cc3386a4e76898191}{%
+           family={Zagal},
+           familyi={Z\bibinitperiod},
+           given={José\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ad251c02d478d38f2fe79e126ae6bf1}{%
+           family={Deterding},
+           familyi={D\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=4e30e680021e8a5cc3386a4e76898191}{%
+           family={Zagal},
+           familyi={Z\bibinitperiod},
+           given={José\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=4ad251c02d478d38f2fe79e126ae6bf1}{%
+           family={Deterding},
+           familyi={D\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{fullhash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{fullhashraw}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{bibnamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{authorbibnamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{authornamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{authorfullhash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{authorfullhashraw}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editorbibnamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editornamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editorfullhash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editorfullhashraw}{8ba25a0647a76fd1de9090f44cf188cb}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Routledge Handbook of Role-Playing Game Studies}
+      \field{chapter}{2}
+      \field{title}{Definitions of ``Role-Playing Games''}
+      \field{year}{2024}
+      \field{pages}{21\bibrangedash 56}
+      \range{pages}{36}
+    \endentry
     \entry{zimmerman2003play}{inbook}{}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=379f8c25c3180f2bc275a80f3f7cb0fa}{%
@@ -1187,9 +1684,6 @@
       \field{year}{2007}
       \field{pages}{493\bibrangedash 502}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/1240624.1240704
-      \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
@@ -1228,9 +1722,56 @@
       \field{labeltitlesource}{title}
       \field{title}{Membership Roles in Field Research}
       \field{year}{1987}
-      \verb{doi}
-      \verb 10.4135/9781412984973
-      \endverb
+    \endentry
+    \entry{allen1999meta}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9a2753f7ec9da9b9550494b9fa2d4ee2}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bc8b6eff224c424a86e61bd3ec90862}{%
+           family={Berkowitz},
+           familyi={B\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf082467083de448d9069db40898998d}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f22d0d4b02ab9342fcb2e77053df2c9}{%
+           family={Louden},
+           familyi={L\bibinitperiod},
+           given={Allan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0eb73523214481d449a13af11044db21}
+      \strng{fullhash}{5e5b6fcd33b3dc1fe3505d8f6d745fe4}
+      \strng{fullhashraw}{5e5b6fcd33b3dc1fe3505d8f6d745fe4}
+      \strng{bibnamehash}{5e5b6fcd33b3dc1fe3505d8f6d745fe4}
+      \strng{authorbibnamehash}{5e5b6fcd33b3dc1fe3505d8f6d745fe4}
+      \strng{authornamehash}{0eb73523214481d449a13af11044db21}
+      \strng{authorfullhash}{5e5b6fcd33b3dc1fe3505d8f6d745fe4}
+      \strng{authorfullhashraw}{5e5b6fcd33b3dc1fe3505d8f6d745fe4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communication Education}
+      \field{number}{1}
+      \field{title}{A Meta-Analysis of the Impact of Forensics and Communication Education on Critical Thinking}
+      \field{volume}{48}
+      \field{year}{1999}
+      \field{pages}{18\bibrangedash 30}
+      \range{pages}{13}
     \endentry
     \entry{baker2006observation}{article}{}{}
       \name{author}{1}{}{%
@@ -1263,9 +1804,38 @@
       \field{year}{2006}
       \field{pages}{171\bibrangedash 189}
       \range{pages}{19}
-      \verb{doi}
-      \verb 10.1353/lib.2006.0045
-      \endverb
+    \endentry
+    \entry{bellon2000research}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f62eadc9956c870aab7df7c1030816cc}{%
+           family={Bellon},
+           familyi={B\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{fullhash}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{fullhashraw}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{bibnamehash}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{authorbibnamehash}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{authornamehash}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{authorfullhash}{f62eadc9956c870aab7df7c1030816cc}
+      \strng{authorfullhashraw}{f62eadc9956c870aab7df7c1030816cc}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Argumentation and Advocacy}
+      \field{number}{3}
+      \field{title}{A Research-Based Justification for Debate Across the Curriculum}
+      \field{volume}{36}
+      \field{year}{2000}
+      \field{pages}{161\bibrangedash 175}
+      \range{pages}{15}
     \endentry
     \entry{bion1961experiences}{book}{}{}
       \name{author}{1}{}{%
@@ -1358,38 +1928,6 @@
       \field{title}{The Functions of Role-playing Games: How Participants Create Community, Solve Problems, and Explore Identity}
       \field{year}{2010}
     \endentry
-    \entry{bowman2013social}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bffbff2a3e9238d9de010343ec7c3090}{%
-           family={Bowman},
-           familyi={B\bibinitperiod},
-           given={Sarah\bibnamedelima Lynne},
-           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{fullhash}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{fullhashraw}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{bibnamehash}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{authorbibnamehash}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{authornamehash}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{authorfullhash}{bffbff2a3e9238d9de010343ec7c3090}
-      \strng{authorfullhashraw}{bffbff2a3e9238d9de010343ec7c3090}
-      \field{extraname}{2}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Role-Playing}
-      \field{title}{Social Conflict in Role-playing Communities: An Exploratory Qualitative Study}
-      \field{volume}{4}
-      \field{year}{2013}
-      \field{pages}{4\bibrangedash 25}
-      \range{pages}{22}
-    \endentry
     \entry{bowman2014educational}{inbook}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=bffbff2a3e9238d9de010343ec7c3090}{%
@@ -1421,7 +1959,7 @@
       \strng{editornamehash}{bffbff2a3e9238d9de010343ec7c3090}
       \strng{editorfullhash}{bffbff2a3e9238d9de010343ec7c3090}
       \strng{editorfullhashraw}{bffbff2a3e9238d9de010343ec7c3090}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -1666,9 +2204,6 @@
       \field{year}{2014}
       \field{pages}{416\bibrangedash 427}
       \range{pages}{12}
-      \verb{doi}
-      \verb 10.1177/1046878114559879
-      \endverb
     \endentry
     \entry{daniau2016transformative}{article}{}{}
       \name{author}{1}{}{%
@@ -1701,9 +2236,289 @@
       \field{year}{2016}
       \field{pages}{423\bibrangedash 444}
       \range{pages}{22}
-      \verb{doi}
-      \verb 10.1177/1046878116650765
-      \endverb
+    \endentry
+    \entry{deterding2018alibis}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4ad251c02d478d38f2fe79e126ae6bf1}{%
+           family={Deterding},
+           familyi={D\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77b7f2834ada9e806200ca66ed3767a4}{%
+           family={Dixon},
+           familyi={D\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{fullhash}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{fullhashraw}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{bibnamehash}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{authorbibnamehash}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{authornamehash}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{authorfullhash}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \strng{authorfullhashraw}{6f9f6b817bb1cb3112a3699f654d7a60}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Extended Abstracts on Human Factors in Computing Systems}
+      \field{title}{Gamification: Using Game Design Elements in Non-Gaming Contexts}
+      \field{year}{2018}
+    \endentry
+    \entry{english2007debate}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=8057d76b83fb267940a7ee81cc11ce2e}{%
+           family={English},
+           familyi={E\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4358823dcd521cdcd6b0b7a885a95e0}{%
+           family={Llano},
+           familyi={L\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d9ac923b4d876d790014653fe76100d}{%
+           family={Mitchell},
+           familyi={M\bibinitperiod},
+           given={Gordon\bibnamedelima R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70d21c7880d5bc5565d8ca2177cedd65}{%
+           family={Morrison},
+           familyi={M\bibinitperiod},
+           given={Catherine\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=042bce2ad085b9d1f94ddd32308924c5}{%
+           family={Rief},
+           familyi={R\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a79154e1ba23ddfa75160ec2d6ce2ae2}{%
+           family={Woods},
+           familyi={W\bibinitperiod},
+           given={Carly},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7fcc0e355b06586c040e61daebde0ae1}
+      \strng{fullhash}{c232cb3830a76dc73db38789b561394a}
+      \strng{fullhashraw}{c232cb3830a76dc73db38789b561394a}
+      \strng{bibnamehash}{c232cb3830a76dc73db38789b561394a}
+      \strng{authorbibnamehash}{c232cb3830a76dc73db38789b561394a}
+      \strng{authornamehash}{7fcc0e355b06586c040e61daebde0ae1}
+      \strng{authorfullhash}{c232cb3830a76dc73db38789b561394a}
+      \strng{authorfullhashraw}{c232cb3830a76dc73db38789b561394a}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communication and Critical/Cultural Studies}
+      \field{number}{2}
+      \field{title}{Debate as a Weapon of Mass Destruction}
+      \field{volume}{4}
+      \field{year}{2007}
+      \field{pages}{221\bibrangedash 225}
+      \range{pages}{5}
+    \endentry
+    \entry{greene2005lost}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2e00f464a5c74a898b131a89a2053fae}{%
+           family={Greene},
+           familyi={G\bibinitperiod},
+           given={Ronald\bibnamedelima Walter},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d53917327b7900eb6a6802f3be316145}{%
+           family={Hicks},
+           familyi={H\bibinitperiod},
+           given={Darrin},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{fullhash}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{fullhashraw}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{bibnamehash}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{authorbibnamehash}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{authornamehash}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{authorfullhash}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \strng{authorfullhashraw}{e9425a2809a1add6fa05aa6bb679a7c6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cultural Studies}
+      \field{number}{1}
+      \field{title}{Lost Convictions: Debating Both Sides and the Ethical Self-Fashioning of Liberal Citizens}
+      \field{volume}{19}
+      \field{year}{2005}
+      \field{pages}{100\bibrangedash 126}
+      \range{pages}{27}
+    \endentry
+    \entry{hammer2024education}{inbook}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=cc5c358e0b241f0b2470ef6599f2ed15}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15f5339888407685776946bc81c14795}{%
+           family={To},
+           familyi={T\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff2c5c146df16e7b9243d97240c6d63e}{%
+           family={Schrier},
+           familyi={S\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bffbff2a3e9238d9de010343ec7c3090}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Sarah\bibnamedelima Lynne},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=484954df445b171c21bdd889cd6de765}{%
+           family={Kaufman},
+           familyi={K\bibinitperiod},
+           given={Geoff},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=4e30e680021e8a5cc3386a4e76898191}{%
+           family={Zagal},
+           familyi={Z\bibinitperiod},
+           given={José\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=4ad251c02d478d38f2fe79e126ae6bf1}{%
+           family={Deterding},
+           familyi={D\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{7edb654b4ddcaccb98b48a39d29f5617}
+      \strng{fullhash}{ddc6c340cb0bd34b7b47135f89f39a5a}
+      \strng{fullhashraw}{ddc6c340cb0bd34b7b47135f89f39a5a}
+      \strng{bibnamehash}{ddc6c340cb0bd34b7b47135f89f39a5a}
+      \strng{authorbibnamehash}{ddc6c340cb0bd34b7b47135f89f39a5a}
+      \strng{authornamehash}{7edb654b4ddcaccb98b48a39d29f5617}
+      \strng{authorfullhash}{ddc6c340cb0bd34b7b47135f89f39a5a}
+      \strng{authorfullhashraw}{ddc6c340cb0bd34b7b47135f89f39a5a}
+      \strng{editorbibnamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editornamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editorfullhash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editorfullhashraw}{8ba25a0647a76fd1de9090f44cf188cb}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Routledge Handbook of Role-Playing Game Studies}
+      \field{chapter}{15}
+      \field{title}{Learning and Role-Playing Games}
+      \field{year}{2024}
+      \field{pages}{299\bibrangedash 317}
+      \range{pages}{19}
+    \endentry
+    \entry{harrigan2008defense}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c4fa2e41ed788660a5d27526de58e45b}{%
+           family={Harrigan},
+           familyi={H\bibinitperiod},
+           given={Casey\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Wake Forest University}%
+      }
+      \strng{namehash}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{fullhash}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{fullhashraw}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{bibnamehash}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{authorbibnamehash}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{authornamehash}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{authorfullhash}{c4fa2e41ed788660a5d27526de58e45b}
+      \strng{authorfullhashraw}{c4fa2e41ed788660a5d27526de58e45b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Defense of Switch Side Debate}
+      \field{type}{Master's thesis}
+      \field{year}{2008}
+    \endentry
+    \entry{herbeck1987spreading}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=efe82ae54f2885071397b4e5d992e64a}{%
+           family={Herbeck},
+           familyi={H\bibinitperiod},
+           given={Dale},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a483f246f25514ce3762facf13cc38fb}{%
+           family={Katsulas},
+           familyi={K\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{fullhash}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{fullhashraw}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{bibnamehash}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{authorbibnamehash}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{authornamehash}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{authorfullhash}{2f046b98c2761f4d57f33a63c3c42b29}
+      \strng{authorfullhashraw}{2f046b98c2761f4d57f33a63c3c42b29}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Forensic Association}
+      \field{number}{3}
+      \field{title}{The Affirmative Topicality Burden: Any Reasonable Example of the Resolution}
+      \field{volume}{24}
+      \field{year}{1987}
+      \field{pages}{133\bibrangedash 145}
+      \range{pages}{13}
     \endentry
     \entry{hugaas2024bleed}{article}{}{}
       \name{author}{1}{}{%
@@ -1913,9 +2728,6 @@
       \field{year}{2022}
       \field{pages}{Article 73}
       \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1038/s43586-022-00150-6
-      \endverb
     \endentry
     \entry{kolb1984experiential}{book}{}{}
       \name{author}{1}{}{%
@@ -1946,6 +2758,36 @@
       \field{labeltitlesource}{title}
       \field{title}{Experiential Learning: Experience as the Source of Learning and Development}
       \field{year}{1984}
+    \endentry
+    \entry{kuhn2005education}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f5172f2cc42709d18b2b8fcfdcee23a}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={Deanna},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{fullhash}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{fullhashraw}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{bibnamehash}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{authorbibnamehash}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{authornamehash}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{authorfullhash}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \strng{authorfullhashraw}{3f5172f2cc42709d18b2b8fcfdcee23a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Education for Thinking}
+      \field{year}{2005}
     \endentry
     \entry{lankoski2015formal}{inbook}{}{}
       \name{author}{2}{}{%
@@ -2002,6 +2844,50 @@
       \field{pages}{23\bibrangedash 35}
       \range{pages}{13}
     \endentry
+    \entry{merrell2015intersection}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bcfe291a62189133327c4bf0cdf6d7b3}{%
+           family={Merrell},
+           familyi={M\bibinitperiod},
+           given={Brandon},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e079578acc3128e9bbf495180f956d0}{%
+           family={Calderwood},
+           familyi={C\bibinitperiod},
+           given={Kevin\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52a82229db6f68c14b469f267dccd59b}{%
+           family={Flores},
+           familyi={F\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d406943a3afe579f9a0475b3350c19f5}
+      \strng{fullhash}{9dc96479a9af287b2e287cd95a780550}
+      \strng{fullhashraw}{9dc96479a9af287b2e287cd95a780550}
+      \strng{bibnamehash}{9dc96479a9af287b2e287cd95a780550}
+      \strng{authorbibnamehash}{9dc96479a9af287b2e287cd95a780550}
+      \strng{authornamehash}{d406943a3afe579f9a0475b3350c19f5}
+      \strng{authorfullhash}{9dc96479a9af287b2e287cd95a780550}
+      \strng{authorfullhashraw}{9dc96479a9af287b2e287cd95a780550}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communication Studies}
+      \field{number}{4}
+      \field{title}{The Intersection of Competitions and Classrooms in Forensics Pedagogy}
+      \field{volume}{66}
+      \field{year}{2015}
+      \field{pages}{433\bibrangedash 447}
+      \range{pages}{15}
+    \endentry
     \entry{mezuk2009urban}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=55333f4b3b8fa1d7273a79207e68cf36}{%
@@ -2033,34 +2919,6 @@
       \field{year}{2009}
       \field{pages}{290\bibrangedash 304}
       \range{pages}{15}
-    \endentry
-    \entry{montola2010positive}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=074da2e44888e0ebfb2149ea9edd6be4}{%
-           family={Montola},
-           familyi={M\bibinitperiod},
-           given={Markus},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{fullhash}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{fullhashraw}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{bibnamehash}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{authorbibnamehash}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{authornamehash}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{authorfullhash}{074da2e44888e0ebfb2149ea9edd6be4}
-      \strng{authorfullhashraw}{074da2e44888e0ebfb2149ea9edd6be4}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of Nordic DiGRA 2010: Experiencing Games: Games, Play and Players}
-      \field{title}{The Positive Negative Experience in Extreme Role-playing}
-      \field{year}{2010}
     \endentry
     \entry{salen2004rules}{book}{}{}
       \name{author}{2}{}{%
@@ -2115,6 +2973,7 @@
       \strng{authornamehash}{0c811dfee25166bc5ee18425066249a4}
       \strng{authorfullhash}{0c811dfee25166bc5ee18425066249a4}
       \strng{authorfullhashraw}{0c811dfee25166bc5ee18425066249a4}
+      \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -2129,6 +2988,79 @@
       \field{year}{1984}
       \field{pages}{119\bibrangedash 134}
       \range{pages}{16}
+    \endentry
+    \entry{snider1999code}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c811dfee25166bc5ee18425066249a4}{%
+           family={Snider},
+           familyi={S\bibinitperiod},
+           given={Alfred\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Burlington, VT}%
+      }
+      \list{publisher}{1}{%
+        {World Debate Institute}%
+      }
+      \strng{namehash}{0c811dfee25166bc5ee18425066249a4}
+      \strng{fullhash}{0c811dfee25166bc5ee18425066249a4}
+      \strng{fullhashraw}{0c811dfee25166bc5ee18425066249a4}
+      \strng{bibnamehash}{0c811dfee25166bc5ee18425066249a4}
+      \strng{authorbibnamehash}{0c811dfee25166bc5ee18425066249a4}
+      \strng{authornamehash}{0c811dfee25166bc5ee18425066249a4}
+      \strng{authorfullhash}{0c811dfee25166bc5ee18425066249a4}
+      \strng{authorfullhashraw}{0c811dfee25166bc5ee18425066249a4}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Code of the Debater: Introduction to the Way of Reason}
+      \field{year}{1999}
+    \endentry
+    \entry{snider2002many}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0c811dfee25166bc5ee18425066249a4}{%
+           family={Snider},
+           familyi={S\bibinitperiod},
+           given={Alfred\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9b6e28e8cbd6c595954ea0a988d22f5}{%
+           family={Schnurer},
+           familyi={S\bibinitperiod},
+           given={Maxwell},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {International Debate Education Association}%
+      }
+      \strng{namehash}{0419fb55883ac5a3f9820788057beef0}
+      \strng{fullhash}{0419fb55883ac5a3f9820788057beef0}
+      \strng{fullhashraw}{0419fb55883ac5a3f9820788057beef0}
+      \strng{bibnamehash}{0419fb55883ac5a3f9820788057beef0}
+      \strng{authorbibnamehash}{0419fb55883ac5a3f9820788057beef0}
+      \strng{authornamehash}{0419fb55883ac5a3f9820788057beef0}
+      \strng{authorfullhash}{0419fb55883ac5a3f9820788057beef0}
+      \strng{authorfullhashraw}{0419fb55883ac5a3f9820788057beef0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Many Sides: Debate Across the Curriculum}
+      \field{year}{2002}
     \endentry
     \entry{spradley1980participant}{book}{}{}
       \name{author}{1}{}{%
@@ -2277,6 +3209,65 @@
       \field{pages}{585\bibrangedash 595}
       \range{pages}{11}
     \endentry
+    \entry{zagal2024definitions}{inbook}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4e30e680021e8a5cc3386a4e76898191}{%
+           family={Zagal},
+           familyi={Z\bibinitperiod},
+           given={José\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ad251c02d478d38f2fe79e126ae6bf1}{%
+           family={Deterding},
+           familyi={D\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=4e30e680021e8a5cc3386a4e76898191}{%
+           family={Zagal},
+           familyi={Z\bibinitperiod},
+           given={José\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=4ad251c02d478d38f2fe79e126ae6bf1}{%
+           family={Deterding},
+           familyi={D\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{fullhash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{fullhashraw}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{bibnamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{authorbibnamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{authornamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{authorfullhash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{authorfullhashraw}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editorbibnamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editornamehash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editorfullhash}{8ba25a0647a76fd1de9090f44cf188cb}
+      \strng{editorfullhashraw}{8ba25a0647a76fd1de9090f44cf188cb}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Routledge Handbook of Role-Playing Game Studies}
+      \field{chapter}{2}
+      \field{title}{Definitions of ``Role-Playing Games''}
+      \field{year}{2024}
+      \field{pages}{21\bibrangedash 56}
+      \range{pages}{36}
+    \endentry
     \entry{zimmerman2003play}{inbook}{}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=379f8c25c3180f2bc275a80f3f7cb0fa}{%
@@ -2361,9 +3352,6 @@
       \field{year}{2007}
       \field{pages}{493\bibrangedash 502}
       \range{pages}{10}
-      \verb{doi}
-      \verb 10.1145/1240624.1240704
-      \endverb
     \endentry
   \enddatalist
 \endrefsection

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.7)  12 JAN 2026 18:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.7)  18 JAN 2026 18:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -869,7 +869,7 @@ Package hyperref Info: Link coloring ON on input line 50.
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 50.
 
-<Uppsala_University_template/Uppsala_University_seal_svg.png, id=146, 1033.8625pt x 1027.84pt>
+<Uppsala_University_template/Uppsala_University_seal_svg.png, id=154, 1033.8625pt x 1027.84pt>
 File: Uppsala_University_template/Uppsala_University_seal_svg.png Graphic file (type png)
 <use Uppsala_University_template/Uppsala_University_seal_svg.png>
 Package pdftex.def Info: Uppsala_University_template/Uppsala_University_seal_svg.png  used on input line 59.
@@ -884,92 +884,14 @@ Package pdftex.def Info: Uppsala_University_template/Uppsala_University_seal_svg
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.107 
-       [1]
-
-LaTeX Warning: Citation 'allen1999meta' on page 2 undefined on input line 120.
-
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 120.
-(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 120.
-
-
-LaTeX Warning: Citation '' on page 2 undefined on input line 120.
-
-
-LaTeX Warning: Citation 'bellon2000research' on page 2 undefined on input line 120.
-
-
-LaTeX Warning: Citation '' on page 2 undefined on input line 120.
-
-
+l.104 \subsection{Research Question}
+                                     [1]
 
 [2]
 
 [3]
 
-LaTeX Warning: Citation 'allen1999meta' on page 4 undefined on input line 144.
-
-
-LaTeX Warning: Citation '' on page 4 undefined on input line 144.
-
-
-LaTeX Warning: Citation 'bellon2000research' on page 4 undefined on input line 144.
-
-
-LaTeX Warning: Citation '' on page 4 undefined on input line 144.
-
-
-LaTeX Warning: Citation 'kuhn2005education' on page 4 undefined on input line 146.
-
-
-LaTeX Warning: Citation '' on page 4 undefined on input line 146.
-
-
-LaTeX Warning: Citation 'harrigan2008defense' on page 4 undefined on input line 146.
-
-
-Overfull \hbox (79.02617pt too wide) in paragraph at lines 146--147
-\OT1/cmr/m/n/12 quires de-baters to an-tic-i-pate coun-ter-ar-gu-ments, de-vel-op-ing what [][]
- []
-
-
-LaTeX Warning: Citation 'merrell2015intersection' on page 4 undefined on input line 148.
-
-
-LaTeX Warning: Citation '' on page 4 undefined on input line 148.
-
-
-LaTeX Warning: Citation 'greene2005lost' on page 4 undefined on input line 148.
-
-
-LaTeX Warning: Citation '' on page 4 undefined on input line 148.
-
-
-LaTeX Warning: Citation 'english2007debate' on page 4 undefined on input line 148.
-
-
-
 [4]
-
-LaTeX Warning: Citation 'greene2005lost' on page 5 undefined on input line 162.
-
-
-LaTeX Warning: Citation '' on page 5 undefined on input line 162.
-
-
-LaTeX Warning: Citation 'herbeck1987spreading' on page 5 undefined on input line 164.
-
-
-LaTeX Warning: Citation 'bowman2023social' on page 5 undefined on input line 166.
-
-
-LaTeX Warning: Citation '' on page 5 undefined on input line 166.
-
-
 
 [5]
 
@@ -988,49 +910,48 @@ LaTeX Warning: Citation '' on page 5 undefined on input line 166.
 [12]
 
 [13]
-Overfull \hbox (6.79659pt too wide) in paragraph at lines 345--346
-[]\OT1/cmr/bx/n/12 01--15 Febru-ary: \OT1/cmr/m/n/12 First pi-lot playtest, first in-ter-views, an-nounc-ing the mini-competition
- []
-
-
 
 [14]
 
 [15]
 
-[16] (./thesis_proposal.aux)
+[16]
+
+[17]
+Overfull \hbox (6.79659pt too wide) in paragraph at lines 363--364
+[]\OT1/cmr/bx/n/12 01--15 Febru-ary: \OT1/cmr/m/n/12 First pi-lot playtest, first in-ter-views, an-nounc-ing the mini-competition
+ []
+
+
+
+[18]
+
+[19]
+
+[20] (./thesis_proposal.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `thesis_proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 43E647CB88B1609A4C3861F1C71E40B3;6283.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                thesis_proposal
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 4889765B1D5F64B1E14451E648195A96;7126.
 Package logreq Info: Writing requests to 'thesis_proposal.run.xml'.
 \openout1 = `thesis_proposal.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30479 strings out of 474662
- 587445 string characters out of 5751110
- 1507862 words of memory out of 5000000
- 53012 multiletter control sequences out of 15000+600000
- 566964 words of font info for 63 fonts, out of 8000000 for 9000
+ 30542 strings out of 474662
+ 590200 string characters out of 5751110
+ 1507402 words of memory out of 5000000
+ 53062 multiletter control sequences out of 15000+600000
+ 566606 words of font info for 62 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 99i,6n,107p,1069b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/andreiolaru/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis_proposal.pdf (17 pages, 371578 bytes).
+ 99i,6n,107p,1780b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/andreiolaru/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis_proposal.pdf (21 pages, 377442 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
- 325 compressed objects within 4 object streams
- 81 named destinations out of 1000 (max. 500000)
- 298 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 393 PDF objects out of 1000 (max. 8388607)
+ 355 compressed objects within 4 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 314 words of extra memory for PDF output out of 10000 (max. 10000000)
 

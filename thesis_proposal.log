@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.7)  18 JAN 2026 18:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.7)  19 JAN 2026 15:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -869,7 +869,7 @@ Package hyperref Info: Link coloring ON on input line 50.
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 50.
 
-<Uppsala_University_template/Uppsala_University_seal_svg.png, id=154, 1033.8625pt x 1027.84pt>
+<Uppsala_University_template/Uppsala_University_seal_svg.png, id=162, 1033.8625pt x 1027.84pt>
 File: Uppsala_University_template/Uppsala_University_seal_svg.png Graphic file (type png)
 <use Uppsala_University_template/Uppsala_University_seal_svg.png>
 Package pdftex.def Info: Uppsala_University_template/Uppsala_University_seal_svg.png  used on input line 59.
@@ -884,8 +884,8 @@ Package pdftex.def Info: Uppsala_University_template/Uppsala_University_seal_svg
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.104 \subsection{Research Question}
-                                     [1]
+l.103 
+       [1]
 
 [2]
 
@@ -894,6 +894,11 @@ l.104 \subsection{Research Question}
 [4]
 
 [5]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 160.
+
+
 
 [6]
 
@@ -918,40 +923,49 @@ l.104 \subsection{Research Question}
 [16]
 
 [17]
-Overfull \hbox (6.79659pt too wide) in paragraph at lines 363--364
+
+[18]
+Overfull \hbox (6.79659pt too wide) in paragraph at lines 383--384
 []\OT1/cmr/bx/n/12 01--15 Febru-ary: \OT1/cmr/m/n/12 First pi-lot playtest, first in-ter-views, an-nounc-ing the mini-competition
  []
 
 
 
-[18]
-
 [19]
 
-[20] (./thesis_proposal.aux)
+[20]
+
+[21]
+Overfull \hbox (1.2477pt too wide) in paragraph at lines 394--394
+\OT1/cmr/m/n/12 (Ed.), \OT1/cmr/m/it/12 Trans-form-ing de-bate: The best of the in-ter-na-tional jour-nal of foren-sics \OT1/cmr/m/n/12 (pp. 148{
+ []
+
+
+
+[22] (./thesis_proposal.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `thesis_proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 4889765B1D5F64B1E14451E648195A96;7126.
+(rerunfilecheck)             Checksum: EAF8C3B55716DECFA577185E8F4A5CE1;7629.
 Package logreq Info: Writing requests to 'thesis_proposal.run.xml'.
 \openout1 = `thesis_proposal.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30542 strings out of 474662
- 590200 string characters out of 5751110
- 1507402 words of memory out of 5000000
- 53062 multiletter control sequences out of 15000+600000
+ 30592 strings out of 474662
+ 591630 string characters out of 5751110
+ 1507786 words of memory out of 5000000
+ 53104 multiletter control sequences out of 15000+600000
  566606 words of font info for 62 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 99i,6n,107p,1780b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,5n,107p,1413b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/andreiolaru/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis_proposal.pdf (21 pages, 377442 bytes).
+Output written on thesis_proposal.pdf (23 pages, 382625 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 355 compressed objects within 4 object streams
- 98 named destinations out of 1000 (max. 500000)
- 314 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 429 PDF objects out of 1000 (max. 8388607)
+ 389 compressed objects within 4 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 330 words of extra memory for PDF output out of 10000 (max. 10000000)
 

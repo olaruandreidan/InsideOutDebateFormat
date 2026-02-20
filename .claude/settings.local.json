@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pdftotext:*)",
+      "WebFetch(domain:www.tandfonline.com)",
+      "WebSearch",
+      "Bash(file:*)",
+      "WebFetch(domain:www.gamejournal.it)",
+      "WebFetch(domain:www.nordiclarp.org)",
+      "WebFetch(domain:library.oapen.org)",
+      "WebFetch(domain:www.frontiersin.org)",
+      "WebFetch(domain:books.uu.se)",
+      "WebFetch(domain:www.uu.se)",
+      "WebFetch(domain:www.scribd.com)",
+      "WebFetch(domain:www.researchgate.net)",
+      "WebFetch(domain:extension.pacifica.edu)",
+      "WebFetch(domain:journals.uu.se)"
+    ]
+  }
+}

@@ -74,7 +74,12 @@
       "WebFetch(domain:direct.mit.edu)",
       "WebFetch(domain:muse.jhu.edu)",
       "WebFetch(domain:www.taylorfrancis.com)",
-      "WebFetch(domain:api.crossref.org)"
+      "WebFetch(domain:api.crossref.org)",
+      "WebFetch(domain:colab.ws)",
+      "WebFetch(domain:dl.acm.org)",
+      "WebFetch(domain:mtrj.library.utoronto.ca)",
+      "WebFetch(domain:digitalcommons.pace.edu)",
+      "WebFetch(domain:www.diva-portal.org)"
     ]
   }
 }

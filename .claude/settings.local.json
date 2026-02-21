@@ -52,7 +52,29 @@
       "Bash(where:*)",
       "WebFetch(domain:nordiclarp.org)",
       "WebFetch(domain:www.speechanddebate.org)",
-      "Bash(latexmk:*)"
+      "Bash(latexmk:*)",
+      "Bash(cmd.exe:*)",
+      "Bash(tail:*)",
+      "Bash(export PATH=\"$LOCALAPPDATA/Programs/MiKTeX/miktex/bin/x64:$PATH\" && cd \"C:/Users/adolaru2/OneDrive - Ubisoft/Documents/Repos/MastersThesis\" && pdflatex -interaction=nonstopmode thesis_proposal.tex 2>&1)",
+      "Bash(export PATH=\"$LOCALAPPDATA/Programs/MiKTeX/miktex/bin/x64:$PATH\" && cd \"C:/Users/adolaru2/OneDrive - Ubisoft/Documents/Repos/MastersThesis\" && biber thesis_proposal 2>&1)",
+      "Bash(export PATH=\"$LOCALAPPDATA/Programs/MiKTeX/miktex/bin/x64:$PATH\" && cd \"C:/Users/adolaru2/OneDrive - Ubisoft/Documents/Repos/MastersThesis\" && pdflatex -interaction=nonstopmode thesis_proposal.tex 2>&1 && biber thesis_proposal 2>&1 && pdflatex -interaction=nonstopmode thesis_proposal.tex 2>&1 && pdflatex -interaction=nonstopmode thesis_proposal.tex 2>&1)",
+      "Bash(cd:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(pip install:*)",
+      "WebFetch(domain:doi.org)",
+      "WebFetch(domain:link.springer.com)",
+      "WebFetch(domain:www.sarahlynnebowman.com)",
+      "Bash(git:*)",
+      "Bash(which latexmk:*)",
+      "Bash(which pdflatex:*)",
+      "Bash(which biber:*)",
+      "Bash(find:*)",
+      "Bash(tr ;:*)",
+      "Bash(grep:*)",
+      "WebFetch(domain:direct.mit.edu)",
+      "WebFetch(domain:muse.jhu.edu)",
+      "WebFetch(domain:www.taylorfrancis.com)",
+      "WebFetch(domain:api.crossref.org)"
     ]
   }
 }

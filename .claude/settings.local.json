@@ -79,7 +79,9 @@
       "WebFetch(domain:dl.acm.org)",
       "WebFetch(domain:mtrj.library.utoronto.ca)",
       "WebFetch(domain:digitalcommons.pace.edu)",
-      "WebFetch(domain:www.diva-portal.org)"
+      "WebFetch(domain:www.diva-portal.org)",
+      "WebFetch(domain:www.universityxp.com)",
+      "WebFetch(domain:periodicos.uniso.br)"
     ]
   }
 }

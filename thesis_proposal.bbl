@@ -105,6 +105,46 @@
       \field{pages}{18\bibrangedash 30}
       \range{pages}{13}
     \endentry
+    \entry{baird2022transformative}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9bc08a6a6dd3cb0165d8e4a75281acb1}{%
+           family={Baird},
+           familyi={B\bibinitperiod},
+           given={Josephine},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bffbff2a3e9238d9de010343ec7c3090}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Sarah\bibnamedelima Lynne},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{fullhash}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{fullhashraw}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{bibnamehash}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{authorbibnamehash}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{authornamehash}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{authorfullhash}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{authorfullhashraw}{39e715b4c01db9ecf4472da8e383848f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Estudos Universitário}
+      \field{title}{The Transformative Potential of Immersive Experiences Within Role-playing Communities}
+      \field{volume}{48}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 48}
+      \range{pages}{48}
+      \verb{doi}
+      \verb 10.22484/2177-5788.2022v48id5028
+      \endverb
+    \endentry
     \entry{baker2006observation}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ec9f3433db8dce8a8953ad4401e3c0ee}{%
@@ -315,28 +355,28 @@
            given={Sarah\bibnamedelima Lynne},
            giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=3ca18ecb4f8bdb7eaf601fa8467adf69}{%
+        {{un=0,uniquepart=base,hash=8369f0401c5bbcadc9931ade5fae78df}{%
            family={Hugaas},
            familyi={H\bibinitperiod},
-           given={Kari\bibnamedelima Haavik},
+           given={Kjell\bibnamedelima Hedgard},
            giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
            givenun=0}}%
       }
       \name{editor}{4}{}{%
-        {{hash=68025352419199a6eac6a98a645a6a9f}{%
+        {{hash=ec0f8dcfc28731d33e1404e1d8511fe0}{%
            family={Djukastein},
            familyi={D\bibinitperiod},
-           given={Kari\bibnamedelima K.},
+           given={Kari\bibnamedelima Kvittingen},
            giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=ecc9bb85c1768aec5f1542172fe74a02}{%
+        {{hash=686d1a44d5e0149196ca06c2e5742177}{%
            family={Irgens},
            familyi={I\bibinitperiod},
-           given={Martine},
+           given={Marcus},
            giveni={M\bibinitperiod}}}%
-        {{hash=d7cade69ce3dd4c2916098acb029ab34}{%
+        {{hash=493fdf079c28cedfc639a24ba6a8e3d4}{%
            family={Lipsyc},
            familyi={L\bibinitperiod},
-           given={Nadav},
+           given={Nadja},
            giveni={N\bibinitperiod}}}%
         {{hash=001727ccfc1eff8653505cae1a133929}{%
            family={Sunde},
@@ -347,18 +387,18 @@
       \list{publisher}{1}{%
         {Knutepunkt}%
       }
-      \strng{namehash}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{fullhash}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{fullhashraw}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{bibnamehash}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{authorbibnamehash}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{authornamehash}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{authorfullhash}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{authorfullhashraw}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{editorbibnamehash}{5ad95176156ae9534bf2bd9c69e498f2}
-      \strng{editornamehash}{ab9f90fee3a15ca62f4b204db20e00b4}
-      \strng{editorfullhash}{5ad95176156ae9534bf2bd9c69e498f2}
-      \strng{editorfullhashraw}{5ad95176156ae9534bf2bd9c69e498f2}
+      \strng{namehash}{3333f680b6a886f2d9f12f517589e015}
+      \strng{fullhash}{3333f680b6a886f2d9f12f517589e015}
+      \strng{fullhashraw}{3333f680b6a886f2d9f12f517589e015}
+      \strng{bibnamehash}{3333f680b6a886f2d9f12f517589e015}
+      \strng{authorbibnamehash}{3333f680b6a886f2d9f12f517589e015}
+      \strng{authornamehash}{3333f680b6a886f2d9f12f517589e015}
+      \strng{authorfullhash}{3333f680b6a886f2d9f12f517589e015}
+      \strng{authorfullhashraw}{3333f680b6a886f2d9f12f517589e015}
+      \strng{editorbibnamehash}{e99a253728bc530e97194270b840ce25}
+      \strng{editornamehash}{8fd21431b19faf6971d1399c2ff9f225}
+      \strng{editorfullhash}{e99a253728bc530e97194270b840ce25}
+      \strng{editorfullhashraw}{e99a253728bc530e97194270b840ce25}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -2480,6 +2520,46 @@
       \field{pages}{18\bibrangedash 30}
       \range{pages}{13}
     \endentry
+    \entry{baird2022transformative}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9bc08a6a6dd3cb0165d8e4a75281acb1}{%
+           family={Baird},
+           familyi={B\bibinitperiod},
+           given={Josephine},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bffbff2a3e9238d9de010343ec7c3090}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Sarah\bibnamedelima Lynne},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{fullhash}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{fullhashraw}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{bibnamehash}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{authorbibnamehash}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{authornamehash}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{authorfullhash}{39e715b4c01db9ecf4472da8e383848f}
+      \strng{authorfullhashraw}{39e715b4c01db9ecf4472da8e383848f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Estudos Universitário}
+      \field{title}{The Transformative Potential of Immersive Experiences Within Role-playing Communities}
+      \field{volume}{48}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 48}
+      \range{pages}{48}
+      \verb{doi}
+      \verb 10.22484/2177-5788.2022v48id5028
+      \endverb
+    \endentry
     \entry{baker2006observation}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ec9f3433db8dce8a8953ad4401e3c0ee}{%
@@ -2732,28 +2812,28 @@
            given={Sarah\bibnamedelima Lynne},
            giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=3ca18ecb4f8bdb7eaf601fa8467adf69}{%
+        {{un=0,uniquepart=base,hash=8369f0401c5bbcadc9931ade5fae78df}{%
            family={Hugaas},
            familyi={H\bibinitperiod},
-           given={Kari\bibnamedelima Haavik},
+           given={Kjell\bibnamedelima Hedgard},
            giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
            givenun=0}}%
       }
       \name{editor}{4}{}{%
-        {{hash=68025352419199a6eac6a98a645a6a9f}{%
+        {{hash=ec0f8dcfc28731d33e1404e1d8511fe0}{%
            family={Djukastein},
            familyi={D\bibinitperiod},
-           given={Kari\bibnamedelima K.},
+           given={Kari\bibnamedelima Kvittingen},
            giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=ecc9bb85c1768aec5f1542172fe74a02}{%
+        {{hash=686d1a44d5e0149196ca06c2e5742177}{%
            family={Irgens},
            familyi={I\bibinitperiod},
-           given={Martine},
+           given={Marcus},
            giveni={M\bibinitperiod}}}%
-        {{hash=d7cade69ce3dd4c2916098acb029ab34}{%
+        {{hash=493fdf079c28cedfc639a24ba6a8e3d4}{%
            family={Lipsyc},
            familyi={L\bibinitperiod},
-           given={Nadav},
+           given={Nadja},
            giveni={N\bibinitperiod}}}%
         {{hash=001727ccfc1eff8653505cae1a133929}{%
            family={Sunde},
@@ -2764,18 +2844,18 @@
       \list{publisher}{1}{%
         {Knutepunkt}%
       }
-      \strng{namehash}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{fullhash}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{fullhashraw}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{bibnamehash}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{authorbibnamehash}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{authornamehash}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{authorfullhash}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{authorfullhashraw}{9499f0331b2fabad4f1757edbb2105e2}
-      \strng{editorbibnamehash}{5ad95176156ae9534bf2bd9c69e498f2}
-      \strng{editornamehash}{ab9f90fee3a15ca62f4b204db20e00b4}
-      \strng{editorfullhash}{5ad95176156ae9534bf2bd9c69e498f2}
-      \strng{editorfullhashraw}{5ad95176156ae9534bf2bd9c69e498f2}
+      \strng{namehash}{3333f680b6a886f2d9f12f517589e015}
+      \strng{fullhash}{3333f680b6a886f2d9f12f517589e015}
+      \strng{fullhashraw}{3333f680b6a886f2d9f12f517589e015}
+      \strng{bibnamehash}{3333f680b6a886f2d9f12f517589e015}
+      \strng{authorbibnamehash}{3333f680b6a886f2d9f12f517589e015}
+      \strng{authornamehash}{3333f680b6a886f2d9f12f517589e015}
+      \strng{authorfullhash}{3333f680b6a886f2d9f12f517589e015}
+      \strng{authorfullhashraw}{3333f680b6a886f2d9f12f517589e015}
+      \strng{editorbibnamehash}{e99a253728bc530e97194270b840ce25}
+      \strng{editornamehash}{8fd21431b19faf6971d1399c2ff9f225}
+      \strng{editorfullhash}{e99a253728bc530e97194270b840ce25}
+      \strng{editorfullhashraw}{e99a253728bc530e97194270b840ce25}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}

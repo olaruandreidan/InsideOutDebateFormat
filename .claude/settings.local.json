@@ -50,7 +50,9 @@
       "WebFetch(domain:link.gale.com)",
       "Bash(pdflatex:*)",
       "Bash(where:*)",
-      "WebFetch(domain:nordiclarp.org)"
+      "WebFetch(domain:nordiclarp.org)",
+      "WebFetch(domain:www.speechanddebate.org)",
+      "Bash(latexmk:*)"
     ]
   }
 }

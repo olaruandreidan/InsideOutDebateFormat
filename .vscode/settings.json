@@ -2,7 +2,7 @@
     "latex-workshop.latex.tools": [
         {
             "name": "latexmk",
-            "command": "C:/Users/adolaru2/AppData/Local/Programs/MiKTeX/miktex/bin/x64/latexmk.exe",
+            "command": "latexmk",
             "args": [
                 "-synctex=1",
                 "-interaction=nonstopmode",
@@ -15,7 +15,7 @@
         },
         {
             "name": "pdflatex",
-            "command": "C:/Users/adolaru2/AppData/Local/Programs/MiKTeX/miktex/bin/x64/pdflatex.exe",
+            "command": "pdflatex",
             "args": [
                 "-synctex=1",
                 "-interaction=nonstopmode",
@@ -26,7 +26,7 @@
         },
         {
             "name": "biber",
-            "command": "C:/Users/adolaru2/AppData/Local/Programs/MiKTeX/miktex/bin/x64/biber.exe",
+            "command": "biber",
             "args": [
                 "%DOCFILE%"
             ],

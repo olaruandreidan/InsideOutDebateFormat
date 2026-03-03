@@ -81,7 +81,10 @@
       "WebFetch(domain:digitalcommons.pace.edu)",
       "WebFetch(domain:www.diva-portal.org)",
       "WebFetch(domain:www.universityxp.com)",
-      "WebFetch(domain:periodicos.uniso.br)"
+      "WebFetch(domain:periodicos.uniso.br)",
+      "Bash(for:*)",
+      "Bash(done)",
+      "Bash(sudo tlmgr --repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2025/tlnet-final install csquotes 2>&1)"
     ]
   }
 }

@@ -1068,6 +1068,95 @@
       color: var(--dark);
     }
 
+    /* RITUALS CARD */
+    .card-rituals {
+      grid-column: 1 / -1;
+    }
+
+    .card-rituals::before {
+      background: linear-gradient(90deg, #7C3AED, #A855F7);
+    }
+
+    .ritual-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .ritual-block {
+      padding: 14px 16px;
+      border-radius: 10px;
+      font-size: 0.7rem;
+      line-height: 1.5;
+    }
+
+    .ritual-block h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .ritual-in {
+      background: var(--value-a-bg);
+      border-left: 3px solid var(--value-a);
+    }
+
+    .ritual-in h3 { color: var(--value-a); }
+
+    .ritual-out {
+      background: var(--subject-bg);
+      border-left: 3px solid var(--subject);
+    }
+
+    .ritual-out h3 { color: var(--subject); }
+
+    .ritual-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .ritual-step:last-child { margin-bottom: 0; }
+
+    .ritual-step-num {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.6rem;
+      font-weight: 700;
+      color: white;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .ritual-in .ritual-step-num { background: var(--value-a); }
+    .ritual-out .ritual-step-num { background: var(--subject); }
+
+    .ritual-step-body {
+      color: var(--mid);
+      line-height: 1.45;
+    }
+
+    .ritual-step-body strong { color: var(--dark); }
+
+    .ritual-step-body em {
+      font-style: italic;
+      color: var(--mid);
+    }
+
+    @media (max-width: 768px) {
+      .ritual-cols { grid-template-columns: 1fr; }
+    }
+
     /* COMMENDATION LIST LINK */
     .comm-see-all {
       display: inline-block;
@@ -1652,9 +1741,50 @@
         </div>
       </div>
 
+      <!-- RITUALS -->
+      <div class="card card-rituals">
+        <h2><span class="num">08</span> Rituals</h2>
+        <div class="ritual-cols">
+
+          <!-- Rolling In -->
+          <div class="ritual-block ritual-in">
+            <h3><span class="instr-icon">✦</span> Rolling In</h3>
+            <div class="ritual-step">
+              <div class="ritual-step-num">1</div>
+              <div class="ritual-step-body"><strong>Team commitment chant</strong> — Each team member states their commitment aloud before the debate begins:
+                <br><br>Subject: <em>"I am [character name]. I am open to being moved."</em>
+                <br>Each Defender: <em>"I believe in [value]. I will argue from that belief."</em>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rolling Out -->
+          <div class="ritual-block ritual-out">
+            <h3><span class="instr-icon">◈</span> Rolling Out</h3>
+            <div class="ritual-step">
+              <div class="ritual-step-num">1</div>
+              <div class="ritual-step-body"><strong>Subject's thanks</strong> — The Subject team thanks each Defender individually: <em>"Thank you for speaking your truth."</em></div>
+            </div>
+            <div class="ritual-step">
+              <div class="ritual-step-num">2</div>
+              <div class="ritual-step-body"><strong>Defenders' thanks</strong> — Each Defender team thanks the Subject: <em>"Thank you for listening and carrying the decision."</em></div>
+            </div>
+            <div class="ritual-step">
+              <div class="ritual-step-num">3</div>
+              <div class="ritual-step-body"><strong>De-roling</strong> — Everyone stands. Each person states their real name and shakes hands with every participant: <em>"I am [name]. Thank you for playing with me."</em></div>
+            </div>
+            <div class="ritual-step">
+              <div class="ritual-step-num">4</div>
+              <div class="ritual-step-body"><strong>Bleed check</strong> — The Evaluator asks quietly: <em>"Did anything in that debate feel close to home for anyone?"</em> — a brief, optional moment to name any emotional residue before moving into feedback. No one is required to answer.</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
       <!-- FULL COMMENDATION LIST -->
       <div class="card card-comm-list" id="commendations-list">
-        <h2><span class="num">08</span> Full Commendation List</h2>
+        <h2><span class="num">09</span> Full Commendation List</h2>
 
         <!-- STYLE -->
         <div class="comm-section sec-style">

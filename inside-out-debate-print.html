@@ -757,6 +757,67 @@
       line-height: 1.5;
     }
 
+    /* ── RITUALS ── */
+    .ritual-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12pt;
+      break-inside: avoid;
+    }
+
+    .ritual-block {
+      padding: 10pt 12pt;
+      border-radius: 6pt;
+      font-size: 9pt;
+      line-height: 1.45;
+    }
+
+    .ritual-block h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 9.5pt;
+      font-weight: 700;
+      margin-bottom: 9pt;
+      display: flex;
+      align-items: center;
+      gap: 5pt;
+    }
+
+    .ritual-in  { background: #EBF1FD; border-left: 3pt solid var(--value-a); }
+    .ritual-in h3 { color: var(--value-a); }
+    .ritual-out { background: #FEF6E8; border-left: 3pt solid var(--subject); }
+    .ritual-out h3 { color: var(--subject); }
+
+    .ritual-step {
+      display: flex;
+      align-items: flex-start;
+      gap: 8pt;
+      margin-bottom: 8pt;
+    }
+
+    .ritual-step:last-child { margin-bottom: 0; }
+
+    .ritual-step-num {
+      width: 16pt;
+      height: 16pt;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 6pt;
+      font-weight: 700;
+      color: white;
+      flex-shrink: 0;
+      margin-top: 1pt;
+    }
+
+    .ritual-in .ritual-step-num  { background: var(--value-a); }
+    .ritual-out .ritual-step-num { background: var(--subject); }
+
+    .ritual-step-body { color: var(--mid); line-height: 1.45; }
+    .ritual-step-body strong { color: var(--dark); }
+    .ritual-step-body em { font-style: italic; }
+
     /* ── FOOTER ── */
     .doc-footer {
       text-align: center;
@@ -1094,12 +1155,51 @@
     </div><!-- end instr-grid -->
     </div><!-- end player instructions wrapper -->
 
+    <!-- RITUALS -->
+    <div style="break-inside: avoid;">
+    <div class="section-title"><span class="section-num">08</span> Rituals</div>
+    <div class="ritual-cols">
+
+      <div class="ritual-block ritual-in">
+        <h3>&#10022; Rolling In</h3>
+        <div class="ritual-step">
+          <div class="ritual-step-num">1</div>
+          <div class="ritual-step-body"><strong>Team commitment chant</strong> &mdash; Each team member states their commitment aloud before the debate begins:<br><br>
+            Subject: <em>"I am [character name]. I am open to being moved."</em><br>
+            Each Defender: <em>"I believe in [value]. I will argue from that belief."</em>
+          </div>
+        </div>
+      </div>
+
+      <div class="ritual-block ritual-out">
+        <h3>&#9672; Rolling Out</h3>
+        <div class="ritual-step">
+          <div class="ritual-step-num">1</div>
+          <div class="ritual-step-body"><strong>Subject's thanks</strong> &mdash; The Subject team thanks each Defender individually: <em>"Thank you for speaking your truth."</em></div>
+        </div>
+        <div class="ritual-step">
+          <div class="ritual-step-num">2</div>
+          <div class="ritual-step-body"><strong>Defenders' thanks</strong> &mdash; Each Defender team thanks the Subject: <em>"Thank you for listening and carrying the decision."</em></div>
+        </div>
+        <div class="ritual-step">
+          <div class="ritual-step-num">3</div>
+          <div class="ritual-step-body"><strong>De-roling</strong> &mdash; Everyone stands. Each person states their real name and shakes hands with every participant: <em>"I am [name]. Thank you for playing with me."</em></div>
+        </div>
+        <div class="ritual-step">
+          <div class="ritual-step-num">4</div>
+          <div class="ritual-step-body"><strong>Bleed check</strong> &mdash; The Evaluator asks quietly: <em>"Did anything in that debate feel close to home for anyone?"</em> &mdash; a brief, optional moment to name any emotional residue before moving into feedback. No one is required to answer.</div>
+        </div>
+      </div>
+
+    </div>
+    </div><!-- end rituals wrapper -->
+
     <!-- ═══════════════════════════════════════════════
        COMMENDATION LIST — starts on new page
   ════════════════════════════════════════════════ -->
     <div class="page-break"></div>
 
-    <div class="section-title"><span class="section-num">08</span> Full Commendation List</div>
+    <div class="section-title"><span class="section-num">09</span> Full Commendation List</div>
 
     <!-- ── STYLE ── -->
     <div class="comm-cat cat-style">&#127917; Style <span class="cat-meta">6 commendations &mdash; delivery, presence,

@@ -852,11 +852,6 @@
         grid-column: 1;
       }
 
-      .instructions-grid {
-        grid-template-columns: 1fr;
-        gap: 10px;
-      }
-
       /* Comparison table: stack columns or scroll */
       .comparison-grid {
         grid-template-columns: 80px 1fr 1fr;
@@ -989,6 +984,13 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .instructions-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
     }
 
     .instr-block {

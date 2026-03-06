@@ -1,0 +1,1862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Inside Out Debate Format — Printable Reference</title>
+  <style>
+    /* ── FONTS ── */
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+    /* ── VARIABLES ── */
+    :root {
+      --subject: #C9861A;
+      --value-a: #3A6FCC;
+      --value-b: #B84A6B;
+      --value-c: #2A9678;
+      --growth: #6B42B8;
+      --dark: #1A1A2E;
+      --mid: #3A3A5C;
+      --light: #6C6C8A;
+      --border: #D0D0E0;
+      --surface: #F6F6FB;
+      --gold: #B8860B;
+    }
+
+    /* ── RESET ── */
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* ── BASE ── */
+    body {
+      font-family: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 10.5pt;
+      line-height: 1.5;
+      color: var(--dark);
+      background: white;
+    }
+
+    /* ── PAGE WRAPPER ── */
+    .page {
+      max-width: 210mm;
+      margin: 0 auto;
+      padding: 16mm 18mm;
+    }
+
+    /* ── HEADER ── */
+    .doc-header {
+      text-align: center;
+      padding-bottom: 12pt;
+      border-bottom: 2.5pt solid var(--dark);
+      margin-bottom: 18pt;
+    }
+
+    .doc-header h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 22pt;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+      color: var(--dark);
+      line-height: 1.2;
+    }
+
+    .doc-header .subtitle {
+      font-size: 9pt;
+      color: var(--light);
+      margin-top: 5pt;
+      font-weight: 400;
+      letter-spacing: 0.3px;
+    }
+
+    /* ── SECTION HEADINGS ── */
+    .section-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 13pt;
+      font-weight: 700;
+      color: var(--dark);
+      border-bottom: 1.5pt solid var(--border);
+      padding-bottom: 4pt;
+      margin-top: 20pt;
+      margin-bottom: 10pt;
+      display: flex;
+      align-items: center;
+      gap: 8pt;
+      break-after: avoid;
+    }
+
+    .section-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 7.5pt;
+      font-weight: 500;
+      color: var(--light);
+      background: var(--surface);
+      border: 1pt solid var(--border);
+      padding: 1.5pt 6pt;
+      border-radius: 3pt;
+    }
+
+    /* ── INTRO BLOCK ── */
+    .intro-text {
+      font-size: 10pt;
+      line-height: 1.6;
+      color: var(--mid);
+      padding: 10pt 14pt;
+      background: var(--surface);
+      border-left: 3pt solid var(--value-a);
+      border-radius: 0 5pt 5pt 0;
+    }
+
+    /* ── TWO-COLUMN LAYOUT ── */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14pt;
+      margin-bottom: 10pt;
+      break-inside: avoid;
+    }
+
+    /* ── BLOCK ── */
+    .block {
+      border: 1pt solid var(--border);
+      border-radius: 6pt;
+      overflow: hidden;
+      break-inside: avoid;
+    }
+
+    .block-header {
+      font-size: 8.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      padding: 5pt 10pt;
+      background: var(--surface);
+      border-bottom: 1pt solid var(--border);
+      color: var(--dark);
+    }
+
+    .block-body {
+      padding: 8pt 10pt;
+      font-size: 9.5pt;
+      color: var(--mid);
+      line-height: 1.5;
+    }
+
+    /* ── TEAM ROWS ── */
+    .team-row {
+      display: flex;
+      align-items: center;
+      gap: 9pt;
+      padding: 6pt 9pt;
+      border-bottom: 1pt solid var(--border);
+    }
+
+    .team-row:last-child {
+      border-bottom: none;
+    }
+
+    .team-badge {
+      width: 28pt;
+      height: 28pt;
+      border-radius: 5pt;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9.5pt;
+      font-weight: 700;
+      color: white;
+      flex-shrink: 0;
+    }
+
+    .badge-s {
+      background: var(--subject);
+    }
+
+    .badge-a {
+      background: var(--value-a);
+    }
+
+    .badge-b {
+      background: var(--value-b);
+    }
+
+    .badge-c {
+      background: var(--value-c);
+    }
+
+    .team-info .name {
+      font-weight: 700;
+      font-size: 9.5pt;
+      color: var(--dark);
+    }
+
+    .team-info .desc {
+      font-size: 8.5pt;
+      color: var(--mid);
+      margin-top: 1pt;
+    }
+
+    /* ── SPEECH ORDER ── */
+    .speech-flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 5pt;
+      margin-bottom: 8pt;
+    }
+
+    .speech-chip {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 8pt;
+      font-weight: 600;
+      color: white;
+      padding: 3pt 7pt;
+      border-radius: 4pt;
+    }
+
+    .chip-a {
+      background: var(--value-a);
+    }
+
+    .chip-b {
+      background: var(--value-b);
+    }
+
+    .chip-c {
+      background: var(--value-c);
+    }
+
+    .chip-s {
+      background: var(--subject);
+    }
+
+    .speech-arrow {
+      color: var(--border);
+      font-size: 8pt;
+    }
+
+    .round-label {
+      width: 100%;
+      font-size: 7pt;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--light);
+      font-weight: 600;
+      margin-top: 3pt;
+    }
+
+    .speech-note {
+      padding: 6pt 8pt;
+      border-radius: 4pt;
+      font-size: 8.5pt;
+      line-height: 1.4;
+      color: var(--mid);
+      margin-top: 4pt;
+    }
+
+    .speech-note.defenders {
+      background: #EBF1FD;
+      border-left: 2.5pt solid var(--value-a);
+    }
+
+    .speech-note.subject {
+      background: #FEF6E8;
+      border-left: 2.5pt solid var(--subject);
+    }
+
+    .speech-note strong {
+      color: var(--dark);
+      font-size: 9pt;
+      display: block;
+      margin-bottom: 2pt;
+    }
+
+    /* ── MOTION ELEMENTS ── */
+    .motion-el {
+      display: flex;
+      align-items: flex-start;
+      gap: 8pt;
+      padding: 5pt 0;
+      border-bottom: 1pt solid var(--border);
+      font-size: 9.5pt;
+      color: var(--mid);
+    }
+
+    .motion-el:last-of-type {
+      border-bottom: none;
+    }
+
+    .motion-el .icon {
+      font-size: 10pt;
+      width: 16pt;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .motion-el strong {
+      color: var(--dark);
+    }
+
+    .motion-note {
+      font-size: 8.5pt;
+      color: var(--mid);
+      font-style: italic;
+      margin-top: 7pt;
+      padding: 5pt 8pt;
+      background: #f4f4fa;
+      border-radius: 4pt;
+      border-left: 2pt solid var(--border);
+    }
+
+    /* ── EVALUATION OVERVIEW ── */
+    .eval-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 10pt;
+    }
+
+    .badge-progression {
+      display: flex;
+      align-items: center;
+      gap: 6pt;
+      font-size: 8.5pt;
+      color: var(--mid);
+      margin-top: 6pt;
+      padding: 5pt 8pt;
+      background: var(--surface);
+      border-radius: 4pt;
+    }
+
+    .badge-dot {
+      width: 18pt;
+      height: 18pt;
+      border-radius: 3pt;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 6.5pt;
+      font-weight: 700;
+    }
+
+    .badge-dot.comm {
+      background: #FEF6E8;
+      border: 1pt solid #E8D5A8;
+      color: var(--gold);
+    }
+
+    .badge-dot.badge {
+      background: var(--gold);
+      color: white;
+    }
+
+    /* ── EXAMPLE MOTION ── */
+    .example-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 12pt;
+    }
+
+    .example-scenario {
+      font-size: 9.5pt;
+      color: var(--mid);
+      line-height: 1.55;
+      padding: 10pt 12pt;
+      background: var(--surface);
+      border-radius: 5pt;
+      border-left: 3pt solid var(--border);
+    }
+
+    .value-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 7pt;
+      padding: 6pt 8pt;
+      border-radius: 5pt;
+      font-size: 8.5pt;
+      line-height: 1.4;
+      margin-bottom: 5pt;
+    }
+
+    .value-card:last-child {
+      margin-bottom: 0;
+    }
+
+    .value-card.va {
+      background: #EBF1FD;
+      border-left: 2.5pt solid var(--value-a);
+    }
+
+    .value-card.vb {
+      background: #FDECF0;
+      border-left: 2.5pt solid var(--value-b);
+    }
+
+    .value-card.vc {
+      background: #E8F8F3;
+      border-left: 2.5pt solid var(--value-c);
+    }
+
+    .val-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 7pt;
+      font-weight: 600;
+      color: white;
+      padding: 2pt 5pt;
+      border-radius: 3pt;
+      flex-shrink: 0;
+    }
+
+    .lbl-a {
+      background: var(--value-a);
+    }
+
+    .lbl-b {
+      background: var(--value-b);
+    }
+
+    .lbl-c {
+      background: var(--value-c);
+    }
+
+    /* ── COMPARISON TABLE ── */
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 8.5pt;
+      border: 1pt solid var(--border);
+      border-radius: 5pt;
+      overflow: hidden;
+      margin-bottom: 8pt;
+    }
+
+    .comparison-table th,
+    .comparison-table td {
+      padding: 5pt 9pt;
+      border: 1pt solid var(--border);
+      vertical-align: middle;
+      line-height: 1.35;
+      color: var(--mid);
+    }
+
+    .comparison-table th {
+      font-weight: 700;
+      font-size: 8pt;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--light);
+      background: var(--surface);
+    }
+
+    .th-ws {
+      background: #ECECF4 !important;
+      color: var(--dark) !important;
+      font-size: 8.5pt !important;
+      text-transform: none !important;
+      letter-spacing: 0 !important;
+    }
+
+    .th-io {
+      background: #EBF1FD !important;
+      color: var(--value-a) !important;
+      font-size: 8.5pt !important;
+      text-transform: none !important;
+      letter-spacing: 0 !important;
+    }
+
+    .td-ws {
+      background: #F9F9FC;
+    }
+
+    .td-io {
+      background: #F0F7FF;
+      color: var(--dark);
+      font-weight: 500;
+    }
+
+    .comparison-note {
+      font-size: 8.5pt;
+      color: var(--mid);
+      line-height: 1.45;
+      padding: 7pt 10pt;
+      background: #F0F5FE;
+      border-radius: 5pt;
+      border-left: 2.5pt solid var(--value-a);
+    }
+
+    /* ── PLAYER INSTRUCTIONS ── */
+    .instr-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10pt;
+      break-inside: avoid;
+    }
+
+    .instr-block {
+      padding: 9pt 11pt;
+      border-radius: 6pt;
+      font-size: 9pt;
+      line-height: 1.45;
+      break-inside: avoid;
+    }
+
+    .instr-block h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 9.5pt;
+      font-weight: 700;
+      margin-bottom: 7pt;
+      display: flex;
+      align-items: center;
+      gap: 5pt;
+    }
+
+    .instr-defenders {
+      background: #EBF1FD;
+      border-left: 3pt solid var(--value-a);
+    }
+
+    .instr-defenders h3 {
+      color: var(--value-a);
+    }
+
+    .instr-subject {
+      background: #FEF6E8;
+      border-left: 3pt solid var(--subject);
+    }
+
+    .instr-subject h3 {
+      color: var(--subject);
+    }
+
+    .instr-evaluator {
+      background: #FEF6E8;
+      border-left: 3pt solid var(--gold);
+    }
+
+    .instr-evaluator h3 {
+      color: var(--gold);
+    }
+
+    .instr-block ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 5pt;
+    }
+
+    .instr-block li {
+      padding-left: 13pt;
+      position: relative;
+      color: var(--mid);
+    }
+
+    .instr-block li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--light);
+      font-size: 7.5pt;
+      top: 2pt;
+    }
+
+    .instr-block li strong {
+      color: var(--dark);
+    }
+
+    /* ── PAGE BREAK BEFORE COMMENDATIONS ── */
+    .page-break {
+      page-break-before: always;
+      break-before: page;
+    }
+
+    /* ── COMMENDATION CATEGORY HEADER ── */
+    .comm-cat {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 6pt 12pt;
+      border-radius: 5pt;
+      color: white;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 10.5pt;
+      font-weight: 700;
+      margin-bottom: 8pt;
+      break-inside: avoid;
+      break-after: avoid;
+    }
+
+    .comm-cat + .comm-card {
+      break-before: avoid;
+    }
+
+    .comm-cat .cat-meta {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 7.5pt;
+      font-weight: 400;
+      opacity: 0.88;
+    }
+
+    .cat-style {
+      background: var(--value-b);
+    }
+
+    .cat-strategy {
+      background: var(--value-a);
+    }
+
+    .cat-content {
+      background: var(--gold);
+    }
+
+    .cat-fairplay {
+      background: var(--value-c);
+    }
+
+    .cat-growth {
+      background: var(--growth);
+    }
+
+    /* ── COMMENDATION CARD ── */
+    .comm-card {
+      border: 1pt solid var(--border);
+      border-radius: 6pt;
+      margin-bottom: 8pt;
+      break-inside: avoid;
+      overflow: hidden;
+    }
+
+    .comm-card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 10pt;
+      padding: 7pt 11pt;
+      background: var(--surface);
+      border-bottom: 1pt solid var(--border);
+    }
+
+    .comm-name {
+      font-weight: 700;
+      font-size: 10pt;
+      color: var(--dark);
+      min-width: 140pt;
+      flex-shrink: 0;
+      padding-top: 0.5pt;
+    }
+
+    .comm-short {
+      font-size: 9pt;
+      color: var(--mid);
+      line-height: 1.4;
+      flex: 1;
+    }
+
+    .comm-role {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 7pt;
+      font-weight: 600;
+      color: white;
+      padding: 2pt 6pt;
+      border-radius: 3pt;
+      flex-shrink: 0;
+      white-space: nowrap;
+      align-self: center;
+    }
+
+    .role-sub {
+      background: var(--subject);
+    }
+
+    .role-def {
+      background: var(--value-a);
+    }
+
+    .comm-body {
+      padding: 8pt 11pt;
+      font-size: 8.5pt;
+      color: var(--mid);
+      line-height: 1.5;
+      background: white;
+    }
+
+    .comm-note {
+      font-size: 8pt;
+      color: var(--light);
+      font-style: italic;
+      margin-bottom: 7pt;
+      padding: 5pt 8pt;
+      background: var(--surface);
+      border-radius: 4pt;
+      border-left: 2pt solid var(--border);
+      line-height: 1.4;
+    }
+
+    .comm-ranks {
+      display: flex;
+      flex-direction: column;
+      gap: 5pt;
+      margin-bottom: 7pt;
+    }
+
+    .comm-rank {
+      display: flex;
+      gap: 8pt;
+      align-items: flex-start;
+    }
+
+    .rank-label {
+      font-weight: 700;
+      font-size: 7pt;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--dark);
+      min-width: 58pt;
+      padding-top: 1.5pt;
+      flex-shrink: 0;
+    }
+
+    .rank-desc {
+      font-size: 8.5pt;
+      color: var(--mid);
+      line-height: 1.45;
+      padding-left: 7pt;
+      border-left: 1.5pt solid var(--border);
+    }
+
+    .comm-not {
+      font-size: 8pt;
+      margin-top: 3pt;
+      padding: 4pt 8pt;
+      background: #FFF8F8;
+      border-radius: 4pt;
+      border-left: 2pt solid #F5C4C4;
+      color: var(--mid);
+      line-height: 1.4;
+    }
+
+    .comm-not strong {
+      color: #903030;
+    }
+
+    /* ── FAIRPLAY / GROWTH simplified (no rank tiers) ── */
+    .comm-body-simple {
+      padding: 8pt 11pt;
+      font-size: 8.5pt;
+      color: var(--mid);
+      line-height: 1.5;
+      background: white;
+    }
+
+    .comm-body-simple .comm-desc {
+      margin-bottom: 6pt;
+      line-height: 1.5;
+    }
+
+    /* ── FOOTER ── */
+    .doc-footer {
+      text-align: center;
+      margin-top: 20pt;
+      font-size: 7.5pt;
+      color: var(--light);
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      border-top: 1pt solid var(--border);
+      padding-top: 8pt;
+    }
+
+    /* ── PRINT OVERRIDES ── */
+    @media print {
+      @page {
+        margin: 15mm 18mm;
+        size: A4;
+      }
+
+      body {
+        font-size: 9.5pt;
+      }
+
+      .page {
+        padding: 0;
+        max-width: 100%;
+      }
+
+      .doc-header {
+        padding-bottom: 8pt;
+        margin-bottom: 14pt;
+      }
+
+      .doc-header h1 {
+        font-size: 19pt;
+      }
+
+      .section-title {
+        margin-top: 14pt;
+        margin-bottom: 7pt;
+      }
+
+      .comm-card {
+        break-inside: avoid;
+        margin-bottom: 6pt;
+      }
+
+      .comm-cat {
+        break-after: avoid;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <!-- HEADER -->
+    <div class="doc-header">
+      <h1>The Inside Out Debate Format</h1>
+      <div class="subtitle">4 teams &middot; 8 speeches &middot; commendation-based evaluation &mdash; complete
+        reference</div>
+    </div>
+
+    <!-- INTRO -->
+    <div class="intro-text">
+      The <strong>Inside Out</strong> format is an experimental debate format, designed using best practices from
+      tabletop RPG game design. It seeks to be a more <em>fun</em>, <em>performance-growth oriented</em>, and
+      <em>real-life skill-building</em> alternative to traditional competitive debate formats. Rather than winning
+      arguments, debaters explore values, make meaningful decisions, and earn recognition for the skills they
+      demonstrate.
+    </div>
+
+    <!-- FORMAT OVERVIEW: teams + motion + speech + eval -->
+    <div class="two-col" style="margin-top: 14pt;">
+
+      <!-- Team Structure -->
+      <div>
+        <div class="section-title"><span class="section-num">01</span> Team Structure</div>
+        <div class="block">
+          <div class="block-header" style="text-align:center">4 teams of 2 debaters each &mdash; 8 debaters total
+            &mdash; positions assigned at random</div>
+          <div class="team-row">
+            <div class="team-badge badge-s">S</div>
+            <div class="team-info">
+              <div class="name">The Subject</div>
+              <div class="desc">Represents the person facing the decision. Must weigh all values and choose.</div>
+            </div>
+          </div>
+          <div class="team-row">
+            <div class="team-badge badge-a">A</div>
+            <div class="team-info">
+              <div class="name">Value Defender A</div>
+              <div class="desc">Argues their assigned value should be prioritised and proposes a decision.</div>
+            </div>
+          </div>
+          <div class="team-row">
+            <div class="team-badge badge-b">B</div>
+            <div class="team-info">
+              <div class="name">Value Defender B</div>
+              <div class="desc">Argues their assigned value should be prioritised and proposes a decision.</div>
+            </div>
+          </div>
+          <div class="team-row">
+            <div class="team-badge badge-c">C</div>
+            <div class="team-info">
+              <div class="name">Value Defender C</div>
+              <div class="desc">Argues their assigned value should be prioritised and proposes a decision.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Motion -->
+      <div>
+        <div class="section-title"><span class="section-num">02</span> The Motion</div>
+        <div class="block">
+          <div class="block-body">
+            <div class="motion-el"><span class="icon">&#9878;</span><span><strong>The Decision</strong> &mdash; What
+                choice the Subject must make</span></div>
+            <div class="motion-el"><span class="icon">&#128100;</span><span><strong>Background &amp; Context</strong>
+                &mdash; Who the Subject is and relevant practical factors</span></div>
+            <div class="motion-el"><span class="icon">&#9830;</span><span><strong>Three Values</strong> &mdash; The
+                beliefs of the Subject, each defended by a Value Defender team</span></div>
+            <div class="motion-note">Value Defenders are <strong>not</strong> told what decision to argue for &mdash;
+              they must construct their own position based on their assigned value.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="two-col">
+
+      <!-- Speech Order -->
+      <div>
+        <div class="section-title"><span class="section-num">03</span> Speech Order</div>
+        <div class="block">
+          <div class="block-body">
+            <div class="speech-flow">
+              <span class="round-label">Round 1 &mdash; Opening</span>
+              <span class="speech-chip chip-a">A1</span><span class="speech-arrow">&rarr;</span>
+              <span class="speech-chip chip-b">B1</span><span class="speech-arrow">&rarr;</span>
+              <span class="speech-chip chip-c">C1</span><span class="speech-arrow">&rarr;</span>
+              <span class="speech-chip chip-s">S1</span>
+              <span class="round-label">Round 2 &mdash; Closing</span>
+              <span class="speech-chip chip-a">A2</span><span class="speech-arrow">&rarr;</span>
+              <span class="speech-chip chip-b">B2</span><span class="speech-arrow">&rarr;</span>
+              <span class="speech-chip chip-c">C2</span><span class="speech-arrow">&rarr;</span>
+              <span class="speech-chip chip-s">S2</span>
+            </div>
+            <div class="speech-note defenders">
+              <strong>Value Defenders (A, B, C)</strong>
+              Argue for their value's relevance, construct a specific decision, and rebut other defenders.
+            </div>
+            <div class="speech-note subject" style="margin-top: 4pt;">
+              <strong>Subject Team (S)</strong>
+              S1 picks a <em>preliminary</em> decision; S2 delivers the <em>final</em> decision &mdash; both must engage
+              with all arguments.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Evaluation -->
+      <div>
+        <div class="section-title"><span class="section-num">04</span> Evaluation</div>
+        <div class="block">
+          <div class="block-body">
+            <div style="font-weight: 700; font-size: 9pt; color: var(--dark); margin-bottom: 4pt;">Commendations</div>
+            <div style="font-size: 9pt; color: var(--mid); margin-bottom: 5pt; line-height: 1.4;">The Evaluator awards
+              commendations across five categories: Style, Strategy, Content, Fairplay, and Growth Mentality.</div>
+            <div class="badge-progression">
+              <div class="badge-dot comm">&times;3</div>
+              <span>same commendation</span>
+              <span>&rarr;</span>
+              <div class="badge-dot badge">&#9733;</div>
+              <span>earn a Badge</span>
+              <span>&rarr;</span>
+              <div class="badge-dot comm">+6</div>
+              <span>&rarr;</span>
+              <div class="badge-dot badge">&#9733;&#9733;</div>
+            </div>
+            <div style="font-weight: 700; font-size: 9pt; color: var(--dark); margin-top: 9pt; margin-bottom: 4pt;">Oral
+              Feedback</div>
+            <div style="font-size: 9pt; color: var(--mid); line-height: 1.4;">The Evaluator explains each team's
+              commendations, the reasoning behind them, and gives personalised advice for future improvement.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Example Motion -->
+    <div class="section-title"><span class="section-num">05</span> Example Motion</div>
+    <div class="block">
+      <div class="block-body">
+        <div class="example-grid">
+          <div class="example-scenario">
+            You are the parent of a 16-year-old teenager. Your family is middle class, living in the suburbia of a
+            metropolis. You have higher education and live in a country where higher education is free, though only a
+            few universities are deemed good. The year is 2026. Your kid is talented in music, a good leader with strong
+            STEM skills, but is also quite distracted, has few friends, and failed to learn a foreign language. They
+            expressed moderate interest in studying Musicology at university but are also considering skipping higher
+            education. They asked for your recommendation. <strong>What do you recommend?</strong>
+          </div>
+          <div>
+            <div style="font-size: 8.5pt; font-weight: 700; color: var(--dark); margin-bottom: 6pt;">Three Values for
+              the Subject:</div>
+            <div class="value-card va"><span class="val-label lbl-a">A</span><span>Financial stability and independence
+                is essential for a happy life.</span></div>
+            <div class="value-card vb"><span class="val-label lbl-b">B</span><span>It is important to be a well-rounded,
+                cultured individual.</span></div>
+            <div class="value-card vc"><span class="val-label lbl-c">C</span><span>The people you surround yourself with
+                end up defining who you are.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Comparison -->
+    <div style="break-inside: avoid;">
+    <div class="section-title"><span class="section-num">06</span> How It Differs from Traditional Debate</div>
+    <div class="block">
+      <div class="block-body">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th style="width: 80pt;"></th>
+              <th class="th-ws">World Schools</th>
+              <th class="th-io">Inside Out</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="block-header">Teams</td>
+              <td class="td-ws">2 teams &times; 3 members</td>
+              <td class="td-io">4 teams &times; 2 members</td>
+            </tr>
+            <tr>
+              <td class="block-header">Sides</td>
+              <td class="td-ws">Proposition vs Opposition</td>
+              <td class="td-io">3 Value Defenders + 1 Subject</td>
+            </tr>
+            <tr>
+              <td class="block-header">Motion style</td>
+              <td class="td-ws">"This House&hellip;" policy/value motions</td>
+              <td class="td-io">Personal dilemma with background &amp; values</td>
+            </tr>
+            <tr>
+              <td class="block-header">Goal</td>
+              <td class="td-ws">Win the argument &mdash; defeat the other side</td>
+              <td class="td-io">Explore values &mdash; help the Subject decide</td>
+            </tr>
+            <tr>
+              <td class="block-header">Evaluation</td>
+              <td class="td-ws">Scored on Content, Style &amp; Strategy (points)</td>
+              <td class="td-io">Commendations for skills &amp; attitudes (badges)</td>
+            </tr>
+            <tr>
+              <td class="block-header">Outcome</td>
+              <td class="td-ws">Win / Loss + speaker rankings</td>
+              <td class="td-io">No win/loss &mdash; growth-oriented feedback</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="comparison-note"><strong>Key shift:</strong> Inside Out moves from adversarial persuasion to
+          collaborative deliberation. There is no winner &mdash; instead, debaters earn commendations that recognise
+          individual skills, and the Subject synthesises all perspectives into a reasoned decision.</div>
+      </div>
+    </div>
+    </div><!-- end comparison wrapper -->
+
+    <!-- Player Instructions -->
+    <div style="break-inside: avoid;">
+    <div class="section-title"><span class="section-num">07</span> Player Instructions</div>
+    <div class="instr-grid">
+
+      <div class="instr-block instr-defenders">
+        <h3>&#9876; Value Defenders</h3>
+        <ul>
+          <li>Formulate arguments for why your value is <strong>important, useful, and relevant</strong> to this
+            dilemma.</li>
+          <li>Propose a <strong>specific decision</strong> that best honours your value &mdash; argue why it is right
+            and leads to good outcomes, especially through the lens of your value.</li>
+          <li>Engage with other Defenders' <strong>values</strong>: show yours is more important, more relevant to the
+            dilemma, or safer to follow.</li>
+          <li>Engage with other Defenders' <strong>decisions</strong>: attack, support (claiming it maximises your
+            value), or endorse it with addendums &mdash; choose your positioning wisely.</li>
+          <li>Your core mission: <strong>define what honouring your value looks like</strong> in practice, and persuade
+            the Subject it is the right path.</li>
+        </ul>
+      </div>
+
+      <div class="instr-block instr-subject">
+        <h3>&#127917; The Subject</h3>
+        <ul>
+          <li><strong>Enter without an opinion.</strong> You are completely torn &mdash; you are here to listen and be
+            persuaded, not to argue.</li>
+          <li>Listen as if you <em>are</em> the Subject: <strong>let the speeches move you</strong> as they would move
+            this person.</li>
+          <li>Also take a mental step back: <strong>evaluate how persuasive each argument would be</strong> for the
+            Subject, and adjust your lean accordingly.</li>
+          <li>Take notes on arguments and their interplay &mdash; record what the Defenders say, <strong>not your own
+              personal thoughts</strong>.</li>
+          <li><strong>Collaborate quietly</strong> with your partner: you are both embodying the same person, not
+            competing.</li>
+          <li>In your speeches, share which decision you are leaning toward and <strong>why</strong>, weighing all
+            arguments to the extent they were persuasive.</li>
+        </ul>
+      </div>
+
+      <div class="instr-block instr-evaluator">
+        <h3>&#127891; The Evaluator</h3>
+        <ul>
+          <li>Analyse the debate and each player's performance. Decide which <strong>commendations</strong> to award
+            &mdash; aim for one per debater (the same commendation can go to more than one person).</li>
+          <li>Approach the round as an <strong>educator</strong> helping each player grow, not as a judge declaring a
+            winner.</li>
+          <li>Open with a <strong>narrative of the debate</strong> from your outside perspective: what each team did and
+            how it all unfolded.</li>
+          <li>Engage directly with each team: ask what they <strong>felt they did well</strong> and what they found
+            difficult. Share your view and add your own observations.</li>
+          <li>Ask each team what they want to <strong>do better next time</strong>, and give concrete advice on how to
+            get there.</li>
+          <li>Close by <strong>awarding commendations</strong> to each player.</li>
+        </ul>
+      </div>
+
+    </div><!-- end instr-grid -->
+    </div><!-- end player instructions wrapper -->
+
+    <!-- ═══════════════════════════════════════════════
+       COMMENDATION LIST — starts on new page
+  ════════════════════════════════════════════════ -->
+    <div class="page-break"></div>
+
+    <div class="section-title"><span class="section-num">08</span> Full Commendation List</div>
+
+    <!-- ── STYLE ── -->
+    <div class="comm-cat cat-style">&#127917; Style <span class="cat-meta">6 commendations &mdash; delivery, presence,
+        and rhetorical quality</span></div>
+
+    <!-- Believable Passion -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Believable Passion</span>
+        <span class="comm-short">You were truly invested in your point, showing genuine, believable conviction and care
+          for the value you defended.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Honest Connection, which is about personal self-disclosure. This
+          commendation is about conviction in the argument. Distinct from Broad Range, which is about technical delivery
+          control. This commendation is about authenticity of feeling.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">Tone conveyed genuine
+              care at key moments. Concrete signs: voice quality shifted naturally at charged points, eye contact held
+              at key claims, word choices felt spontaneous rather than rehearsed. The debater was not merely
+              reciting.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Conviction was felt in
+              the substance of the speech: key claims landed harder because of the emotional weight behind them, and the
+              room or the Subject visibly reacted (leaning in, stillness, visible attention). The emotional register
+              clearly matched the content.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">The delivery made
+              the dilemma feel real and worth deeply caring about. Reserve for speeches where the affective dimension
+              was genuinely transformative, the kind that may echo long after the debate ended.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> passion felt theatrical without substance, or if the
+          debater seemed to be performing emotion rather than expressing it.</div>
+      </div>
+    </div>
+
+    <!-- Entertaining Discourse -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Entertaining Discourse</span>
+        <span class="comm-short">The speech was genuinely enjoyable, through wit, lightness, or a well-timed observation
+          that made the room smile or lean in.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Poetic Appeal, which rewards literary craft. This commendation rewards the
+          audience's enjoyment response: humor, liveliness, wit. A poetic speech can be somber and still earn Poetic
+          Appeal; it cannot earn this.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">At least one moment was
+              distinctly enjoyable: a clever comparison, a light touch, or a well-timed observation. The speech was not
+              dull.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Liveliness was woven into
+              the argumentation consistently; humor or vividness served to make points land more effectively and did not
+              merely entertain.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">Entertainment and
+              argument were seamlessly fused throughout, reaching the level of a sharp public talk or spoken word
+              performance, where wit and substance were inseparable.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> entertaining moments came at someone's expense, or were
+          clearly decorative and disconnected from substance.</div>
+      </div>
+    </div>
+
+    <!-- Broad Range -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Broad Range</span>
+        <span class="comm-short">Your delivery showed impressive stylistic range, varying tone, rhythm, tempo, and
+          volume to serve the speech.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Believable Passion, which rewards authenticity of feeling. This
+          commendation rewards technical delivery control and intentional variation. A debater can earn this through
+          craft even in a measured, less emotionally charged speech.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">At least two noticeably
+              different delivery registers were used, e.g. a slow and solemn moment followed by a faster, energized
+              passage. The speech did not feel flat or uniform.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Variation was deliberate
+              and purposeful: shifts in pace, volume, or tone coincided with structural moments in the argument, making
+              the speech easier to follow and more dynamic.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">The full palette was
+              deployed with mastery. The debater controlled the room's attention through delivery alone, knowing when to
+              slow down, when to project, when to drop to a near-whisper. The range felt like a conscious instrument
+              rather than an accident.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> variation was random or distracting rather than
+          purposeful, or if the speech was stylistically uniform throughout.</div>
+      </div>
+    </div>
+
+    <!-- Honest Connection -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Honest Connection</span>
+        <span class="comm-short">Something genuine about yourself entered the speech, a real disclosure rather than a
+          rhetorical move, that created contact between the debater and the room.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Believable Passion, which is about conviction in the argument. This
+          commendation is about self-disclosure and personal presence. A debater can argue passionately without ever
+          revealing anything about themselves; this commendation rewards the ones who do.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">At least one moment where
+              the debater stepped out from behind the argument (an admission, a first-person reflection, or a genuine
+              statement of personal feeling) that felt real rather than strategic.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">The personal register
+              appeared at key structural moments and gave the argument a human face. Concrete signs: eye contact moving
+              around the room rather than fixed or absent, direct second-person address ("you know this feeling"), or a
+              moment of deliberate pause that invited the room to sit with something.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">The speech was
+              uniquely theirs; you would not have heard it from anyone else. You felt the debater was genuinely present
+              in the room with you.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> personal moments felt scripted or confessional for
+          effect, or if the connection was superficial without real disclosure.</div>
+      </div>
+    </div>
+
+    <!-- Poetic Appeal -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Poetic Appeal</span>
+        <span class="comm-short">Language was used with aesthetic care, where rhythm, imagery, or metaphor elevated the
+          speech as a piece of writing, independent of its entertainment value.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Entertaining Discourse, which rewards the audience's enjoyment response.
+          This commendation rewards literary and rhetorical craft. A precise, somber, or weighty speech can earn this; a
+          funny speech that lacks craft cannot.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">At least one passage was
+              noticeably well-crafted: a sentence that would stand alone as good writing, a metaphor that illuminated
+              the value, or a rhythmic construction that made a point feel inevitable.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Poetic quality sustained
+              across multiple moments; rhetoric served the argument, making the case land harder or feel more
+              vivid.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">The speech had
+              genuine literary quality; specific lines are still in your head afterward. Language itself became part of
+              the argument, functioning as substance rather than decoration.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> literary flourishes were borrowed or clich&eacute;d, or
+          if aesthetic ambition exceeded communicative clarity.</div>
+      </div>
+    </div>
+
+    <!-- True Embodiment -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">True Embodiment</span>
+        <span class="comm-short">You convincingly inhabited your role, arguing and deciding from inside it rather than
+          about it from outside.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">For the Subject, this means thinking, feeling, and deciding as the character they are
+          playing. For Defenders, it means arguing from genuine conviction in the value rather than as a lawyer assigned
+          to it: the value's internal logic should visibly drive the case, not just decorate it.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">The role's reality guided
+              the speech throughout. Stated leanings tracked the actual arguments made, and no decision was telegraphed
+              from the outset.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">The embodiment elevated
+              the entire round. You could see the speaker being moved, reconsidering, weighing; the final decision felt
+              earned and true to the character's inner life. The investment in the value was palpable enough that you
+              could imagine them holding it beyond this room.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> the character's perspective was abandoned in favor of
+          what looked like generic, standard convictions.</div>
+      </div>
+    </div>
+
+    <!-- ── STRATEGY ── -->
+    <div style="break-inside: avoid;">
+    <div class="comm-cat cat-strategy" style="margin-top: 14pt;">&#9820; Strategy <span class="cat-meta">7 commendations
+        &mdash; positioning, framing, and tactical intelligence</span></div>
+
+    <!-- Specific Topicality -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Specific Topicality</span>
+        <span class="comm-short">Arguments were sharply specific to this dilemma, this Subject, and these values, with
+          no generic claims.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">Most substantive claims
+              were grounded in the specifics of the motion: the Subject's background, the values as stated, the actual
+              decision at stake. The debater did not argue in the abstract when specificity was available.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Topicality was strategic.
+              The debater drew on details others missed or ignored: specific facts from the Subject's biography,
+              constraints embedded in the motion's exact wording, or stakes unique to this scenario. The arguments
+              demonstrably apply to this case in ways a more generic version of the same point would not.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">Every substantive
+              move calibrated to this specific situation; the arguments would fall apart if you changed the Subject or
+              dilemma, a reliable sign they were arguing this case rather than a template.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> arguments were substantially generic and could be
+          transplanted into a different debate without modification.</div>
+        <div class="comm-note" style="margin-top: 6pt;">Distinct from Advantageous Framing, which rewards setting up the
+          evaluation lens. This commendation rewards the content of the arguments themselves: what you chose to argue
+          was specific, not just how you framed the evaluative criteria.</div>
+      </div>
+    </div>
+    </div><!-- end strategy anchor wrapper -->
+
+    <!-- Advantageous Framing -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Advantageous Framing</span>
+        <span class="comm-short">You defined the terms of discussion in a way that benefited your position before others
+          could.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">Explicitly established a
+              coherent evaluation framework (e.g., "the key question here is not X but Y") that was relevant to their
+              value's claim and genuinely substantive rather than merely rhetorical.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">The framing did real
+              structural work. The other debaters had to address or rebut the framing directly in order to make their
+              point. The Subject explicitly engaged with it, showing it had become a reference point in the room.</span>
+          </div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">The framing was
+              original and visibly influenced the course of the debate; much of the round can be understood in
+              retrospect as a response to it. Award rarely.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> the framing was stated but not developed, or simply
+          restated the obvious rather than establishing a genuinely favorable lens.</div>
+        <div class="comm-note" style="margin-top: 6pt;">Distinct from Specific Topicality, which rewards the content of
+          your arguments. This commendation rewards the meta-level move of setting the evaluative lens. Distinct from
+          Helpful Guiding [Subject], which is the neutral equivalent: Guiding helps the room understand the debate
+          fairly; Framing is partisan and serves the Defender's position.</div>
+      </div>
+    </div>
+
+    <!-- Witty Solution -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Witty Solution</span>
+        <span class="comm-short">You proposed a concrete, value-informed solution to the dilemma, specific enough that
+          it could only have come from someone defending your value.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">The proposed solution was
+              specific and thought through: a concrete recommendation that addressed at least the most obvious
+              counterarguments, and that demonstrably flowed from the value defended rather than from generic common
+              sense.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Notably smart: the
+              solution navigated a genuine tension between competing values, or revealed an angle others had missed. It
+              felt like an insight that only someone genuinely reasoning from this value could have reached.</span>
+          </div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">Elegant in the way a
+              good solution to a hard problem is elegant: surprising, clearly defensible, and more persuasive than the
+              alternatives precisely because of the way the value was applied.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> the decision was generic, obvious, or could have been
+          proposed without any particular commitment to the defended value.</div>
+        <div class="comm-note" style="margin-top: 6pt;">Distinct from Advantageous Framing, which sets up the criteria
+          of choice. This commendation rewards the solution itself: the concrete answer to the dilemma derived from the
+          defended value (e.g., a Defender of financial stability proposing not "prioritize stability" but "take the law
+          school offer specifically, because it offers the fastest path to financial independence").</div>
+      </div>
+    </div>
+
+    <!-- Brave Pivot -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Brave Pivot</span>
+        <span class="comm-short">You changed position or conceded a point honestly, and it made your case
+          stronger.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">Explicitly acknowledged
+              an opponent's point had merit, or adjusted their position in response to what was said.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">The pivot was strategic:
+              conceding less important ground to better defend more important ground, or reframing in a way more
+              defensible in light of the debate.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">Changed their mind
+              in real time under pressure and did so convincingly, arguing for why the pivot is an extension rather than
+              an inconsistent reversal of their previous position, making the final case stronger than the initial one.
+              Award with corresponding rarity.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> the pivot was a disguised inconsistency, or a
+          capitulation that weakened the case without any strategic gain.</div>
+      </div>
+    </div>
+
+    <!-- Efficient Alliance -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Efficient Alliance</span>
+        <span class="comm-short">You recognized when another Defender's arguments complemented yours and built on that
+          alignment.</span>
+        <span class="comm-role role-def">Defenders</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">Acknowledged at least one
+              point of genuine agreement with another Defender that strengthens the case for a decision, even across
+              different value frameworks.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Explicitly constructed an
+              alliance: "both Team A and I agree that X, which shows the Subject that even across different value
+              frameworks, the weight of argument points toward Y." The alliance was strategically useful.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> the alliance was superficial without specific
+          engagement, or used to dodge genuine tensions rather than genuinely strengthen a shared position.</div>
+        <div class="comm-note" style="margin-top: 6pt;">Distinct from Careful Positioning: forming an alliance is one
+          possible positioning choice, but this commendation specifically rewards the act of finding and leveraging
+          genuine agreement to jointly persuade the Subject. Careful Positioning rewards the deliberateness of any
+          stance; Efficient Alliance rewards this specific one done well. Not applicable to the Subject, who should
+          remain open to all arguments rather than forming alliances.</div>
+      </div>
+    </div>
+
+    <!-- Careful Positioning -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Careful Positioning</span>
+        <span class="comm-short">Your stance toward other Defenders' decisions was deliberate and chosen rather than
+          reactive, with positive effect.</span>
+        <span class="comm-role role-def">Defenders</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">Response to other
+              Defenders' decisions was evidently chosen rather than accidental or reactive. Concrete sign: the debater
+              explicitly flagged the choice ("I am going to agree with Team A here because..."), or the same stance was
+              coherently maintained across both speeches in a way that only makes sense as a deliberate strategy.</span>
+          </div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Positioning was in
+              service of a coherent strategy; the debater demonstrated awareness of the strategic landscape alongside
+              the argumentative one. You could reconstruct the reasoning behind every stance they took, and it formed a
+              consistent picture.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> the debater attacked everything indiscriminately or
+          supported everything uncritically. The commendation rewards the conscious choice.</div>
+        <div class="comm-note" style="margin-top: 6pt;">Distinct from Efficient Alliance. Careful Positioning rewards
+          the consciousness of the choice across all possible stances: attack, support, nuance, or alliance. A debater
+          who deliberately attacks every other Defender can earn this; one who forms an alliance can too. Efficient
+          Alliance rewards specifically the well-executed alliance move. Both can be earned in the same round.</div>
+      </div>
+    </div>
+
+    <!-- Helpful Guiding -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Helpful Guiding</span>
+        <span class="comm-short">You helped the room navigate the structure of the debate clearly, accurately, and
+          fairly.</span>
+        <span class="comm-role role-sub">Subject</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">At least one moment of
+              genuine meta-level navigation, e.g. "the key question before us is now X, because Y has been established
+              and Z has been challenged." It helped the room follow more clearly.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">The guiding was
+              structurally important, identifying a genuine turning point or consolidating arguments in a way that made
+              the final decision feel better-grounded. Accurate and fair to all arguments, including inconvenient
+              ones.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> the "guiding" was simply restating one's own position,
+          or characterized the debate in a self-serving way.</div>
+        <div class="comm-note" style="margin-top: 6pt;">Distinct from Advantageous Framing [Defenders], which is
+          partisan: it sets an evaluative lens that serves the Defender's position. Helpful Guiding is neutral: the
+          Subject's role is to help the room understand where the debate actually stands, including arguments that cut
+          against the Subject's apparent leaning.</div>
+      </div>
+    </div>
+
+    <!-- ── CONTENT ── -->
+    <div style="break-inside: avoid;">
+    <div class="comm-cat cat-content" style="margin-top: 14pt;">&#128218; Content <span class="cat-meta">9 commendations
+        &mdash; argumentation, analysis, and engagement with the debate</span></div>
+
+    <!-- Word Economy -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Word Economy</span>
+        <span class="comm-short">You communicated clearly and efficiently; every minute of speaking time counted.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">This commendation rewards the form of expression, not argument substance. A speech can
+          have Robust Logic and Impressive Depth but still fail on economy if it took twice as long as needed to make
+          its points. Conversely, a speech that says little but says it crisply does not earn this: concision must serve
+          content, not replace it.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">The speech did not waste
+              significant time; arguments were stated and developed without excessive preamble, redundant restatement,
+              or filler.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Concision actively served
+              clarity: complex ideas were expressed with precision and brevity; you understood them fully on first
+              hearing, without the debater needing to repeat themselves.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">The debater said
+              something hard to say in few words. Specific lines had a density of meaning that rewarded attention; you
+              notice the economy because of how much it achieves.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> the speech was sparse because the debater ran out of
+          things to say, rather than because of principled concision.</div>
+      </div>
+    </div>
+    </div><!-- end content anchor wrapper -->
+
+    <!-- Rebuttal Ingenuity -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Rebuttal Ingenuity</span>
+        <span class="comm-short">Your rebuttal identified a non-obvious flaw in an opponent's argument: a hidden
+          assumption, internal tension, or unconsidered consequence.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Argument Ingenuity, which rewards novel constructive arguments of your own.
+          This commendation is reactive: you found something wrong with an existing argument in a way others would not
+          have. Distinct from Comprehensive Breadth, which rewards coverage of the full debate rather than the sharpness
+          of any individual attack.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">Identified a non-obvious
+              weakness (a hidden assumption, an internal tension, or an unconsidered consequence) rather than the first
+              available attack.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Engaged with the
+              strongest version of the argument and demonstrated why it fails even there.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">Changed the
+              argumentative landscape; the rebuttal was difficult or impossible to satisfactorily respond to. Reserve
+              accordingly.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award</strong> for mere aggressiveness without analytical incisiveness; the
+          attack must have identified something non-obvious, not just pressed hard on an obvious weakness.</div>
+      </div>
+    </div>
+
+    <!-- Rebuttal Prioritization -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Rebuttal Prioritization</span>
+        <span class="comm-short">You made deliberate, strategic choices about where to concentrate your rebuttal effort,
+          and those choices were correct.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Comprehensive Breadth, which rewards engaging with the full scope of the
+          debate. These two commendations reward opposite instincts: Breadth rewards coverage, Prioritization rewards
+          deliberate focus &mdash; choosing which clashes matter most and concentrating there, even at the cost of
+          leaving some arguments unaddressed. Both can be earned in the same speech if a debater focuses sharply on the
+          right clashes while still engaging meaningfully with all major ones.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">Concentrated force on the
+              most important clashes, explicitly or implicitly flagging the allocation.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Prioritization revealed
+              genuine strategic intelligence. Concrete sign: the debater's choice of what to ignore was as deliberate as
+              what they attacked. Arguments left alone were either too weak to warrant time or too entrenched to rebut
+              cheaply, and the choice was correct.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award</strong> if the debater simply failed to address major clashes; this
+          commendation rewards deliberate focus, not accidental omission.</div>
+      </div>
+    </div>
+
+    <!-- Rebuttal Accuracy -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Rebuttal Accuracy</span>
+        <span class="comm-short">You represented opponents' arguments faithfully before responding &mdash; no
+          mischaracterization, no straw-manning.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">This commendation has no Exceptional tier; accuracy is a threshold quality, not a
+          scalable one. Award only when faithful representation was genuinely non-trivial: the opponent's argument was
+          complex, easily misread, or had been mischaracterized by others in the round.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">Paraphrased opponents'
+              arguments correctly before responding; no straw-manning. Engaged with the most charitable understanding of
+              the argument.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Engaged with specific
+              moments in specific speeches; accuracy made the rebuttal more effective, not just fairer &mdash; the
+              opponent could not complain their argument had been misrepresented.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award</strong> unless correct representation was genuinely non-trivial; if
+          the argument was simple and obvious, accurate paraphrase is the baseline, not commendable.</div>
+      </div>
+    </div>
+
+    <!-- Robust Logic -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Robust Logic</span>
+        <span class="comm-short">Your arguments were well-constructed: valid, plausible, and without significant logical
+          gaps.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Impressive Argumentative Depth. Logic asks whether the reasoning chain
+          holds structurally: are the steps valid, are the premises sound, are there gaps? Depth asks how far the
+          argument reaches: does it unpack implications, interrogate philosophical roots, go beyond the surface claim? A
+          tight argument can be shallow; a deep argument can have structural weaknesses. Both can be earned
+          simultaneously.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">Main arguments had clear
+              claim-warrant-impact structure; a reasonable person could follow the chain of reasoning without supplying
+              missing steps.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Logic held up under
+              challenge: no internal contradictions, no analytical sleight-of-hand, no steps that required the audience
+              to take things on faith.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">Genuinely tight;
+              would require a sophisticated philosophical or empirical objection to dislodge; the debater had
+              anticipated obvious objections within the argument itself.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> key steps required the audience to make significant
+          logical leaps, or if the argument relied on unexamined premises.</div>
+      </div>
+    </div>
+
+    <!-- Impressive Argumentative Depth -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Impressive Argumentative Depth</span>
+        <span class="comm-short">You went beyond the surface, interrogating implications, mechanisms, or philosophical
+          roots.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Robust Logic, which rewards structural soundness of the reasoning chain.
+          This commendation rewards how far the argument reaches, regardless of whether the chain is airtight. Distinct
+          from Argument Ingenuity, which rewards novelty of the argument itself. Depth rewards thorough development: you
+          can earn this by deeply analyzing an obvious argument. Ingenuity rewards unexpectedness: you can earn it with
+          a brief but novel point. The most impressive speeches earn both.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">At least one argument
+              went meaningfully beyond its initial claim, explaining why the value's demand is well-founded, or what it
+              would actually look like for the Subject to live by it.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Depth sustained
+              throughout; consistently pushed past surface-level argumentation into territory where the debate becomes
+              genuinely illuminating.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">After the speech,
+              you found yourself reconsidering something you had assumed you understood, or the argument illuminated a
+              dimension of the value that no other speech in the round had touched. Award only when you can name the
+              specific idea that landed with that force.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award</strong> for length or confidence without depth; a long argument that
+          merely repeats its initial claim in different words is the opposite of this commendation.</div>
+      </div>
+    </div>
+
+    <!-- Comprehensive Breadth -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Comprehensive Breadth</span>
+        <span class="comm-short">You engaged with the full scope of the debate, including inconvenient arguments.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Rebuttal Ingenuity (sharpness of individual attacks) and Rebuttal
+          Prioritization (deliberate focus on selected clashes). This commendation rewards coverage and attentiveness
+          across the full debate. A debater can earn this without any individual rebuttal being particularly sharp or
+          any single clash being prioritized.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">Addressed the most
+              important arguments from all other Defenders, not only the weakest or most convenient. Did not pretend a
+              large portion of the debate had not happened.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Demonstrated careful
+              listening throughout: the speech reflected the actual state of the debate rather than just the prepared
+              position. Engaged substantively with the strongest moments of each Defender.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">Managed to
+              impressively capture every aspect of the debate and to synthetically yet explicitly cover all of
+              them.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> the debater only engaged with arguments favorable for
+          them to rebut, or systematically ignored major clashes.</div>
+      </div>
+    </div>
+
+    <!-- Argument Ingenuity -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Argument Ingenuity</span>
+        <span class="comm-short">You produced an argument that was unexpected, non-obvious, and substantively
+          illuminating.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Rebuttal Ingenuity, which rewards a non-obvious attack on someone else's
+          existing argument. This commendation rewards novel constructive arguments of your own. Distinct from
+          Impressive Argumentative Depth, which rewards thorough development. Ingenuity rewards the argument's novelty
+          and surprise; a brief but genuinely unexpected argument earns this where a lengthy but predictable one does
+          not.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">At least one argument was
+              notably fresh: not typically heard in this kind of debate, logically coherent, and able to withstand an
+              obvious first objection. The novelty did not come at the expense of substance.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Ingenious in the full
+              sense: first surprised you, then convinced you, revealing something about the value, the dilemma, or the
+              decision that prior thinking had missed.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">The argument changed
+              the debate; others had to respond to it and it became a fixed point of reference. Very rare, award
+              accordingly.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award</strong> for mere unconventionality. Ingenuity requires both novelty
+          and substance; a provocative claim without grounding is not this commendation.</div>
+      </div>
+    </div>
+
+    <!-- Accurate Synthesis -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Accurate Synthesis</span>
+        <span class="comm-short">You gave a fair, accurate, and well-organized account of the full state of the
+          debate.</span>
+        <span class="comm-role role-sub">Subject</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Comprehensive Breadth, which rewards Defenders for engaging with all major
+          arguments in their own speeches. This commendation rewards the Subject for accurately representing what was
+          argued by all sides in their deliberation. Breadth is about what you chose to engage with; Synthesis is about
+          how faithfully you described and weighed what happened.</div>
+        <div class="comm-ranks">
+          <div class="comm-rank"><span class="rank-label">Earned</span><span class="rank-desc">Correctly identified the
+              main arguments from each Defender and did not misrepresent or omit them, even where unfavorable to the
+              decision being leaned toward.</span></div>
+          <div class="comm-rank"><span class="rank-label">Strong</span><span class="rank-desc">Showed genuine
+              comprehension of the debate's structure: an account of how arguments interacted, where they clashed, and
+              what the real decision points were, going beyond a mere list of positions.</span></div>
+          <div class="comm-rank"><span class="rank-label">Exceptional</span><span class="rank-desc">Identified the
+              strongest and weakest versions of each Defender's case and grounded the final decision in a genuinely
+              comprehensive account of the round, including acknowledging the best arguments against the chosen
+              decision.</span></div>
+        </div>
+        <div class="comm-not"><strong>Do not award if:</strong> the Subject's account of the debate was selective,
+          self-serving, or inaccurate, even if the decision they reached seemed reasonable.</div>
+      </div>
+    </div>
+
+    <!-- ── FAIRPLAY ── -->
+    <div class="comm-cat cat-fairplay" style="margin-top: 14pt;">&#129309; Fairplay <span class="cat-meta">3
+        commendations &mdash; observe team dynamics &amp; debrief, not only speeches</span></div>
+
+    <!-- Teammate Support -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Teammate Support</span>
+        <span class="comm-short">You actively helped your partner formulate something difficult in a way that visibly
+          contributed to the team's performance.</span>
+      </div>
+      <div class="comm-body">
+        <div style="margin-bottom: 6pt; line-height: 1.5;">Look for: visible collaboration during prep time; a second
+          speaker building clearly on something the first struggled with; a debater helping their partner find language
+          or structure before a speech. Award when the help was meaningful (substantive, beyond mere reassurance) and
+          its impact on the team's performance was visible. Ask in the debrief if not fully observable.</div>
+        <div class="comm-not"><strong>Threshold:</strong> the help must have been substantive and have visibly affected
+          the team's performance.</div>
+      </div>
+    </div>
+
+    <!-- Teammate Solidarity -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Teammate Solidarity</span>
+        <span class="comm-short">You showed genuine support for your partner during a hard moment, without distancing
+          yourself.</span>
+      </div>
+      <div class="comm-body">
+        <div style="margin-bottom: 6pt; line-height: 1.5;">Look for: body language and verbal behavior toward a partner
+          after a difficult moment; a second speaker who picked up where a struggling first left off without implicitly
+          throwing them under the bus; any explicit statement of support visible to the room. The difficult moment must
+          have been real and the solidarity genuine rather than performed. If body language was ambiguous, ask in the
+          debrief: "was there a hard moment for your team today, and how did you respond to each other?"</div>
+        <div class="comm-not"><strong>Threshold:</strong> there must have been a genuinely hard moment. Award for real
+          solidarity under real pressure.</div>
+      </div>
+    </div>
+
+    <!-- Strategic Problem-Solving -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Strategic Problem-Solving</span>
+        <span class="comm-short">You demonstrated intelligent, adaptive problem-solving in the face of strategic
+          challenges in the round.</span>
+      </div>
+      <div class="comm-body">
+        <div style="margin-bottom: 6pt; line-height: 1.5;">Look for: a visible strategy adjustment that worked; a
+          debater who recognized a weakness in their own case and addressed it explicitly rather than papering over it;
+          coordinated strategic adaptation across both speeches. Award when both the problem-recognition and the
+          solution were present and effective.</div>
+        <div class="comm-not"><strong>Threshold:</strong> reacting to a problem is not enough. The response must show
+          genuine strategic intelligence that was shared by the two and discussed: both identifying and solving the
+          problem must be visible.</div>
+      </div>
+    </div>
+
+    <!-- ── GROWTH MENTALITY ── -->
+    <div class="comm-cat cat-growth" style="margin-top: 14pt;">&#127807; Growth Mentality <span class="cat-meta">4
+        commendations &mdash; use the debrief; always name the specific moment in feedback</span></div>
+
+    <!-- Applied Feedback -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Applied Feedback</span>
+        <span class="comm-short">You visibly tried to apply feedback from a previous round; imperfect application still
+          earns this.</span>
+      </div>
+      <div class="comm-body">
+        <div style="line-height: 1.5;">Evidence may come from direct comparison with a prior round, or from the
+          debater's own account in the debrief ("I tried X because you told me Y last time"). Award when the effort is
+          genuine and the application visible. Imperfect application still earns this; what matters is the genuine
+          attempt rather than the outcome.</div>
+      </div>
+    </div>
+
+    <!-- Out of Comfort Zone -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Out of Comfort Zone</span>
+        <span class="comm-short">You attempted something genuinely difficult for you and made a real go of it.</span>
+      </div>
+      <div class="comm-body">
+        <div style="line-height: 1.5;">Rewards the attempt, not the result. A debater who tried genuine embodiment for
+          the first time and partly succeeded deserves this more than one who performed comfortably within their
+          established range. Comfort zone is individual; use the debrief to identify what was genuinely challenging for
+          this person. Ask directly if needed.</div>
+      </div>
+    </div>
+
+    <!-- Tracking -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Tracking</span>
+        <span class="comm-short">You showed clear awareness of your own growth across debates: where you started, what
+          you've worked on, and where you're heading.</span>
+      </div>
+      <div class="comm-body">
+        <div class="comm-note">Distinct from Applied Feedback, which rewards the act of applying specific feedback in a
+          given round. Tracking rewards the broader self-awareness of one's development arc: the debater has a conscious
+          picture of their own progress over time, not just a response to the last thing they were told. Use the debrief
+          to surface this; it will rarely be visible from speeches alone.</div>
+        <div style="margin-bottom: 6pt; line-height: 1.5;">Evidence may come from the debrief: the debater can
+          articulate what they've improved since earlier rounds, name skills they are still actively working on, and
+          describe their own trajectory with accuracy. Ask directly: "how do you think you've grown as a debater over
+          these rounds?" Award when the self-picture is honest, specific, and matches your own observations.</div>
+        <div class="comm-not"><strong>Do not award</strong> for generic self-assessment ("I think I'm getting better
+          overall") or for accurate self-criticism without evidence of genuine reflection over time. The debater must
+          show they have been paying attention to their own development, not just responding to prompts.</div>
+      </div>
+    </div>
+
+    <!-- Resilience -->
+    <div class="comm-card">
+      <div class="comm-card-header">
+        <span class="comm-name">Resilience</span>
+        <span class="comm-short">You encountered a genuinely difficult moment and came out intact, or stronger.</span>
+      </div>
+      <div class="comm-body">
+        <div style="margin-bottom: 6pt; line-height: 1.5;">The difficult moment must have been real. Award for: a strong
+          attack responded to with a composed second speech; a delivery stumble overcome mid-speech; an unexpected move
+          handled with adaptability. Name the specific moment in feedback; this commendation must be concrete to be
+          useful.</div>
+        <div class="comm-not"><strong>Do not award</strong> for simply avoiding difficulties or for a round that went
+          smoothly throughout. Resilience requires there to have been something to be resilient about.</div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="doc-footer">The Inside Out Debate Format &mdash; 4 Teams &middot; 8 Speeches &middot; Commendation-Based
+      Evaluation</div>
+
+  </div>
+</body>
+
+</html>

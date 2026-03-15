@@ -84,7 +84,21 @@
       "WebFetch(domain:periodicos.uniso.br)",
       "Bash(for:*)",
       "Bash(done)",
-      "Bash(sudo tlmgr --repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2025/tlnet-final install csquotes 2>&1)"
+      "Bash(sudo tlmgr --repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2025/tlnet-final install csquotes 2>&1)",
+      "Bash(which brew 2>/dev/null && brew --version | head -1)",
+      "Bash(gh auth status 2>&1)",
+      "Bash(gh api repos/olaruandreidan/InsideOutDebateFormat/pages --method POST -f source[branch]=remake -f source[path]=/docs 2>&1)",
+      "Bash(gh api repos/olaruandreidan/InsideOutDebateFormat/pages --method POST --field \"source[branch]=remake\" --field \"source[path]=/docs\" 2>&1)",
+      "Bash(gh api repos/olaruandreidan/InsideOutDebateFormat/pages --jq '{url: .html_url, source_branch: .source.branch, source_path: .source.path, status: .status}')",
+      "Bash(gh api repos/olaruandreidan/InsideOutDebateFormat/pages --method PUT --field \"source[branch]=remake\" --field \"source[path]=/docs\" 2>&1)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://olaruandreidan.github.io/InsideOutDebateFormat/\")",
+      "Bash(gh api repos/olaruandreidan/InsideOutDebateFormat/contents/docs --jq '.[].name' 2>&1)",
+      "Bash(gh api \"repos/olaruandreidan/InsideOutDebateFormat/git/trees/7fd040030e139c39a9ef6e36806ef2e931bdbb6d?recursive=1\" --jq '.tree[].path' 2>&1 | grep -E \"docs|public\")",
+      "Bash(gh api repos/olaruandreidan/InsideOutDebateFormat/pages/deployments --jq '.[0]' 2>&1)",
+      "Bash(gh api repos/olaruandreidan/InsideOutDebateFormat/pages/builds/latest --jq '{status: .status, error: .error, commit: .commit}' 2>&1)",
+      "Bash(gh api repos/olaruandreidan/InsideOutDebateFormat/pages/builds --method POST 2>&1)",
+      "Bash(sleep 15 && gh api repos/olaruandreidan/InsideOutDebateFormat/pages/builds/latest --jq '{status: .status, error: .error}' && curl -s -o /dev/null -w \"%{http_code}\" \"https://olaruandreidan.github.io/InsideOutDebateFormat/\")",
+      "Bash(sleep 20 && gh api repos/olaruandreidan/InsideOutDebateFormat/pages/builds/latest --jq '{status: .status, error: .error}' && curl -s -o /dev/null -w \"%{http_code}\" \"https://olaruandreidan.github.io/InsideOutDebateFormat/\")"
     ]
   }
 }

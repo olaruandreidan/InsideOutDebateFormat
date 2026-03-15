@@ -1,0 +1,241 @@
+SOURCE ANNOTATIONS
+Andrei Dan Olaru — MA Thesis Proposal
+"Applying Transformative Game Design Theory to Competitive Debate"
+Uppsala University, 2026
+================================================================================
+
+
+1. Hugaas, K. H. (2024). Bleed and identity: A conceptual model of bleed and
+   how bleed-out from role-playing games can affect a player's sense of self.
+   International Journal of Role-Playing, 15, 9–35. [THEORETICAL FRAMEWORK]
+--------------------------------------------------------------------------------
+
+This journal article develops the most comprehensive conceptual model of bleed
+available in role-playing game scholarship. The paper defines bleed as the
+bidirectional spillover of mental and physical states, values, opinions, and
+similar personal material between player and character, a term coined by
+Emily Care Boss (2007) and refined here into a full theoretical
+framework. A central contribution is the bleed perception threshold: Hugaas
+argues that bleed occurs in all players, but whether the player notices it
+depends on whether it crosses their individual threshold, a distinction that
+decouples bleed's transformative effects from the player's conscious awareness
+of them. The paper distinguishes bleed-in (player to character) from bleed-out
+(character to player) and focuses particularly on bleed-out's effects on the
+player's sense of self. It synthesizes and extends earlier work into a taxonomy
+of types including emotional, procedural, memetic, ego, identity, emancipatory,
+and romantic bleed; identity bleed, where deeper self-schemas shift through
+character inhabitation, is one of Hugaas's original contributions.
+
+Bleed is the mechanism through which debate's documented transformative effects
+are produced and explained in my thesis. The three types deployed most directly
+are memetic bleed, the transfer of ideas and argumentative perspectives into the
+debater's worldview outside the round; procedural bleed, the transfer of
+rhetorical habits and communication skills into ordinary life; and emancipatory
+bleed, where students from marginalized backgrounds develop intellectual voice
+through the identity work of being taken seriously as arguers. The bleed
+perception threshold concept is useful for the thesis's empirical grounding:
+it explains why debaters often cannot articulate how debate changed them even
+as longitudinal studies document consistent attitudinal shifts. For how debate
+is broken, existing formats produce bleed without designing for it, leaving its
+direction and content to competitive pressures rather than transformative goals.
+For why the Inside Out format should work, its design addresses bleed at the
+level of each type: the character assignment shapes memetic bleed, the debrief
+converts bleed-out into conscious integration, and explicit identity-distance
+mechanisms protect emancipatory bleed from being overridden by competitive
+anxiety.
+
+
+
+
+================================================================================
+
+
+2. Daniau, S. (2016). The transformative potential of role-playing games:
+   From play skills to human skills. Simulation & Gaming, 47(4), 423-444.
+   [THEORETICAL FRAMEWORK]
+--------------------------------------------------------------------------------
+
+Drawing on a doctoral dissertation and ongoing action research, this
+peer-reviewed SAGE journal article develops the concept of the Transformative
+Role-Playing Game (TF-RPG): a tabletop RPG combined with a formal structured
+debrief session facilitated after play. Daniau's core theoretical contribution
+is that participants in RPGs simultaneously occupy four levels of reality
+(character, player, person, and human being) and that the transfer of in-game
+skills to lasting human competencies does not happen automatically through play
+alone. It requires structured reflective processing during which participants
+consciously map game experiences onto their own personal journeys. He builds a
+four-dimensional learning framework (knowing, doing, being, and relating)
+and argues that TF-RPGs uniquely engage all four, making them far more
+educationally powerful than conventional instruction. Without the debrief, play
+skills remain sealed inside the game. Daniau's four levels map the psychological terrain of what happens inside the
+transformational container described by Bowman et al. (2025): the container sets the conditions,
+but Daniau's debrief is the mechanism that converts bleed-out into lasting
+change. His framework also resonates with Kolb's (1984) experiential learning
+cycle, in which reflective observation and abstract conceptualization (the
+stages where raw experience becomes generalized learning) can only be
+activated by structured processing.
+
+For my claim that debate is a role-playing game, Daniau's taxonomy of
+role-playing types, which includes educational role-playing and simulation
+alongside more traditional RPG formats, positions debate naturally within a
+continuum of transformative role-playing activities. For how debate is broken,
+Daniau's insight that the debrief is what converts play skills into human skills
+becomes a pointed critique of current debate formats: the oral critique
+processes argumentative performance (the character and player levels) but
+entirely neglects the person and human being levels: there is no emotional
+processing, no de-roling, and no structured connection between in-round
+experience and the debater's developing self-concept. For why the Inside Out
+format should work, I design an explicit debrief structure informed by Daniau
+that addresses all four levels: it processes what arguments were made
+(character), how the debater performed (player), what it felt like to argue
+from that position (person), and what it means for how the debater understands
+disagreement and persuasion in life (human being).
+
+
+================================================================================
+
+
+3. Bowman, S. L. (2010). The functions of role-playing games: How participants
+   create community, solve problems, and explore identity. McFarland.
+   [THEORETICAL FRAMEWORK]
+--------------------------------------------------------------------------------
+
+This scholarly ethnography, based on participant-observer research and
+extensive qualitative interviews with nineteen role-players across tabletop,
+LARP, and virtual formats, identifies three core functions of role-playing:
+communal cohesion (role-playing creates group identity through shared narrative
+ritual), scenario-based problem solving (role-playing develops cognitive,
+interpersonal, cultural, and professional skills through structured enactment
+of complex situations), and identity alteration (role-playing provides a safe
+space to enact alternate personas). The book's most theoretically generative
+contribution for my purposes is Chapter 7's taxonomy of nine types of
+character-player relationships, among them the Fragmented Self, the Oppositional
+Self, the Experimental Self, and the Repressed Self, each describing a
+different way that a player's own psychological content is activated, magnified,
+or reorganized through the character. Central to all nine types is the concept
+of adopting a theory of mind: thinking as if one were someone else in a unique
+set of circumstances, which Bowman argues develops empathy and expands
+participants' understanding of perspectives beyond their own. This framework
+provides the foundational identity architecture that underpins the bleed
+taxonomy in Bowman et al. (2025): bleed can only flow between player and
+character because the character is built from the player's own psychological
+material: fragments, repressions, ideals, experiments. Without the nine-type
+identity structure, bleed would be a metaphor without a mechanism.
+
+For my claim that debate is a role-playing game, Bowman's framework is
+decisive: the debater's relationship to their assigned position is structurally
+identical to what she calls the Fragmented Self relationship. The debater does
+not pretend to believe the motion; they locate within themselves the fragments
+of belief, knowledge, and rhetorical disposition that can genuinely support it,
+then magnify those fragments into a complete epistemic stance. This is authentic
+identity work, not theatrical performance, and this is why debate produces
+real cognitive and attitudinal effects rather than merely simulated ones. For how debate is broken, the communal cohesion function reveals a
+double-edged dynamic: the tight sub-culture of competitive debate creates
+strong in-group identity, but when that identity becomes hierarchically
+structured around tournament success, the community begins to suppress rather
+than expand its members' identities, blocking the Experimental Self and
+Repressed Self relationships that would produce the most growth. For why the
+Inside Out format should work, I design character assignments that deliberately
+activate the Oppositional Self relationship: debaters are given not just a side
+but a specific persona whose perspective differs meaningfully from their own,
+and structured community practices strengthen the communal cohesion function
+without generating competitive hierarchy.
+
+
+================================================================================
+
+
+4. Hammer, J., To, A., Schrier, K., Bowman, S. L., & Kaufman, G. (2024).
+   Learning and role-playing games. In J. P. Zagal & S. Deterding (Eds.),
+   The Routledge Handbook of Role-Playing Game Studies (pp. 299–317).
+   Routledge. [THEORETICAL FRAMEWORK]
+--------------------------------------------------------------------------------
+
+This book chapter provides a comprehensive synthesis of educational theory
+as applied to role-playing games.
+The authors situate RPGs within four learning theory traditions (behaviorism,
+cognitivism, constructivism, and sociocultural theory) and argue that RPGs
+operate primarily through constructionist and sociocultural mechanisms: they
+are shared constructions of fictional reality requiring players to adopt and
+inhabit new roles within a community of practice. The chapter's central
+contribution is a taxonomy of five educational features distinctive to RPGs:
+character portrayal (enabling perspective-taking, experience-taking, and
+vicarious experience); manipulation of a fictional world through theorycrafting
+and authentic simulation; experiencing an altered sense of reality, which can
+either heighten the emotional stakes of fictional decisions or lower the stakes
+of realistic ones; supporting collaboration through shared imaginative spaces;
+and learning through making RPGs, including modding, designing new games, and
+using game creation as critical making practice. Research synthesized in the
+chapter shows that perspective-taking through character adoption increases
+empathy and reduces reliance on stereotypes, while experience-taking (deeper
+immersion where players simulate a character's subjective experience) produces
+temporary internalization of the character's personality traits and behavior.
+The chapter also identifies the debrief as the mechanism through which
+in-game experiences are processed for learning, distinguishing emotional,
+intellectual, and educational processing, and emphasizing that without
+structured reflection, learning remains locked inside the game experience.
+
+This chapter is the educational theory bridge between RPG scholarship and the
+thesis's claims about debate. The five educational features of RPGs map onto
+the debate encounter: switch-side argumentation is a form of character
+portrayal that cultivates perspective-taking comparable to role adoption in
+RPGs; the adversarial dialogue is a form of authentic simulation where
+debaters experiment with how argumentative positions hold up under pressure;
+team preparation is a form of collaborative shared imagination. Hammer et al.'s
+evidence that immersion depth correlates with internalization of
+character-perspective traits provides theoretical warrant for designing debate
+formats that deepen character identification rather than treating position
+assignment as a strategic convenience. Their debrief taxonomy clarifies why
+the oral critique falls short: because educational processing requires
+structured reflection connecting in-game experience to real-world
+understanding, a critique focused exclusively on argumentative performance
+does not activate the learning mechanisms the debate format has already
+engaged.
+
+
+================================================================================
+
+
+5. Deterding, S. (2017). Alibis for adult play: A Goffmanian account of
+   escaping embarrassment in adult play. Games and Culture, 13(3), 260–279.
+   [THEORETICAL FRAMEWORK]
+--------------------------------------------------------------------------------
+
+This journal article develops the concept of alibi from Erving Goffman's
+sociology of face-work and frame analysis. In Goffman's account, face is the
+positive social value a person claims for themselves in interaction; adult life
+is governed by norms of seriousness that make play a potential threat to face,
+liable to make the player appear childish or frivolous. Deterding argues that
+adult play persists because participants deploy alibis: motivational accounts
+that deflect negative inference from displayed behavior to a person's identity.
+The paper identifies two sources of alibi. First, motivational accounting
+systems, in which players reframe play through adult-appropriate purposes such
+as professional development, family engagement, or health: play becomes
+legitimate because it serves a serious end. Second, keyings or reframings, in
+which play is bracketed as non-serious through ironic, humorous, or
+self-distancing performance that signals the player's distance from the
+activity (deliberately bad karaoke, for instance, preemptively frames
+mediocre performance as intentional). Together these mechanisms create
+plausible deniability: the reason for engaging in the behavior is not
+"I want to play" but "I have good adult reasons for this activity" or
+"I am not really doing this seriously."
+
+In the thesis, alibi is the concept that explains why debate's epistemic
+character inhabitation is psychologically safe: debaters can argue for positions
+contrary to their own beliefs because the competitive frame provides alibi. The
+random side assignment is the mechanism: the reason a debater argues for a
+position is "I was assigned this side," not "I personally believe this," which
+deflects inference from displayed behavior to the game's structure. This is what
+Seo (2022) describes as debate providing a "sense of freedom" to "flirt with
+ideas, unencumbered by expectations of consistency or deep conviction." For how
+debate is broken, when competitive pressures make tournament success feel like
+a measure of personal worth, the alibi erodes: participants can no longer treat
+debate as just a game because the stakes have become real, and the protected
+space for identity risk-taking collapses. For why the Inside Out format should
+work, it calibrates alibi deliberately: enough protective bracketing for
+participants to take genuine identity risks, but with debrief practices that
+thin the alibi at specific points so bleed-out can enter conscious reflection
+rather than dissipate.
+
+
+================================================================================

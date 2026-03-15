@@ -98,7 +98,26 @@
       "Bash(gh api repos/olaruandreidan/InsideOutDebateFormat/pages/builds/latest --jq '{status: .status, error: .error, commit: .commit}' 2>&1)",
       "Bash(gh api repos/olaruandreidan/InsideOutDebateFormat/pages/builds --method POST 2>&1)",
       "Bash(sleep 15 && gh api repos/olaruandreidan/InsideOutDebateFormat/pages/builds/latest --jq '{status: .status, error: .error}' && curl -s -o /dev/null -w \"%{http_code}\" \"https://olaruandreidan.github.io/InsideOutDebateFormat/\")",
-      "Bash(sleep 20 && gh api repos/olaruandreidan/InsideOutDebateFormat/pages/builds/latest --jq '{status: .status, error: .error}' && curl -s -o /dev/null -w \"%{http_code}\" \"https://olaruandreidan.github.io/InsideOutDebateFormat/\")"
+      "Bash(sleep 20 && gh api repos/olaruandreidan/InsideOutDebateFormat/pages/builds/latest --jq '{status: .status, error: .error}' && curl -s -o /dev/null -w \"%{http_code}\" \"https://olaruandreidan.github.io/InsideOutDebateFormat/\")",
+      "Read(//tmp/**)",
+      "Bash(sort -k2 -hr)",
+      "Bash(cat:*)",
+      "Bash(brew install:*)",
+      "Bash(which pdftoppm:*)",
+      "Bash(pdfinfo:*)",
+      "Bash(mutool draw:*)",
+      "Bash(qpdf:*)",
+      "Bash(/opt/homebrew/bin/pdftotext \"/Users/andreiolaru/Documents/repos/MastersThesis/Sources/On debate/CADForumGaming2003.pdf\" - 2>/dev/null | head -100)",
+      "Bash(/opt/homebrew/bin/pdftotext \"/Users/andreiolaru/Documents/repos/MastersThesis/Sources/On debate/EJ1053419.pdf\" - 2>/dev/null | head -100)",
+      "Bash(/opt/homebrew/bin/pdftotext \"/Users/andreiolaru/Documents/repos/MastersThesis/Sources/On debate/EJ1053419.pdf\" - 2>/dev/null | tail -200)",
+      "Bash(/opt/homebrew/bin/pdftotext \"/Users/andreiolaru/Documents/repos/MastersThesis/Sources/On debate/CADForumGaming2003.pdf\" - 2>/dev/null | grep -A 300 \"Gamemaster: Is It You\")",
+      "WebFetch(domain:api.semanticscholar.org)",
+      "Bash(/opt/homebrew/bin/pdftotext \"/Users/andreiolaru/Documents/repos/MastersThesis/Sources/On debate/CommEd1999ForensicMeta.pdf\" - 2>/dev/null | head -60)",
+      "WebFetch(domain:www.tuni.fi)",
+      "Bash(/opt/homebrew/bin/pdftotext -f 299 -l 317 \"/Users/andreiolaru/Documents/repos/MastersThesis/Sources/On games/The Routledge Handbook of Role-Playing Game Studies_24_09_03_15_02_18.pdf\" - 2>/dev/null | head -200)",
+      "Bash(/opt/homebrew/bin/pdftotext \"/Users/andreiolaru/Documents/repos/MastersThesis/Sources/On games/The Routledge Handbook of Role-Playing Game Studies_24_09_03_15_02_18.pdf\" - 2>/dev/null | grep -n \"Learning and Role-Playing\\\\|LEARNING AND ROLE\" | head -5)",
+      "Bash(/opt/homebrew/bin/pdftotext \"/Users/andreiolaru/Documents/repos/MastersThesis/Sources/On games/The Routledge Handbook of Role-Playing Game Studies_24_09_03_15_02_18.pdf\" - 2>/dev/null | sed -n '13380,13700p')",
+      "Bash(/opt/homebrew/bin/pdftotext \"/Users/andreiolaru/Documents/repos/MastersThesis/Sources/On games/The Routledge Handbook of Role-Playing Game Studies_24_09_03_15_02_18.pdf\" - 2>/dev/null | sed -n '13700,14000p')"
     ]
   }
 }

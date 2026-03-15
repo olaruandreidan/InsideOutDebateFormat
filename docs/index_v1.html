@@ -314,24 +314,6 @@
       font-size: 0.7rem;
     }
 
-    .speech-interstitial {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      padding: 4px 11px;
-      border-radius: 20px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      font-size: 0.67rem;
-      color: var(--light);
-      font-style: italic;
-    }
-
-    .speech-interstitial .intersticial-icon {
-      font-style: normal;
-      font-size: 0.75rem;
-    }
-
     .round-label {
       width: 100%;
       font-size: 0.62rem;
@@ -1526,35 +1508,32 @@
       <div class="card card-speech">
         <h2><span class="num">03</span> Speech Order</h2>
         <div class="speech-flow">
-          <div class="round-label">Opening — Subject Sets the Stage</div>
-          <div class="speech-chip s">S0</div>
-          <div class="round-label">Round 1 — Value Defence</div>
+          <div class="round-label">Round 1 — Opening</div>
           <div class="speech-chip a">A1</div>
           <span class="speech-arrow">→</span>
           <div class="speech-chip b">B1</div>
           <span class="speech-arrow">→</span>
           <div class="speech-chip c">C1</div>
           <span class="speech-arrow">→</span>
-          <div class="speech-interstitial"><span class="intersticial-icon">🤝</span> The Huddle · 10 min — Subject questions any Defender team</div>
-          <div class="round-label">Round 2 — Rebuttal</div>
+          <div class="speech-chip s">S1</div>
+          <div class="round-label">Round 2 — Closing</div>
           <div class="speech-chip a">A2</div>
           <span class="speech-arrow">→</span>
           <div class="speech-chip b">B2</div>
           <span class="speech-arrow">→</span>
           <div class="speech-chip c">C2</div>
           <span class="speech-arrow">→</span>
-          <div class="speech-interstitial"><span class="intersticial-icon">⏱</span> 2 min silent thinking</div>
-          <span class="speech-arrow">→</span>
           <div class="speech-chip s">S2</div>
         </div>
         <div class="speech-notes">
           <div class="speech-note defenders">
             <strong>Value Defenders (A, B, C)</strong>
-            Argue for their value's relevance, construct a specific decision, and rebut other defenders. Any debater may signal to ask a brief <strong>Point of Information</strong> during any speech.
+            Argue for their value's relevance, construct a specific decision, and rebut other defenders.
           </div>
           <div class="speech-note subject">
             <strong>Subject Team (S)</strong>
-            S0 opens by explaining why the dilemma is <em>genuinely hard</em> — all three values are relevant and there is no obvious answer. S2 synthesises all arguments and delivers a <em>final specific decision</em> (a concrete course of action).
+            S1 picks a <em>preliminary</em> decision; S2 delivers the <em>final</em> decision — both must engage with
+            all arguments.
           </div>
         </div>
       </div>
@@ -1577,14 +1556,10 @@
             <div class="motion-text"><strong>Three Values</strong> — The beliefs of the Subject, each defended by a
               Value Defender team</div>
           </div>
-          <div class="motion-el">
-            <div class="motion-icon">📖</div>
-            <div class="motion-text"><strong>Subject Character</strong> — Includes a longer list of personal beliefs and past decisions to flesh out the character's voice and perspective</div>
-          </div>
         </div>
         <div class="motion-note">
           ⚡ Value Defenders are <strong>not</strong> told what decision to argue for — they must construct their own
-          position based on their assigned value. Defenders address the Subject in the <strong>second person</strong>: "you, as the Subject, should…"
+          position based on their assigned value.
         </div>
       </div>
 
@@ -1595,7 +1570,7 @@
           <div class="eval-block">
             <h3><span class="eval-icon">🏅</span> Commendations</h3>
             <div class="comm-desc">The <strong>Evaluator</strong> awards commendations from a structured list across
-              five categories: Style, Strategy, Content, Fairplay, and Growth Mentality. Commendations are awarded <strong>in private</strong> — after the debate, the Evaluator approaches each team separately. A selection:</div>
+              five categories: Style, Strategy, Content, Fairplay, and Growth Mentality. A selection:</div>
             <div class="commendation-tags">
               <span class="comm-tag">Believable Passion</span>
               <span class="comm-tag">Witty Solution</span>
@@ -1719,7 +1694,6 @@
                 dilemma.</li>
               <li>Propose a <strong>specific decision</strong> that best honours your value — argue why it is right and
                 leads to good outcomes, especially through the lens of your value.</li>
-              <li>Address the Subject in the <strong>second person</strong>: "you, as the Subject, should…" — speak directly to their situation and values, not about them in the abstract.</li>
               <li>Engage with other Defenders' <strong>values</strong>: show yours is more important, more relevant to
                 the dilemma, or safer to follow.</li>
               <li>Engage with other Defenders' <strong>decisions</strong>: attack, support (claiming it maximises your
@@ -1733,7 +1707,6 @@
           <div class="instr-block instr-subject">
             <h3><span class="instr-icon">🎭</span> The Subject</h3>
             <ul>
-              <li><strong>S0 — Opening:</strong> explain why this dilemma is <strong>genuinely hard</strong> — all three values are relevant and there is no obvious answer. Do not lean toward any decision yet.</li>
               <li><strong>Enter without an opinion.</strong> You are completely torn — you are here to listen and be
                 persuaded, not to argue.</li>
               <li>Listen as if you <em>are</em> the Subject: <strong>let the speeches move you</strong> as they would
@@ -1744,8 +1717,8 @@
                   personal thoughts</strong>.</li>
               <li><strong>Collaborate quietly</strong> with your partner: you are both embodying the same person, not
                 competing.</li>
-              <li>During <strong>the Huddle</strong>, you may ask any Defender team direct questions to probe or clarify their position.</li>
-              <li><strong>S2 — Final decision:</strong> synthesise all arguments and deliver a <strong>specific decision</strong> (a concrete course of action) — not merely the name of the value you found most important.</li>
+              <li>In your speeches, share which decision you are leaning toward and <strong>why</strong>, weighing all
+                arguments to the extent they were persuasive.</li>
             </ul>
           </div>
 
@@ -1763,7 +1736,7 @@
                 difficult. Share your view and add your own observations.</li>
               <li>Ask each team what they want to <strong>do better next time</strong>, and give concrete advice on how
                 to get there.</li>
-              <li>Award commendations <strong>in private</strong>: approach each team separately after the public debrief to share their commendations personally.</li>
+              <li>Close by <strong>awarding commendations</strong> to each player.</li>
             </ul>
           </div>
 

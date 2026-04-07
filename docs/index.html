@@ -1099,7 +1099,7 @@
 
     .ritual-cols {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       gap: 14px;
     }
 
@@ -1160,6 +1160,15 @@
 
     .ritual-in .ritual-step-num { background: var(--value-a); }
     .ritual-out .ritual-step-num { background: var(--subject); }
+
+    .ritual-calling {
+      background: var(--value-b-bg);
+      border-left: 3px solid var(--value-b);
+    }
+
+    .ritual-calling h3 { color: var(--value-b); }
+
+    .ritual-calling .ritual-step-num { background: var(--value-b); }
 
     .ritual-step-body {
       color: var(--mid);
@@ -1726,6 +1735,7 @@
                 value), or endorse it with addendums — choose your positioning wisely.</li>
               <li>Your core mission: <strong>define what honouring your value looks like</strong> in practice, and
                 persuade the Subject it is the right path.</li>
+              <li>To offer a <strong>Point of Information</strong>, stand and say <em>"Point"</em> during any Defender speech (not S0 or S2). The speaker accepts or declines with <em>"yes"</em> or <em>"no."</em> A POI must be a single question or brief statement — no longer than 15 seconds.</li>
             </ul>
           </div>
 
@@ -1733,6 +1743,7 @@
           <div class="instr-block instr-subject">
             <h3><span class="instr-icon">🎭</span> The Subject</h3>
             <ul>
+              <li>Before the round, read the <strong>full character sheet</strong> — the character's personal beliefs and past decisions — so that both S0 and S2 feel grounded in their specific voice, not just the dilemma.</li>
               <li><strong>S0 — Opening:</strong> explain why this dilemma is <strong>genuinely hard</strong> — all three values are relevant and there is no obvious answer. Do not lean toward any decision yet.</li>
               <li><strong>Enter without an opinion.</strong> You are completely torn — you are here to listen and be
                 persuaded, not to argue.</li>
@@ -1784,6 +1795,31 @@
                 <br><br>Subject: <em>"I am [character name]. I am open to being moved."</em>
                 <br>Each Defender: <em>"I believe in [value]. I will argue from that belief."</em>
               </div>
+            </div>
+          </div>
+
+          <!-- Calling the Floor -->
+          <div class="ritual-block ritual-calling">
+            <h3><span class="instr-icon">→</span> Calling the Floor</h3>
+            <div class="ritual-step">
+              <div class="ritual-step-num">S0</div>
+              <div class="ritual-step-body"><strong>Subject Opening</strong> — Evaluator: <em>"[Character name] faces a choice. [Names], the floor is yours."</em></div>
+            </div>
+            <div class="ritual-step">
+              <div class="ritual-step-num">A · B · C</div>
+              <div class="ritual-step-body"><strong>Each Defender speech</strong> — Evaluator: <em>"[First name], speak for [Value]."</em> Debater rises: <em>"I will."</em> Then begins.</div>
+            </div>
+            <div class="ritual-step">
+              <div class="ritual-step-num">🤝</div>
+              <div class="ritual-step-body"><strong>The Huddle</strong> — Evaluator: <em>"The Huddle begins. [Character name], what do you need to know?"</em></div>
+            </div>
+            <div class="ritual-step">
+              <div class="ritual-step-num">⏱</div>
+              <div class="ritual-step-body"><strong>Silence</strong> — Evaluator: <em>"[Character name] takes a moment. Silence."</em> No response. Room waits.</div>
+            </div>
+            <div class="ritual-step">
+              <div class="ritual-step-num">S2</div>
+              <div class="ritual-step-body"><strong>Subject Final Decision</strong> — Evaluator: <em>"[Character name] has heard everyone. [Names], carry the decision."</em></div>
             </div>
           </div>
 

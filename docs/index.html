@@ -374,6 +374,41 @@
       margin-bottom: 3px;
     }
 
+    /* TIMING */
+    .card-timing::before {
+      background: var(--light);
+    }
+
+    .timing-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .timing-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .timing-item:last-child {
+      border-bottom: none;
+    }
+
+    .timing-label {
+      font-size: 0.8rem;
+      color: var(--mid);
+    }
+
+    .timing-value {
+      font-size: 0.75rem;
+      color: var(--light);
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 500;
+    }
+
     /* MOTION */
     .card-motion::before {
       background: var(--dark);
@@ -1567,6 +1602,29 @@
         </div>
       </div>
 
+      <!-- TIMING -->
+      <div class="card card-timing">
+        <h2><span class="num">04</span> Timing Guide</h2>
+        <div class="timing-list">
+          <div class="timing-item">
+            <div class="timing-label"><strong>Speaking times</strong></div>
+            <div class="timing-value">5 minutes per speech</div>
+          </div>
+          <div class="timing-item">
+            <div class="timing-label"><strong>Prep time</strong></div>
+            <div class="timing-value">30 min (beginners/high school) · 15 min (experienced adults)</div>
+          </div>
+          <div class="timing-item">
+            <div class="timing-label"><strong>Evaluator oral critique</strong></div>
+            <div class="timing-value">10 minutes</div>
+          </div>
+          <div class="timing-item">
+            <div class="timing-label"><strong>Evaluator-led debrief</strong></div>
+            <div class="timing-value">15 minutes</div>
+          </div>
+        </div>
+      </div>
+
       <!-- MOTION -->
       <div class="card card-motion">
         <h2><span class="num">02</span> The Motion</h2>
@@ -1769,7 +1827,9 @@
               <li><strong>Seating:</strong> Arrange chairs so the Inner Voices and the Subject face each other. Inner Voices may speak seated or standing, from their place. So may the Subject. The Evaluator sits somewhere outside the main circle — present but unobtrusive.</li>
               <li>You are the <strong>facilitator</strong> of this event — your primary job is for everyone to feel safe and to play to grow.</li>
               <li>Feel free to <strong>intervene</strong> when it feels natural: encourage players when needed, gently redirect if someone is making others uncomfortable, and invite players out of their comfort zone when you sense it would help.</li>
-              <li>Approach the round as an <strong>educator</strong> helping each player grow, not as a judge declaring
+              <li>After the debate ends, <strong>first facilitate a brief debrief</strong> stemming from the bleed check moment, then transition to the oral critique.</li>
+              <li><strong>Prepare debrief questions</strong> whilst others are preparing for the debate. These should focus on <strong>meaningful emotional growth and acceptance of others' realities</strong>, not on skill critique. Explore how debaters would act in a similar scenario and what they value. Anchor questions: <em>"How important are these values for you?"</em> and <em>"Were you in a similar scenario, what other values would influence you?"</em></li>
+              <li>Approach the oral critique as an <strong>educator</strong> helping each player grow, not as a judge declaring
                 a winner.</li>
               <li>Open with a <strong>narrative of the debate</strong> from your outside perspective: what each team did
                 and how it all unfolded.</li>
@@ -1840,7 +1900,7 @@
             </div>
             <div class="ritual-step">
               <div class="ritual-step-num">3</div>
-              <div class="ritual-step-body"><strong>Bleed check</strong> — Everyone states their real name and how they feel right now. The floor is then open for anyone who wishes to share more.</div>
+              <div class="ritual-step-body"><strong>Bleed check</strong> — Everyone states their real name and how they feel right now. The Evaluator then leads a brief debrief.</div>
             </div>
           </div>
 

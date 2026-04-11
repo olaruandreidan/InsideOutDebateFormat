@@ -1,0 +1,142 @@
+Playtest report: 
+
+I held the second playtest together with 7 veteran debaters good friends. 
+
+We held the playtest at the apartment that part of us commonly rent and share with other nerds for the single purpose of playing TTRPGs there. Because of that the main room is dominated by this hilariously humongous sort-of-round table. An interesting note is that we held the debate seated at it, which a player mentioned it created a council-feel to the whole game, as opposed to a regular debate in which the seating mimics (to the extent to which a classroom can) parliamentary discourse, and thus feels profoundly more impersonal. 
+
+The playtest started with me briefing people on the format. Then we played a round together. This time I was not the evaluator, but I played as the second speaker of the A Value Defender team.
+
+BRIEF
+
+The brief took about 40 minutes, similar to how much it took with highschoolers. The fact that it required that amount of time even with people used to parsing 400 page rulebooks speaks to the extent to which the design differs from traditional formats. The way in which the "judge" was divided in two individuals was noted as interesting by some players during this time. The role of the Subject was by far the hardest for players to wrap their mind around, especially the purpose of the first Subject speech. To be honest, I had at the point of writing the rules a hard time figuring out what should I instruct the Subject to do during this speech. I wrote vague guidelines and this showed, but in the end I do believe it was for the better: I let the player decide what would be most interesting and useful (and in that player I was fortunate that the role was drawn by a player that dabbled a lot in game design, is a professional L&D expert, was a trainer for many years and is a very veteran roleplayer). 
+
+RITUALS
+
+The roll-in rituals were experienced as being cringe, and they were surely too lengthy. I think they should be replaced by just a small introduction held by the evaluator, and then some very short gesture/chant that everyone does in unison. This is aligned to how regular debates look like: the judge makes an introduction and then everyone bangs the table vigurously and then the debate starts. 
+
+One player noted that these rituals recognise more the efort put in by the judge (in this case both the Subject and the Evaluator).
+
+The calling rituals were nice however. 
+
+The roll-out rituals were too lengthy, and became cringe too, but one player noted that they liked the way in which people thank everyone. I think that it could all be replaced with a process of everyone handshaking everyone and just saying a small phrase whilst they do this based on their role. 
+
+The call ritual for the Value Defenders should also not mention their name. 
+
+S1
+
+What he ended up doing was an intersting role-play heavy speech (they even put on a soundtrack), in which he fleshed out the motion (gave many fluff details that further emotionally contextualized the scenario). He then tried to explain how they care about the 3 values, which in a way exposed to some extent some nuanced biases that bled from the player to the character. It was later noted by that player and several others that this institutionalises the already existing practice of debaters to "play for the judge", to attempt to exploit said biases. 
+
+This led me thinking that the S1 speech, although I was skeptical at first, does hold a great deal of value. I think the fleshing out of the scenario is valuable, I think that giving a floor for exposing biases is valuable, I just need to construct some language that makes it clearer to players what they ought to do. 
+
+First Round of Value Defenders
+
+All players immediately took a roleplayish stance. They spoke directly to the Subject, addressing him by name and in the second person and looking at him, deciding to adopt speech patterns that mimiced those displayed by the Subject during their speech. They also took the liberty to add small fluff details to the motion, to worldbuild. 
+
+I feel this is very promising, but it also scares me. Giving players official worldbuilding powers may lead unexperienced players to essentially twist the debate in a direction that may not be useful. However, adding color to the broad facts of the scenario does lend to a more realistic simulation of how people actually argue and discuss, it raises their ability to become emotionally engaged and heightens immersion. 
+
+It is interesting also how even super veteran debaters struggled especially in this first round to both appeal to emotion, and also to try to argue particularly for their value. What they focused on is on figuring out interesting and nuanced Solutions and then arguing why it is particularly practical and useful, very utilitarian and cerebral overall. Except for the last team that decided to appeal exactly to emotion, and in a way this set the tone interestingly for the second half. 
+
+The Value Defenders started referring to each other as "the other inner voices". That is very interesting, and it might mean that it is a more natural name than "Value Defenders". I plan on switching to it.
+
+The Huddle 
+
+The huddle was very interesting. Everyone said that they find it very very fun. The Subject player later expressed that for them it was a great evrika moment when they realised that they can ask particular value defenders to have very specific conversations with each other. It is to be noted however that the player that is the Subject does have meeting facilitation experience. 
+
+During the huddle the Subject first of all went through each team and asked them to clarify things that the Subject was still a bit confused about. Then he asked them to further expand on some argument that he found particularly interesting. Then he went on to ask value defenders to directly clash on things that he found to be relevant to be resolved.
+
+At a certain point he did run a bit out of steam, out of ideas of interesting and relevant things to ask. In that sense I believe that were there two be two players on that team, this would have happened less. Still, 10 minutes did feel a bit too much, I would still cut it down to 8 minutes.
+
+It really felt as a person asking counsellors or their inner voices to out-loud resolve their differences.
+
+During the feedback part players said that although the huddle exists, they would have liked POIs to exist as well. I agree. 
+
+Second Round of Value Defenders
+
+This showed during the next speeches as it exacerbated something that already started during the first round, and that is a slow drift towards consensus over what decision should be taken. In that sense this second round was much less about the practicalities of what decision is best, and much more about arguing on what is the dominant lens through which the decision should be taken. 
+
+This is very interesting, and my intuition is that with other groups something similar might happen, not only with veteran debaters.
+
+I must admit that during my own speech I also pivoted towards consensus on the right Solution. I did this because I found it interesting and quirky, something that regular debate never allows me to do and I wanted to see how it feels, to showcase that the rules allow it, to see if I can deliberately fish for the "Brave Pivot" commendation, to spend my time flexing how I can argue for my value as being dominant without resorting to practicalities.
+
+I found it interesting that I felt little need to rebut the points brought by others, arguing for my lens and shifting focus felt like a more natural and persuasive strategy, whilst accepting points made by fellow Value Defenders, or even allowing myself to be persuaded to adjust the team's stance based on the points made by them. 
+
+This connects to a point brought later by a fellow player, that in this format to out-right attack what others said "feels wrong", disrespectful and unnecessary, and that it does require of you tact in how you actually pursue diminishing the relevance of their points.
+
+Second Subject speech 
+
+The player decided to structure their speech quite a lot like a regular debate adjudication speech. It is to be noted that he is also a veteran debate judge. He explained what he understood each Value Defender team tried to argue and how convincing each of these was, then expressed the solution that he reached and what factored most in his decision. In that sense he expressed explicitly which value he felt was most important, although the instructions did not specify he needs to do that. I am not sure that for someone with less debate judge experience this would have also happened. He later said that it felt a lot like in the first speech he was more in an RP mindframe, but as the debate progressed he transitioned more and more to feeling and thinking like a debate judge. 
+
+I believe that my intention was for this speech to be a bit more RP-ish too, the Subject talking a bit more about how something -felt- persuasive or not, being a bit less analytical. I do not know if adjusting the instructions is needed. 
+
+The Evaluator Speech
+
+The evaluator gave us all some rather insightful feedback on how we each could have been more persuasive for a regular person. This is interesting especially since she then said it was very difficult to find feedback to give, because the format does not specify so specifically towards what educational objectives should the feedback be given. 
+
+This is a point that maybe I should think about more, about the overall wrapping of the game - traditional debate exists in a complex and organic constellation of clubs and competitions, with most people going frequently to practice at a local club and then gathering in larger events from all over the country or the world. Most of these people tell themselves they do debate to learn (critical thinking, public speaking etc) and trainers / judges tell themselves they do this to give back and teach others useful skills. In practice tho to me it feels that the circuit has a life of its own, and people put in effort into the game on either end mostly for the social reputation that it yields. 
+
+How should the format be played? Who should be the facilitators of these? Who is it for? What should it help them achieve?
+
+In that sense, another interesting point that was brought is that a structure that allows the evaluator to be more involved, to actively facilitate and give feedback real time and to encourage people would be useful. I tend to agree. Maybe renaming the evaluator to being "the facilitator" would help in that. 
+
+The evaluator also said that giving commendations was difficult, and that she believes in a larger circuit it might be easier: she would not stress about giving everyone a commendation, and would give people commendations only for really outstanding achievements. She however said that once memorising the commendations it would become a lot easier and certainly more organic than the weird numeric quantification of speech persuasiveness that most debate formats require of judges.
+
+On bleed 
+
+I decided to skip the final bleed-releasing ritual. I thought it would be awkward, but it was interesting that even without it, one of the players started during a small hangout-ish intermission to share that the debate hit uncannily close to home, as on the way to the session a family member asked to testify for them in court, and he felt it to be quite wrong of them to do so.
+
+On Commendations 
+
+There was substantial discussion about the Commendation system. The more "gamer" of the players expressed that it scratches a lot the "make a build" itch, but that they feel the commendations should come with some bonuses as well. They also felt that it might be dangerous to have people start farming them, choosing to play in weird ways just to get a very particular commendation to "finish" a build. 
+
+The feedback part
+
+Most players expressed the game being quite fun, and believing it would have been fun to play even in a less hangout-with-friends circumstance. 
+
+It was interesting however that certain players did express more enthusiasm of playing this some more than others. Women, and people that might have been less successful as debaters, said that they prefer this format a lot more. Men, especially those that used to be super successful debaters, said that they find and would have felt this even more when they used to be active debaters, this format a lot less exhilarating. "There are few things more ego-boosting than the feeling of total mind-domination that you get when you win a debate, and this cannot give you that". 
+
+One interesting thing everyone agreed with is that this is much much less anxiety inducing than regular debate, but it still offers a structure for an interesting conversation, unlike real like in which open conversations push people towards fighting over talking space. 
+
+On the point of anxiety, one player noted that this may also be due to the format being less established - people derive less worth from winning. On that another player said that maybe it would be better to wholeheartedly transition the rules towards the whole thing being like "an impro theatre play". So more wholeheartedly just a roleplaying game, without any sort of performance component. Another player however said that there is some value in the fact that you always feel you are progressing, at least a bit, with every debate. 
+
+Some more on commendations
+
+I do feel that in every debate you should feel you are progressing at least a bit, but that when you do really well you are progressing much more. 
+
+And that you can get punished somehow from being an asshole, for not being fairplay, for deliberately choosing to speak in a way that is unpersuasive etc. 
+
+--------------------------------
+
+Design changes: 
+
+Value defenders are now called Inner Voices
+
+S1 instructions - Hold a monologue, as if you would be the character, alone in a place of comfort, speaking to themselves about the dilemma. Try your best to express why is this dilemma truly difficult, and how much taking a good decision is important to you. Try to explain why each of the values is relevant to this decision, and how you cannot really disregard any of them. Do not lean toward any decision yet.
+
+Huddle - shorter by 2 min
+
+S2 instructions - synthesise all arguments and deliver a decision over a specific solution (a concrete course of action from those presented by the Value Defenders). Explain how everything in the debate contributed to this decision, do not leave anything important out. Say why you feel this is the right decision, and how do you now feel about making it. 
+
+Seating instructions - try to arrange chairs so that the Voices and the Subject look at each other. Voices speak from where they seat, standing or seated. So does the Subject. The Evaluator is somewhere out of sight, out of mind. 
+
+Rituals: 
+Roll in - you are here to decide together said by evaluator; answer - yes we are + clapping
+calling defender - Voice, speak for [Value]. Speech starts with "I will" 
+Rolling out - Defender says "then you for listening to me", Subject says to defenders "thank you for speaking your truth", and to evaluator "thank you for listening to me"
+Bleed check - everyone answers with their real name and how they feel, and then the evaluator leads the debrief
+
+*Specific times: 
+- speaking times are set at 5 minutes
+- prep time is set at 30 minutes for beginners / highschoolers and 15 minutes for experienced adults
+- evaluator oral critique - 10 minutes
+- evaluator led debrief - 15 minutes
+
+Commendations - 
+- everyone should get at least one T1 commendation each speech (for higher level this does not lead to much) 
+- judges have a limited pool of T2 / T3 commendations to offer | this is given in secret 
+- we can play with commendations. Some judges are the only ones that can offer certain commendations. Some rounds or competitions may also be special moments in which a certain commendation is being awarded. 
+
+Evaluator instructions: 
+- you are the facilitator of the entire event and it is your job for everyone to feel safe, to play to grow
+- feel free to intervene when you feel it is natural. Encourage people when you think it is necessary. Have them tone down when they may make other un. Encourage them to get out of their comfort zone when you believe it is in their best interest. Be human and establish a connection of trust and growth with the others. 
+- after the debate ends, first of all facilitate a debrief derived from the bleed check question, and then transition to the oral critique
+*- to prepare whist others are preparing for the debate a list of potential debrief questions. Debrief questions should not focus, as the oral critique, on the skill growth of the debaters, but more rather on giving them a platform for meaningful emotional growth and acceptance of the realities of others. It should explore how the debaters would act in a similar scenario and their own values or opinion on the values explored in the debate. When in doubt, just use the following 2 questions: "How important are these values for you?" | "Were you in a similar scenario, what other values would influence you?" 

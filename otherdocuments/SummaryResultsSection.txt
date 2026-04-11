@@ -1,0 +1,33 @@
+
+The answer to the question: 
+
+"How can the application of transformative game design theory inform the creation of a competitive debate format that manages to elevate its transformative potential (improved critical thinking, improved discourse, self empowerment etc) by addressing the issues of value convergence, discourse speed and community hierarchy?" 
+
+can be broken down in two: 
+- can a method of application of this theory to this problem be exemplified? 
+- does that method yield expected results? This question is important, because you can apply to absurd results any theory to any problem. One can apply separation of powers political philosophy theory to baking cookies, but this author is doubtful they will end up tasty
+
+To the first question, the paper itself, by describing in detail the method through which the designed game was achieved, starting from a theoretical analysis and going through steps informed by best practices design theory, is in itself the answer to the question it postulates. Paperception. 
+
+To the second the scope of answering it is to demonstrate proof of concept, that the design is worth investigating some more in the future. It is important to note that the data collected cannot possibly provide proof of the game's effectiveness. What it can however is to provide clues of said effectiveness or of the opposite, clues from which an educated infference can be attempted. 
+
+In particular we need to see if this game is effective in 5 fields: 
+- at remaining an entertaining, appealing and engaging enough game to have hope that it could build around it the same type of long term engagement that standard debate does
+
+- at retaining a relevant amount of pressure-creating mechanisms that push people to play to grow
+
+- at directing said growth in more useful directions. In particular in allowing people to grow towards more persuasive communication, whilst keeping them growing their critical thinking skills, team-work, research etc. to some extent
+
+- at growing around it a less toxic and competitive community
+
+- at leading people more towards the epistemic humility that debate aims to grow
+
+Annex G lists a number of clues, play behaviours or group debrief answers, together with what they point towards and why and the extent to which they do. The list notes what clues I have independently decided to wait for, and what other elements I have discovered during observation might constitute relevant clues.
+
+Clues: 
+
+[create annex]
+
+I argue that they do reach the threshold of "proof of concept". 
+
+[create argumentation]

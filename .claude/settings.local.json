@@ -119,7 +119,13 @@
       "Bash(/opt/homebrew/bin/pdftotext \"/Users/andreiolaru/Documents/repos/MastersThesis/Sources/On games/The Routledge Handbook of Role-Playing Game Studies_24_09_03_15_02_18.pdf\" - 2>/dev/null | sed -n '13380,13700p')",
       "Bash(/opt/homebrew/bin/pdftotext \"/Users/andreiolaru/Documents/repos/MastersThesis/Sources/On games/The Routledge Handbook of Role-Playing Game Studies_24_09_03_15_02_18.pdf\" - 2>/dev/null | sed -n '13700,14000p')",
       "Bash(gh api:*)",
-      "Bash(gh repo:*)"
+      "Bash(gh repo:*)",
+      "WebFetch(domain:www.assemblyai.com)",
+      "Bash(pip3 list:*)",
+      "Bash(pip3 install:*)",
+      "Bash(ASSEMBLYAI_API_KEY=31e785ba92e342dfb1b057867367f8aa python3 transcribe.py)",
+      "Bash(python3 -c \"import assemblyai as aai; print\\([x for x in dir\\(aai.SpeechModel\\) if not x.startswith\\('_'\\)]\\)\")",
+      "Bash(python3)"
     ]
   }
 }

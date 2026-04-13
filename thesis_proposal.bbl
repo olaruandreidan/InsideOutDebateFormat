@@ -1748,6 +1748,88 @@
       \field{pages}{622\bibrangedash 635}
       \range{pages}{14}
     \endentry
+    \entry{montola2015steering}{online}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=074da2e44888e0ebfb2149ea9edd6be4}{%
+           family={Montola},
+           familyi={M\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1679e5176b59be4076bbd48d3978f722}{%
+           family={Stenros},
+           familyi={S\bibinitperiod},
+           given={Jaakko},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c65bee714c78463e98b13957ee187b8}{%
+           family={Saitta},
+           familyi={S\bibinitperiod},
+           given={Eleanor},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{713b3db00be2327090255d134f7bc106}
+      \strng{fullhash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{fullhashraw}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{bibnamehash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{authorbibnamehash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{authornamehash}{713b3db00be2327090255d134f7bc106}
+      \strng{authorfullhash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{authorfullhashraw}{7a6077df3bd41648b3348dee2b7de125}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Art of Steering: Bringing the Player and the Character Back Together}
+      \field{urlday}{19}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nordiclarp.org/2015/04/29/the-art-of-steering-bringing-the-player-and-the-character-back-together/
+      \endverb
+      \verb{url}
+      \verb https://nordiclarp.org/2015/04/29/the-art-of-steering-bringing-the-player-and-the-character-back-together/
+      \endverb
+    \endentry
+    \entry{nguyen2020games}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=73273e00fa56a74d86132765ba45c973}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={C.\bibnamedelimi Thi},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{fullhash}{73273e00fa56a74d86132765ba45c973}
+      \strng{fullhashraw}{73273e00fa56a74d86132765ba45c973}
+      \strng{bibnamehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authorbibnamehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authornamehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authorfullhash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authorfullhashraw}{73273e00fa56a74d86132765ba45c973}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Games: Agency as Art}
+      \field{year}{2020}
+    \endentry
     \entry{pohjola2015steering}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4e5d905fb97fc844204c7e38d27fdfea}{%
@@ -4162,6 +4244,88 @@
       \field{year}{2011}
       \field{pages}{622\bibrangedash 635}
       \range{pages}{14}
+    \endentry
+    \entry{montola2015steering}{online}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=074da2e44888e0ebfb2149ea9edd6be4}{%
+           family={Montola},
+           familyi={M\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1679e5176b59be4076bbd48d3978f722}{%
+           family={Stenros},
+           familyi={S\bibinitperiod},
+           given={Jaakko},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c65bee714c78463e98b13957ee187b8}{%
+           family={Saitta},
+           familyi={S\bibinitperiod},
+           given={Eleanor},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{713b3db00be2327090255d134f7bc106}
+      \strng{fullhash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{fullhashraw}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{bibnamehash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{authorbibnamehash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{authornamehash}{713b3db00be2327090255d134f7bc106}
+      \strng{authorfullhash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{authorfullhashraw}{7a6077df3bd41648b3348dee2b7de125}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Art of Steering: Bringing the Player and the Character Back Together}
+      \field{urlday}{19}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nordiclarp.org/2015/04/29/the-art-of-steering-bringing-the-player-and-the-character-back-together/
+      \endverb
+      \verb{url}
+      \verb https://nordiclarp.org/2015/04/29/the-art-of-steering-bringing-the-player-and-the-character-back-together/
+      \endverb
+    \endentry
+    \entry{nguyen2020games}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=73273e00fa56a74d86132765ba45c973}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={C.\bibnamedelimi Thi},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{fullhash}{73273e00fa56a74d86132765ba45c973}
+      \strng{fullhashraw}{73273e00fa56a74d86132765ba45c973}
+      \strng{bibnamehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authorbibnamehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authornamehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authorfullhash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authorfullhashraw}{73273e00fa56a74d86132765ba45c973}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Games: Agency as Art}
+      \field{year}{2020}
     \endentry
     \entry{pohjola2015steering}{online}{}{}
       \name{author}{1}{}{%

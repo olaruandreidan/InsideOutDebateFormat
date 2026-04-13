@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.7)  13 APR 2026 15:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.7)  13 APR 2026 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1093,7 +1093,7 @@ Package hyperref Info: Link coloring ON on input line 53.
 \openout5 = `thesis_proposal.out'.
 
 <otherdocuments/uppsala_University_template/Uppsala_University_seal_svg.png, id
-=471, 1033.8625pt x 1027.84pt>
+=475, 1033.8625pt x 1027.84pt>
 File: otherdocuments/uppsala_University_template/Uppsala_University_seal_svg.pn
 g Graphic file (type png)
 <use otherdocuments/uppsala_University_template/Uppsala_University_seal_svg.png
@@ -1189,29 +1189,20 @@ dently across both playtest groups---
 
 [29]
 
-[30]
+[30]) (./chapters/conclusion.tex
 
 [31]
 
-[32]
+[32]) (./chapters/annexes.tex (./chapters/annex_format.tex
 
 [33]
-
-[34]
-
-[35]
-
-[36]) (./chapters/conclusion.tex) (./chapters/annexes.tex
-(./chapters/annex_format.tex
-
-[37]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 11.
 
 
 
-[38]
+[34]
 Underfull \hbox (badness 6691) in paragraph at lines 82--82
 []\OT1/cmr/m/n/12 ``This House...'' pol-
  []
@@ -1228,13 +1219,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
 
 
-[39]
+[35]
 
-[40]
+[36]
 
-[41]
+[37]
 
-[42]
+[38]
 Overfull \hbox (11.25615pt too wide) in paragraph at lines 182--183
 [] []\OT1/cmr/bx/n/12 Po-etic Ap-peal.[] \OT1/cmr/m/n/12 Lan-guage was used wit
 h aes-thetic care, where rhythm, im-agery, or metaphor
@@ -1242,15 +1233,15 @@ h aes-thetic care, where rhythm, im-agery, or metaphor
 
 
 
+[39]
+
+[40]
+
+[41]
+
+[42]
+
 [43]
-
-[44]
-
-[45]
-
-[46]
-
-[47]
 Overfull \hbox (0.5963pt too wide) in paragraph at lines 327--328
 [] []\OT1/cmr/bx/n/12 Re-silience.[] \OT1/cmr/m/n/12 You en-coun-tered a gen-ui
 nely dif-fi-cult mo-ment and came out in-tact, or stronger.
@@ -1258,26 +1249,26 @@ nely dif-fi-cult mo-ment and came out in-tact, or stronger.
 
 
 
-[48]
+[44]
 
-[49]
+[45]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 337.
 
 
 
+[46]
+
+[47]) (./chapters/annex_materials.tex
+
+[48]
+
+[49]
+
 [50]
 
-[51]) (./chapters/annex_materials.tex
-
-[52]
-
-[53]
-
-[54]
-
-[55]) (./chapters/annex_reports.tex
+[51]) (./chapters/annex_reports.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 6.
@@ -1290,6 +1281,19 @@ an ap-pro-pri-ate atmosphere-setting.
 
 
 
+[52]
+
+[53]
+
+[54]
+
+[55]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 104.
+
+
+
 [56]
 
 [57]
@@ -1299,7 +1303,7 @@ an ap-pro-pri-ate atmosphere-setting.
 [59]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 104.
+(hyperref)                than one, level fixed on input line 194.
 
 
 
@@ -1307,22 +1311,9 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 [61]
 
-[62]
+[62]) (./chapters/annex_clues.tex
 
 [63]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 194.
-
-
-
-[64]
-
-[65]
-
-[66]) (./chapters/annex_clues.tex
-
-[67]
 Overfull \hbox (5.50777pt too wide) in paragraph at lines 40--46
 \OT1/cmr/m/it/12 Mechanic: \OT1/cmr/m/n/12 The Hud-dle phase builds emo-tional 
 in-vest-ment be-fore speeches be-gin through
@@ -1330,13 +1321,13 @@ in-vest-ment be-fore speeches be-gin through
 
 
 
-[68]
+[64]
 
-[69]
+[65]
 
-[70]
+[66]
 
-[71]
+[67]
 Overfull \hbox (4.67894pt too wide) in paragraph at lines 127--133
 \OT1/cmr/m/n/12 pa-thetic rea-son-ing con-tex-tu-ally avail-able and strate-gi-
 cally use-ful, re-ward-ing perspective-
@@ -1344,7 +1335,7 @@ cally use-ful, re-ward-ing perspective-
 
 
 
-[72]
+[68]
 Overfull \hbox (11.25945pt too wide) in paragraph at lines 141--147
 \OT1/cmr/m/it/12 Strength: \OT1/cmr/m/n/12 Mod-er-ate. Self-report; forward-loo
 king; ac-tual im-prove-ment be-hav-ior untested.
@@ -1358,13 +1349,21 @@ Overfull \hbox (5.5581pt too wide) in paragraph at lines 141--147
 
 
 
+[69]
+
+[70]
+
+[71]
+
+[72]
+
 [73]
 
 [74]
 
 [75]
 
-[76]
+[76]))
 
 [77]
 
@@ -1372,32 +1371,24 @@ Overfull \hbox (5.5581pt too wide) in paragraph at lines 141--147
 
 [79]
 
-[80]))
+[80]
 
-[81]
-
-[82]
-
-[83]
-
-[84]
-
-[85] (./thesis_proposal.aux)
+[81] (./thesis_proposal.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `thesis_proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 370BD62D523ACBB86854EC17FBEFC218;24812.
+(rerunfilecheck)             Checksum: 1555CFC278432B64C4B9653B6BE9D1CE;25100.
 Package logreq Info: Writing requests to 'thesis_proposal.run.xml'.
 \openout1 = `thesis_proposal.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31709 strings out of 474662
- 612913 string characters out of 5751110
- 1530843 words of memory out of 5000000
- 53954 multiletter control sequences out of 15000+600000
+ 31715 strings out of 474662
+ 613386 string characters out of 5751110
+ 1531968 words of memory out of 5000000
+ 53961 multiletter control sequences out of 15000+600000
  566775 words of font info for 63 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  84i,11n,107p,2996b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1410,10 +1401,10 @@ nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025basic/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis_proposal.pdf (85 pages, 586923 bytes).
+Output written on thesis_proposal.pdf (81 pages, 573707 bytes).
 PDF statistics:
- 1222 PDF objects out of 1440 (max. 8388607)
- 1106 compressed objects within 12 object streams
- 325 named destinations out of 1000 (max. 500000)
- 954 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1214 PDF objects out of 1440 (max. 8388607)
+ 1102 compressed objects within 12 object streams
+ 324 named destinations out of 1000 (max. 500000)
+ 962 words of extra memory for PDF output out of 10000 (max. 10000000)
 

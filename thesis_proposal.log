@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.7)  12 APR 2026 23:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.7)  13 APR 2026 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1156,9 +1156,21 @@ ces de-baters must per-suade, strengthen
 [21]
 
 [22]
+Overfull \hbox (2.38129pt too wide) in paragraph at lines 36--37
+[]\OT1/cmr/m/n/12 The com-men-da-tion sys-tem re-mains a par-tially open ques-t
+ion. Eval-u-a-tors in both playtests
+ []
+
+
 
 [23]
-Overfull \hbox (9.67056pt too wide) in paragraph at lines 54--55
+Overfull \hbox (13.49135pt too wide) in paragraph at lines 46--47
+\OT1/cmr/m/n/12 field: play-ers spon-ta-neously adopted a po-lite and col-lab-o
+-ra-tive form of counter-argumentation---
+ []
+
+
+Overfull \hbox (9.67056pt too wide) in paragraph at lines 52--53
 []\OT1/cmr/m/n/12 Reduced anx-i-ety was re-ported con-sis-tently and in-de-pen-
 dently across both playtest groups---
  []
@@ -1167,9 +1179,9 @@ dently across both playtest groups---
 
 [24]
 
-[25]) (./chapters/discussion.tex
+[25]
 
-[26]
+[26]) (./chapters/discussion.tex
 
 [27]
 
@@ -1187,17 +1199,19 @@ dently across both playtest groups---
 
 [34]
 
-[35]) (./chapters/conclusion.tex) (./chapters/annexes.tex
+[35]
+
+[36]) (./chapters/conclusion.tex) (./chapters/annexes.tex
 (./chapters/annex_format.tex
 
-[36]
+[37]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 11.
 
 
 
-[37]
+[38]
 Underfull \hbox (badness 6691) in paragraph at lines 82--82
 []\OT1/cmr/m/n/12 ``This House...'' pol-
  []
@@ -1214,21 +1228,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
 
 
-[38]
-
 [39]
 
 [40]
 
 [41]
+
+[42]
 Overfull \hbox (11.25615pt too wide) in paragraph at lines 182--183
 [] []\OT1/cmr/bx/n/12 Po-etic Ap-peal.[] \OT1/cmr/m/n/12 Lan-guage was used wit
 h aes-thetic care, where rhythm, im-agery, or metaphor
  []
 
 
-
-[42]
 
 [43]
 
@@ -1237,6 +1249,8 @@ h aes-thetic care, where rhythm, im-agery, or metaphor
 [45]
 
 [46]
+
+[47]
 Overfull \hbox (0.5963pt too wide) in paragraph at lines 327--328
 [] []\OT1/cmr/bx/n/12 Re-silience.[] \OT1/cmr/m/n/12 You en-coun-tered a gen-ui
 nely dif-fi-cult mo-ment and came out in-tact, or stronger.
@@ -1244,26 +1258,26 @@ nely dif-fi-cult mo-ment and came out in-tact, or stronger.
 
 
 
-[47]
-
 [48]
+
+[49]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 337.
 
 
 
-[49]
+[50]
 
-[50]) (./chapters/annex_materials.tex
-
-[51]
+[51]) (./chapters/annex_materials.tex
 
 [52]
 
 [53]
 
-[54]) (./chapters/annex_reports.tex
+[54]
+
+[55]) (./chapters/annex_reports.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 6.
@@ -1276,20 +1290,18 @@ an ap-pro-pri-ate atmosphere-setting.
 
 
 
-[55]
-
 [56]
 
 [57]
 
 [58]
 
+[59]
+
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 104.
 
 
-
-[59]
 
 [60]
 
@@ -1297,18 +1309,20 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 [62]
 
+[63]
+
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 194.
 
 
 
-[63]
-
 [64]
 
-[65]) (./chapters/annex_clues.tex
+[65]
 
-[66]
+[66]) (./chapters/annex_clues.tex
+
+[67]
 Overfull \hbox (5.50777pt too wide) in paragraph at lines 40--46
 \OT1/cmr/m/it/12 Mechanic: \OT1/cmr/m/n/12 The Hud-dle phase builds emo-tional 
 in-vest-ment be-fore speeches be-gin through
@@ -1316,23 +1330,33 @@ in-vest-ment be-fore speeches be-gin through
 
 
 
-[67]
-
 [68]
 
 [69]
-Overfull \hbox (11.25945pt too wide) in paragraph at lines 134--140
-\OT1/cmr/m/it/12 Strength: \OT1/cmr/m/n/12 Mod-er-ate. Self-report; forward-loo
-king; ac-tual im-prove-ment be-hav-ior untested. 
- []
-
-
 
 [70]
 
 [71]
+Overfull \hbox (4.67894pt too wide) in paragraph at lines 127--133
+\OT1/cmr/m/n/12 pa-thetic rea-son-ing con-tex-tu-ally avail-able and strate-gi-
+cally use-ful, re-ward-ing perspective-
+ []
+
+
 
 [72]
+Overfull \hbox (11.25945pt too wide) in paragraph at lines 141--147
+\OT1/cmr/m/it/12 Strength: \OT1/cmr/m/n/12 Mod-er-ate. Self-report; forward-loo
+king; ac-tual im-prove-ment be-hav-ior untested.
+ []
+
+
+Overfull \hbox (5.5581pt too wide) in paragraph at lines 141--147
+\OT1/cmr/m/n/12 The P2 po-lite counter-argumentation con-ver-sa-tion is par-tic
+-u-larly in-ter-est-ing as a format-
+ []
+
+
 
 [73]
 
@@ -1340,7 +1364,7 @@ king; ac-tual im-prove-ment be-hav-ior untested.
 
 [75]
 
-[76]))
+[76]
 
 [77]
 
@@ -1348,9 +1372,17 @@ king; ac-tual im-prove-ment be-hav-ior untested.
 
 [79]
 
-[80]
+[80]))
 
-[81] (./thesis_proposal.aux)
+[81]
+
+[82]
+
+[83]
+
+[84]
+
+[85] (./thesis_proposal.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1362,8 +1394,8 @@ Package logreq Info: Writing requests to 'thesis_proposal.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31704 strings out of 474662
- 612878 string characters out of 5751110
+ 31709 strings out of 474662
+ 612913 string characters out of 5751110
  1530843 words of memory out of 5000000
  53954 multiletter control sequences out of 15000+600000
  566775 words of font info for 63 fonts, out of 8000000 for 9000
@@ -1378,10 +1410,10 @@ nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025basic/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis_proposal.pdf (81 pages, 573307 bytes).
+Output written on thesis_proposal.pdf (85 pages, 586923 bytes).
 PDF statistics:
- 1199 PDF objects out of 1200 (max. 8388607)
- 1088 compressed objects within 11 object streams
- 320 named destinations out of 1000 (max. 500000)
+ 1222 PDF objects out of 1440 (max. 8388607)
+ 1106 compressed objects within 12 object streams
+ 325 named destinations out of 1000 (max. 500000)
  954 words of extra memory for PDF output out of 10000 (max. 10000000)
 

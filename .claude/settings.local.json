@@ -125,7 +125,12 @@
       "Bash(pip3 install:*)",
       "Bash(ASSEMBLYAI_API_KEY=31e785ba92e342dfb1b057867367f8aa python3 transcribe.py)",
       "Bash(python3 -c \"import assemblyai as aai; print\\([x for x in dir\\(aai.SpeechModel\\) if not x.startswith\\('_'\\)]\\)\")",
-      "Bash(python3)"
+      "Bash(python3)",
+      "Bash(sed -n '1,375p' chapters/annexes.tex)",
+      "Bash(sed -n '376,495p' chapters/annexes.tex)",
+      "Bash(sed -n '496,777p' chapters/annexes.tex)",
+      "Bash(sed -n '778,1116p' chapters/annexes.tex)",
+      "Bash(texcount -sum -1 chapters/introduction.tex chapters/background.tex chapters/theoretical_framework.tex chapters/methods.tex chapters/design.tex chapters/results.tex chapters/conclusion.tex)"
     ]
   }
 }

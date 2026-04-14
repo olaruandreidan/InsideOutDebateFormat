@@ -1,0 +1,253 @@
+Evidence: Not manifested across either playtest. The unplanned bleed event (participant sharing a real family situation) was handled calmly within the debrief structure;
+no distress was recorded. The bleed-check and debrief protocols appear to have functioned as intended.
+Strength: N/A. Notable absence given the emotional intensity of some moments.
+2. Arrogant, dismissive, or unempathetic behavior during debate
+Points away from: Community health; toxicity reduction.
+Observed: No.
+Evidence: Not manifested across either playtest. No dismissive or contemptuous behavior toward other participants was recorded in either field notes or transcripts.
+Strength: N/A.
+3. Such behavior being praised by the evaluator or community
+Points away from: Evaluative culture aligned with design intent; would signal the
+format’s recognition system is rewarding the wrong behaviors.
+Observed: No.
+Evidence: Not manifested across either playtest.
+Strength: N/A.
+
+Field 5: Epistemic Humility
+Positive potential clues
+1. Unprompted awareness that multiple competing perspectives hold genuine
+value
+Points toward: Core attitudinal shift targeted by the format: epistemic humility arising from procedural engagement with value conflict.
+Observed: Yes (P1, D1, P2, D2).
+Evidence: “Every team says valuable stuff and it is important more to see what is
+important to us” (P1, D1). This formulation—articulated without prompting after a
+single encounter—captures precisely the attitudinal shift the design targets: moving
+from “which side is right” to “what do I value and why.” Additional supporting evidence from the first playtest includes participants articulating that arguing someone is
+“morally wrong” for their personal decisions feels “a bit absurd” in this context, and
+recognition that the format makes personal value priorities legible rather than evaluating them against an external standard (P1, D1). In the second playtest, a notable
+extended conversation emerged in the debrief about how the Subject’s opening speech
+(S0) institutionalises the practice of surfacing personal biases—making explicit what a
+player personally cares about before the debate even begins. Participants contrasted
+this with other formats, where the pretense of objectivity is maintained throughout:
+in those formats, they argued, biases are falsely supposed not to exist, propagating the
+idea that only one particular type of “objective” person can judge well and legitimizing
+social pressure to perform that identity. The S0 mechanism, by contrast, invites players to name their values openly from the start, reframing bias not as contamination
+75
+
+but as perspective (P2, D2).
+Mechanic: The three-value motion structure assigns each team a value that is genuinely
+defensible for the character; the Subject’s final synthesis requirement frames the question as “what matters most to this person in this context” rather than “which position
+is objectively correct,” making all three perspectives legitimate from the outset. The
+S0 speech institutionalises bias transparency rather than suppressing it, which makes
+epistemic humility structurally available rather than personally effortful.
+Strength: Moderate. Multi-session; self-report; directly on-target with design intent;
+P1 formulation notable for being unprompted; P2 debrief conversation particularly
+theoretically rich.
+2. Demonstrated understanding that personal values are context-dependent,
+not universal
+Points toward: Internalization of the format’s procedural rhetoric: that decisions are
+contextually embedded and legitimately vary by person and circumstance.
+Observed: Yes (P1, P2, D1, T2).
+Evidence: “Sometimes decisions are personal, not universal” (P1, D1). The Subject’s
+S0 and S2 arc in the second playtest demonstrated a similar trajectory: moving from
+roleplay inhabitation (personal, contextual) toward evaluative synthesis (what values
+do I hold about this?), with explicit self-awareness of that transition (P2, T2).
+Mechanic: The character-specific motion context (personal history, relationships, circumstances) makes universal moral claims strategically inappropriate to the scenario;
+the S0 instructions ask the Subject to describe the scenario from a personal perspective before argumentation begins, embedding contextual reasoning before any abstract
+principle is introduced.
+Strength: Moderate. Multi-session; self-report and behavioral; theoretical coherence
+strong.
+3. Spontaneous movement toward synthesis rather than competitive winning
+Points toward: Format orienting participants toward value integration rather than
+dominance—the deepest available behavioral indicator of epistemic humility in action.
+Observed: Yes (P2, T2).
+Evidence: In the second round and also less in the first one of Value Defender speeches,
+participants naturally moved toward synthesis rather than intensifying conflict—the
+reverse of what standard debate produces. This was not instructed; it emerged from
+the format’s procedural logic (P2, T2). Additionally, the Subject’s opening statement
+“I’m not sure if that’s the solution—that’s why this thing is eating at me” (P2, T2,
+transcript-confirmed) demonstrates genuine epistemic uncertainty from the start of the
+round, produced by the format’s demand that the Subject hold the dilemma rather
+than resolve it prematurely. Two further details reinforce this orientation toward collegiality and synthesis: (1) participants in the second playtest organically renamed
+themselves “Inner Voices” (which was subsequently formalized in the third design iteration), a label that positions them as parts of a shared internal deliberation rather
+than as opposing sides—colleagues rather than opponents; (2) the rules themselves
+permit multiple Inner Voices to argue for the same solution, structurally allowing con76
+
+sensus rather than requiring disagreement, which removes the adversarial constraint
+that standard debate formats impose.
+Mechanic: Speeches A2/B2/C2 are expected to build on A1/B1/C1 rather than dismantle competitors’ positions. The Subject’s S1 is an explicitly preliminary decision
+requiring ongoing engagement, structurally rewarding continued dialogue. The Huddle
+allows the Subject to ask clarifying questions, modeling collaborative inquiry as a legitimate competitive move. The Inner Voices naming and the same-solution permission
+together reframe competition from adversarial to collegial at the level of both identity
+and rules.
+Strength: Strong. Behavioral; transcript-confirmed; emergent; theoretically predicted.
+Negative potential clues
+1. Unequivocal condemnation of beliefs or belief-holders
+Points away from: Epistemic humility; would indicate the format is activating moral
+certainty rather than productive uncertainty.
+Observed: No.
+Evidence: Not manifested across either playtest or in the transcripts. No unequivocal
+condemnation of a position, values system, or person was recorded.
+Strength: N/A. Absence is notable given that the motions used both involved choices
+with genuine ethical weight.
+2. Such condemnation being normalized or praised
+Points away from: Community epistemic culture; would signal the format’s evaluative
+frame rewards dogmatic certainty.
+Observed: No.
+Evidence: Not manifested across either playtest.
+Strength: N/A.
+
+77
+
+REFERENCES
+Adler, P. A., & Adler, P. (1987). Membership roles in field research. Sage.
+Allen, M., Berkowitz, S., Hunt, S., & Louden, A. (1999). A meta-analysis of the impact of
+forensics and communication education on critical thinking. Communication Education, 48 (1), 18–30.
+Baird, J., & Bowman, S. L. (2022). The transformative potential of immersive experiences
+within role-playing communities. Revista de Estudos Universitário, 48, 1–48. https:
+//doi.org/10.22484/2177-5788.2022v48id5028
+Baker, L. M. (2006). Observation: A complex research method. Library Trends, 55 (1), 171–
+189.
+Bellon, J. (2000). A research-based justification for debate across the curriculum. Argumentation and Advocacy, 36 (3), 161–175.
+Bogost, I. (2007). Persuasive games: The expressive power of videogames. MIT Press.
+Bowman, S. L. (2010). The functions of role-playing games: How participants create community, solve problems, and explore identity. McFarland.
+Bowman, S. L. (2013). Social conflict in role-playing communities: An exploratory qualitative
+study. International Journal of Role-Playing, 4, 4–25.
+Bowman, S. L. (2014). Educational live action role-playing games: A secondary literature
+review. In S. L. Bowman (Ed.), The wyrd con companion book 2014 (pp. 112–131).
+Wyrd Con.
+Bowman, S. L., Diakolambrianou, E., & Brind, S. (2025). Transformative role-playing game
+design. Uppsala universitet.
+Bowman, S. L., & Hugaas, K. H. (2021). Magic is real: How role-playing can transform our
+identities, our communities, and our lives. In K. K. Djukastein, M. Irgens, N. Lipsyc,
+& L. K. L. Sunde (Eds.), Book of magic: Vibrant fragments of larp practices (pp. 52–
+74). Knutepunkt.
+Broda-Bahm, K. (Ed.). (2002). Perspectives in controversy: Selected essays from Contemporary Argumentation and Debate. International Debate Education Association.
+Brown, M. (2016). Creating a culture of trust through safety and calibration larp mechanics.
+Retrieved January 19, 2025, from https : / / nordiclarp . org / 2016 / 09 / 09 / creating culture-trust-safety-calibration-larp-mechanics/
+Cirlin, A. (2002). A sociological approach to improving style in academic debate. In J. E.
+Rogers (Ed.), Transforming debate: The best of the International Journal of Forensics (pp. 103–122). International Debate Education Association. (Original work published 1997)
+Colbert, K. R. (1987). The effects of CEDA and NDT debate training on critical thinking
+ability. Journal of the American Forensic Association, 23 (4), 194–201.
+Colbert, K. R. (2002). Enhancing critical thinking ability through academic debate. In K.
+Broda-Bahm (Ed.), Perspectives in controversy: Selected essays from Contemporary
+Argumentation and Debate (pp. 71–100). International Debate Education Association.
+(Original work published 1995)
+Combs, S. C. (2002a). Applying a psycho-social perspective to argument spheres: Implications for academic debate. In J. E. Rogers (Ed.), Transforming debate: The best of
+
+78
+
+the International Journal of Forensics (pp. 27–50). International Debate Education
+Association.
+Combs, S. C. (2002b). Applying a psycho-social perspective to argument spheres: Implications for academic debate. In D. E. Williams (Ed.), Transforming debate: The best
+of the international journal of forensics (pp. 27–46). International Debate Education
+Association.
+Coulton, P., & Hook, A. (2017). Games design research through game design practice. In P.
+Lankoski & J. Holopainen (Eds.), Game design research: Theory and practice (pp. 97–
+116). ETC Press.
+Crookall, D. (2014). Engaging (in) gameplay and (in) debriefing. Simulation & Gaming,
+45 (4–5), 416–427.
+Daniau, S. (2016). The transformative potential of role-playing games: From play skills to
+human skills. Simulation & Gaming, 47 (4), 423–444.
+Deterding, S. (2017). Alibis for adult play: A Goffmanian account of escaping embarrassment
+in adult play. Games and Culture, 13 (3), 260–279.
+Goodnight, G. T. (1982). The personal, technical, and public spheres of argument: A speculative inquiry into the art of public deliberation. Journal of the American Forensic
+Association, 18 (4), 214–227.
+Hammer, J., To, A., Schrier, K., Bowman, S. L., & Kaufman, G. (2024). Learning and
+role-playing games. In J. P. Zagal & S. Deterding (Eds.), The routledge handbook of
+role-playing game studies (pp. 299–317). Routledge.
+Harder, S. (2018). Larp crush: The what, when and how. Retrieved January 19, 2025, from
+https://nordiclarp.org/2018/03/28/larp-crush-the-what-when-and-how/
+Hicks, D. (2002a). Public debate and the ideal of public reason. In J. E. Rogers (Ed.),
+Transforming debate: The best of the International Journal of Forensics (pp. 152–
+161). International Debate Education Association. (Original work published 1998)
+Hicks, D. (2002b). Public debate and the ideal of public reason. In D. E. Williams (Ed.),
+Transforming debate: The best of the international journal of forensics (pp. 152–161).
+International Debate Education Association.
+Hill, B. (2002). The value of competitive debate as a vehicle for promoting development of
+critical thinking ability. In K. Broda-Bahm (Ed.), Perspectives in controversy: Selected
+essays from Contemporary Argumentation and Debate (pp. 47–70). International Debate Education Association. (Original work published 1993)
+Hugaas, K. H. (2024). Bleed and identity: A conceptual model of bleed and how bleed-out
+from role-playing games can affect a player’s sense of self. International Journal of
+Role-Playing, 15, 9–35.
+Huizinga, J. (1958). Homo ludens: A study of the play element in culture. Beacon Press.
+International Debate Education Association. (2024). An ethics guide for coaches and youth
+workers in a debate program. IDEBATE Press.
+Kargacin, T. (2002). The state of debating in Serbia and the role of coaches in the Karl
+Popper Debate Program. In J. E. Rogers (Ed.), Transforming debate: The best of the
+International Journal of Forensics (pp. 177–181). International Debate Education
+Association. (Original work published 1998)
+
+79
+
+Kemper, J. (2017). The battle of primrose park: Playing for emancipatory bleed in fortune
+& felicity. Retrieved January 19, 2025, from https://nordiclarp.org/2017/04/27/thebattle-of-primrose-park-playing-for-emancipatory-bleed-in-fortune-felicity/
+Kemper, J. (2020). Wyrding the self. In E. Saitta, J. Koljonen, J. Särkijärvi, A. S. Grove,
+P. Männistö, & M. Makkonen (Eds.), What do we do when we play? (pp. 211–225).
+Solmukohta.
+Knott, E., Rao, A. H., Summers, K., & Teeger, C. (2022). Interviews in the social sciences.
+Nature Reviews Methods Primers, 2, Article 73.
+Kolb, D. A. (1984). Experiential learning: Experience as the source of learning and development. Prentice-Hall.
+Lankoski, P., & Björk, S. (2015). Formal analysis of gameplay. In P. Lankoski & S. Björk
+(Eds.), Game research methods: An overview (pp. 23–35). ETC Press.
+Lankoski, P., & Järvelä, S. (2012). An embodied cognition approach for understanding roleplaying. International Journal of Role-Playing, 3, 18–32.
+Leonard, D. J., & Thurman, T. (2018). Bleed-out on the brain: The neuroscience of characterto-player spillover in larp. International Journal of Role-Playing, 9, 9–15.
+McGee, B. R. (2002). The argument for emancipatory rhetoric in academic debate. In D. E.
+Williams (Ed.), Transforming debate: The best of the international journal of forensics
+(pp. 11–26). International Debate Education Association.
+Mezuk, B. (2009). Urban debate and high school educational outcomes for african american
+males: The case of the chicago debate league. Journal of Negro Education, 78 (3),
+290–304.
+Mezuk, B., Bondarenko, I., Smith, S., & Tucker, E. (2011). Impact of participating in a
+policy debate program on academic achievement: Evidence from the Chicago Urban
+Debate League. Educational Research and Reviews, 6 (9), 622–635.
+Montola, M., Stenros, J., & Saitta, E. (2015). The art of steering: Bringing the player and
+the character back together. Retrieved January 19, 2025, from https : / / nordiclarp .
+org/2015/04/29/the- art- of- steering- bringing- the- player- and- the- character- backtogether/
+Nguyen, C. T. (2020). Games: Agency as art. Oxford University Press.
+Pohjola, M. (2015). Steering for immersion in five nordic larps: A new understanding of
+eläytyminen. Retrieved January 19, 2025, from https://nordiclarp.org/2015/04/22/
+steering-for-immersion-in-five-nordic-larps-a-new-understanding-of-elaytyminen/
+Prus, J., & Sikora, P. (2025). A Cracovian debate: Cooperative debate format based on the
+dialectical principle of charity. Topoi, 44, 1469–1488.
+Salen, K., & Zimmerman, E. (2004). Rules of play: Game design fundamentals. MIT Press.
+Schueler, B. E., & Larned, K. E. (2025). Interscholastic policy debate promotes critical
+thinking and college-going: Evidence from Boston public schools [originally published
+in 2023]. Educational Evaluation and Policy Analysis, 47 (1), 108–134.
+Seo, B. (2022). Good arguments: How debate teaches us to listen and be heard. Penguin Press.
+Snider, A. C. (1984). Gaming and the paradigm of academic debate. National Forensic
+Journal, 2 (2), 119–134.
+Snider, A. C. (1999). The code of the debater: Introduction to the way of reason. World
+Debate Institute.
+
+80
+
+Snider, A. C. (2003). Gamemaster: Is it you? Contemporary Argumentation and Debate, 24,
+17–30.
+Snider, A. C. (2014). Sparking the debate: How to create a debate program. International
+Debate Education Association.
+Spradley, J. P. (1980). Participant observation. Holt, Rinehart; Winston.
+Vygotsky, L. S. (1978). Mind in society: The development of higher psychological processes.
+Harvard University Press.
+Waern, A., & Back, J. (2015). Experimental game design. In P. Lankoski & S. Björk (Eds.),
+Game research methods: An overview (pp. 341–353). ETC Press.
+Weiss, R. O. (2002). The audience standard: Twelve years later. In D. E. Williams (Ed.),
+Transforming debate: The best of the international journal of forensics (pp. 134–140).
+International Debate Education Association.
+Whitmore, M. (2002). A British debater’s response to the Public Debate Manifesto. In
+J. E. Rogers (Ed.), Transforming debate: The best of the International Journal of
+Forensics (pp. 148–151). International Debate Education Association. (Original work
+published 1998)
+Winnicott, D. W. (1960). The theory of the parent-infant relationship. International Journal
+of Psychoanalysis, 41, 585–595.
+Zagal, J. P., & Deterding, S. (2024). Definitions of “role-playing games”. In J. P. Zagal &
+S. Deterding (Eds.), The routledge handbook of role-playing game studies (pp. 21–56).
+Routledge.
+Zimmerman, E. (2003). Play as research: The iterative design process. In B. Laurel (Ed.),
+Design research: Methods and perspectives. MIT Press.
+Zimmerman, J., Forlizzi, J., & Evenson, S. (2007). Research through design as a method for
+interaction design research in hci. Proceedings of CHI 2007, 493–502.
+
+81
+
+

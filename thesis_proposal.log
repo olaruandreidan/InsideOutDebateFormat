@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.7)  13 APR 2026 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.7)  14 APR 2026 08:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1111,59 +1111,746 @@ otherdocuments/uppsala_University_template/Uppsala_University_seal_svg.png>]
 
 [2]) (./chapters/background.tex
 
+LaTeX Warning: Citation 'salen2004rules' on page 3 undefined on input line 8.
+
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 8
+.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <12> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 8.
+
+
+LaTeX Warning: Citation '' on page 3 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'snider1984gaming' on page 3 undefined on input line 8.
+
+
+
+LaTeX Warning: Citation 'bowman2025transformative' on page 3 undefined on input
+ line 10.
+
+
+LaTeX Warning: Citation '' on page 3 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'daniau2016transformative' on page 3 undefined on input
+ line 10.
+
+
+LaTeX Warning: Citation '' on page 3 undefined on input line 10.
+
+
+Overfull \hbox (25.43526pt too wide) in paragraph at lines 10--11
+[]\OT1/cmr/m/n/12 But what makes a game \OT1/cmr/m/it/12 trans-for-ma-tive\OT1/
+cmr/m/n/12 ? [][]
+ []
+
+
+Overfull \hbox (20.04204pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/12 tic-i-pant's daily frames of re-al-ity and iden-tity. [][]
+ []
+
+
+LaTeX Warning: Citation 'colbert1995enhancing' on page 3 undefined on input lin
+e 12.
+
+
+LaTeX Warning: Citation 'hill1993value' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'snider2003gamemaster' on page 3 undefined on input lin
+e 12.
+
+
+LaTeX Warning: Citation 'hicks1998public' on page 3 undefined on input line 12.
+
+
+
+LaTeX Warning: Citation '' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'cirlin1997sociological' on page 3 undefined on input l
+ine 12.
+
+
+LaTeX Warning: Citation 'whitmore1998british' on page 3 undefined on input line
+ 12.
+
+
+LaTeX Warning: Citation 'brodabahm2002perspectives' on page 3 undefined on inpu
+t line 12.
+
+
+LaTeX Warning: Citation 'combs2002applying' on page 3 undefined on input line 1
+2.
+
+
+LaTeX Warning: Citation 'cirlin1997sociological' on page 3 undefined on input l
+ine 12.
+
+
+LaTeX Warning: Citation 'kargacin1998state' on page 3 undefined on input line 1
+2.
+
+
+Overfull \hbox (57.31879pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/12 dem-i-cally chal-lenged en-vi-ron-ments. The ac-tiv-ity cul-ti-
+vates what [][]
+ []
+
+
+Overfull \hbox (36.2998pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/12 ``lab-o-ra-tory'' for in-ten-sive re-search and in-for-ma-tion 
+man-age-ment ([]),
+ []
+
+
+
 [3]
+
+LaTeX Warning: Citation 'allen1999meta' on page 4 undefined on input line 20.
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'colbert1987effects' on page 4 undefined on input line 
+20.
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'mezuk2009urban' on page 4 undefined on input line 22.
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 22.
+
+
+LaTeX Warning: Citation 'colbert1995enhancing' on page 4 undefined on input lin
+e 24.
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'cirlin1997sociological' on page 4 undefined on input l
+ine 24.
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'hicks1998public' on page 4 undefined on input line 24.
+
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'bellon2000research' on page 4 undefined on input line 
+24.
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'vygotsky1978mind' on page 4 undefined on input line 24
+.
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'kolb1984experiential' on page 4 undefined on input lin
+e 24.
+
+
+LaTeX Warning: Citation '' on page 4 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'crookall2014engaging' on page 4 undefined on input lin
+e 24.
+
+
+LaTeX Warning: Citation 'daniau2016transformative' on page 4 undefined on input
+ line 24.
+
+
 
 [4]
 
+LaTeX Warning: Citation 'bowman2014educational' on page 5 undefined on input li
+ne 26.
+
+
+LaTeX Warning: Citation '' on page 5 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'zagal2024definitions' on page 5 undefined on input lin
+e 32.
+
+
+LaTeX Warning: Citation '' on page 5 undefined on input line 32.
+
+
+LaTeX Warning: Citation 'zagal2024definitions' on page 5 undefined on input lin
+e 32.
+
+
+LaTeX Warning: Citation 'bowman2025transformative' on page 5 undefined on input
+ line 32.
+
+
+LaTeX Warning: Citation '' on page 5 undefined on input line 32.
+
+
+Overfull \hbox (123.20169pt too wide) in paragraph at lines 32--33
+\OT1/cmr/m/n/12 role-playing games are and where de-bate fits among re-lated pr
+ac-tices. As [][]
+ []
+
+
+
 [5]
+
+LaTeX Warning: Citation 'bowman2014educational' on page 6 undefined on input li
+ne 34.
+
+
+LaTeX Warning: Citation 'bowman2025transformative' on page 6 undefined on input
+ line 34.
+
+
+LaTeX Warning: Citation 'bowman2010functions' on page 6 undefined on input line
+ 36.
+
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'seo2022good' on page 6 undefined on input line 36.
+
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'snider1999code' on page 6 undefined on input line 36.
+
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'bowman2010functions' on page 6 undefined on input line
+ 38.
+
+
+LaTeX Warning: Citation '' on page 6 undefined on input line 38.
+
+
 
 [6]
 
+LaTeX Warning: Citation 'deterding2017alibis' on page 7 undefined on input line
+ 40.
+
+
+LaTeX Warning: Citation 'seo2022good' on page 7 undefined on input line 40.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'bowman2025transformative' on page 7 undefined on input
+ line 40.
+
+
+LaTeX Warning: Citation '' on page 7 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'brown2016culture' on page 7 undefined on input line 40
+.
+
+
+LaTeX Warning: Citation 'harder2018larp' on page 7 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'pohjola2015steering' on page 7 undefined on input line
+ 40.
+
+
+Overfull \hbox (18.98276pt too wide) in paragraph at lines 40--41
+\OT1/cmr/m/n/12 ened so-cial con-se-quences, en-cour-ag-ing risk-taking and wil
+l-ing-ness to fail ([]).
+ []
+
+
+Overfull \hbox (111.24953pt too wide) in paragraph at lines 40--41
+\OT1/cmr/m/n/12 not of-fer that. This en-ables the iden-tity ex-per-i-men-ta-ti
+on that [][]
+ []
+
+
+
 [7]
+
+LaTeX Warning: Citation 'combs2002psychosocial' on page 8 undefined on input li
+ne 54.
+
+
+LaTeX Warning: Citation '' on page 8 undefined on input line 54.
+
+
+Overfull \hbox (137.53232pt too wide) in paragraph at lines 54--55
+\OT1/cmr/m/n/12 away from pub-lic sphere ac-ces-si-bil-ity to-ward tech-ni-cal 
+sphere in-su-lar-ity. [][]
+ []
+
+
+LaTeX Warning: Citation 'combs2002psychosocial' on page 8 undefined on input li
+ne 58.
+
+
+LaTeX Warning: Citation '' on page 8 undefined on input line 58.
+
+
+LaTeX Warning: Citation 'combs2002psychosocial' on page 8 undefined on input li
+ne 58.
+
+
+Overfull \hbox (126.80095pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/12 The ``closed sys-tem'' dy-namic de-scribed by Har-ris and Smith
+, cited in [][],
+ []
+
+
+LaTeX Warning: Citation 'mcgee2002emancipatory' on page 8 undefined on input li
+ne 60.
+
+
+LaTeX Warning: Citation '' on page 8 undefined on input line 60.
+
+
+Overfull \hbox (48.61707pt too wide) in paragraph at lines 60--61
+[]\OT1/cmr/m/n/12 Crenshaw's work on fem-i-nism in de-bate, cited by [][],
+ []
+
+
+LaTeX Warning: Citation 'combs2002psychosocial' on page 8 undefined on input li
+ne 64.
+
+
+LaTeX Warning: Citation '' on page 8 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'combs2002psychosocial' on page 8 undefined on input li
+ne 64.
+
+
 
 [8]
 
+LaTeX Warning: Citation 'hicks2002public' on page 9 undefined on input line 66.
+
+
+
+LaTeX Warning: Citation 'weiss2002audience' on page 9 undefined on input line 6
+6.
+
+
+LaTeX Warning: Citation '' on page 9 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'snider1999code' on page 9 undefined on input line 70.
+
+
+LaTeX Warning: Citation '' on page 9 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'snider2014sparking' on page 9 undefined on input line 
+70.
+
+
+LaTeX Warning: Citation 'idea2024ethics' on page 9 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'combs2002psychosocial' on page 9 undefined on input li
+ne 70.
+
+
+LaTeX Warning: Citation 'prussikora2025cracovian' on page 9 undefined on input 
+line 72.
+
+
+LaTeX Warning: Citation '' on page 9 undefined on input line 72.
+
+
+LaTeX Warning: Citation 'prussikora2025cracovian' on page 9 undefined on input 
+line 72.
+
+
+Overfull \hbox (170.08208pt too wide) in paragraph at lines 72--73
+[]\OT1/cmr/m/n/12 The mech-a-nism be-hind these dy-nam-ics is il-lu-mi-nated by
+ re-cent re-search. [][],
+ []
+
+
+
 [9]) (./chapters/theoretical_framework.tex
+
+LaTeX Warning: Citation 'winnicott1960theory' on page 10 undefined on input lin
+e 10.
+
+
+LaTeX Warning: Citation '' on page 10 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'bowman2021magic' on page 10 undefined on input line 10
+.
+
+
+LaTeX Warning: Citation '' on page 10 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'bowman2021magic' on page 10 undefined on input line 10
+.
+
+
+LaTeX Warning: Citation 'baird2022transformative' on page 10 undefined on input
+ line 10.
+
+
+LaTeX Warning: Citation 'bowman2025transformative' on page 10 undefined on inpu
+t line 10.
+
+
+LaTeX Warning: Citation 'huizinga1958homo' on page 10 undefined on input line 1
+0.
+
+
+LaTeX Warning: Citation '' on page 10 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'bowman2025transformative' on page 10 undefined on inpu
+t line 10.
+
+
+LaTeX Warning: Citation 'bowman2025transformative' on page 10 undefined on inpu
+t line 10.
+
+
+LaTeX Warning: Citation 'deterding2017alibis' on page 10 undefined on input lin
+e 10.
+
+
+LaTeX Warning: Citation '' on page 10 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'bowman2025transformative' on page 10 undefined on inpu
+t line 10.
+
+
+LaTeX Warning: Citation 'bowman2025transformative' on page 10 undefined on inpu
+t line 10.
+
+
+LaTeX Warning: Citation '' on page 10 undefined on input line 10.
+
+
+Overfull \hbox (15.324pt too wide) in paragraph at lines 10--11
+\OT1/cmr/m/n/12 trans-for-ma-tional con-tainer builds upon but ex-tends [][]'s
+ []
+
+
 
 [10]
 
+LaTeX Warning: Citation 'hugaas2024bleed' on page 11 undefined on input line 24
+.
+
+
+LaTeX Warning: Citation '' on page 11 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'leonard2018bleed' on page 11 undefined on input line 2
+4.
+
+
+LaTeX Warning: Citation '' on page 11 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'lankoski2012embodied' on page 11 undefined on input li
+ne 24.
+
+
+LaTeX Warning: Citation '' on page 11 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'colbert1995enhancing' on page 11 undefined on input li
+ne 26.
+
+
+LaTeX Warning: Citation 'hicks1998public' on page 11 undefined on input line 26
+.
+
+
+LaTeX Warning: Citation '' on page 11 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'bogost2007persuasive' on page 11 undefined on input li
+ne 28.
+
+
+LaTeX Warning: Citation '' on page 11 undefined on input line 28.
+
+
+Overfull \hbox (38.5226pt too wide) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/12 This bleed of a cer-tain hum-ble at-ti-tude con-nects to [][]
+
+ []
+
+
+
 [11]
+
+LaTeX Warning: Citation 'cirlin1997sociological' on page 12 undefined on input 
+line 30.
+
+
+LaTeX Warning: Citation '' on page 12 undefined on input line 30.
+
+
+Overfull \hbox (6.00993pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/12 ments in pub-lic speak-ing and crit-i-cal think-ing. [][]'s
+ []
+
+
+LaTeX Warning: Citation 'kemper2017battle' on page 12 undefined on input line 3
+2.
+
+
+LaTeX Warning: Citation 'kemper2020wyrding' on page 12 undefined on input line 
+32.
+
+
+LaTeX Warning: Citation 'bowman2021magic' on page 12 undefined on input line 32
+.
+
+
+LaTeX Warning: Citation 'snider2003gamemaster' on page 12 undefined on input li
+ne 32.
+
+
+LaTeX Warning: Citation '' on page 12 undefined on input line 32.
+
+
+Overfull \hbox (3.45535pt too wide) in paragraph at lines 32--33
+[]\OT1/cmr/m/n/12 Emancipatory bleed ([]; []) ex-plains de-bate's par-
+ []
+
+
+Overfull \hbox (29.13817pt too wide) in paragraph at lines 32--33
+\OT1/cmr/m/n/12 lic speak-ing was not mod-eled, de-bate pro-vides a trans-for-m
+a-tional con-tainer ([])
+ []
+
+
+LaTeX Warning: Citation 'vygotsky1978mind' on page 12 undefined on input line 6
+0.
+
+
+LaTeX Warning: Citation '' on page 12 undefined on input line 60.
+
+
+LaTeX Warning: Citation 'kolb1984experiential' on page 12 undefined on input li
+ne 60.
+
+
+LaTeX Warning: Citation '' on page 12 undefined on input line 60.
+
+
+LaTeX Warning: Citation 'crookall2014engaging' on page 12 undefined on input li
+ne 60.
+
+
+LaTeX Warning: Citation '' on page 12 undefined on input line 60.
+
+
+LaTeX Warning: Citation 'daniau2016transformative' on page 12 undefined on inpu
+t line 60.
+
+
+LaTeX Warning: Citation '' on page 12 undefined on input line 60.
+
+
+LaTeX Warning: Citation 'colbert1995enhancing' on page 12 undefined on input li
+ne 60.
+
+
+LaTeX Warning: Citation '' on page 12 undefined on input line 60.
+
+
+Overfull \hbox (23.4602pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/12 ex-pe-ri-en-tial learn-ing model, with the de-brief, which [][]
+
+ []
+
+
 
 [12]
 
-[13]
-Overfull \hbox (10.64972pt too wide) in paragraph at lines 72--73
+LaTeX Warning: Citation 'bowman2025transformative' on page 13 undefined on inpu
+t line 69.
+
+
+LaTeX Warning: Citation '' on page 13 undefined on input line 69.
+
+
+Overfull \hbox (10.64972pt too wide) in paragraph at lines 71--72
 []\OT1/cmr/m/n/12 Design in-ter-ven-tions might there-fore di-ver-sify au-di-en
 ces de-baters must per-suade, strengthen
  []
 
-) (./chapters/methods.tex
 
-[14]
+LaTeX Warning: Citation 'bowman2013social' on page 13 undefined on input line 8
+1.
 
-[15]
 
-[16]
+LaTeX Warning: Citation '' on page 13 undefined on input line 81.
 
-[17]) (./chapters/design.tex
 
-[18]
-
-[19]
-
-[20]) (./chapters/results.tex
-
-[21]
-
-[22]
-Overfull \hbox (2.38129pt too wide) in paragraph at lines 36--37
-[]\OT1/cmr/m/n/12 The com-men-da-tion sys-tem re-mains a par-tially open ques-t
-ion. Eval-u-a-tors in both playtests
+Overfull \hbox (56.3898pt too wide) in paragraph at lines 81--82
+\OT1/cmr/m/n/12 de-bate as ``just a game'' be-cause stakes have be-come too rea
+l. [][]
  []
 
 
+LaTeX Warning: Citation 'bowman2025transformative' on page 13 undefined on inpu
+t line 85.
 
-[23]
+
+Overfull \hbox (31.41232pt too wide) in paragraph at lines 85--86
+\OT1/cmr/m/n/12 worth, and in-cor-po-rate safety prac-tices adapted from larp d
+e-sign ([]). 
+ []
+
+) (./chapters/methods.tex
+
+LaTeX Warning: Citation 'coulton2017games' on page 13 undefined on input line 6
+.
+
+
+LaTeX Warning: Citation 'zimmerman2007research' on page 13 undefined on input l
+ine 6.
+
+
+LaTeX Warning: Citation 'zimmerman2003play' on page 13 undefined on input line 
+6.
+
+
+LaTeX Warning: Citation '' on page 13 undefined on input line 6.
+
+
+
+[13]
+
+LaTeX Warning: Citation 'baker2006observation' on page 14 undefined on input li
+ne 20.
+
+
+LaTeX Warning: Citation '' on page 14 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'spradley1980participant' on page 14 undefined on input
+ line 24.
+
+
+LaTeX Warning: Citation '' on page 14 undefined on input line 24.
+
+
+
+[14]
+
+LaTeX Warning: Citation 'waern2015experimental' on page 15 undefined on input l
+ine 44.
+
+
+
+[15]
+
+LaTeX Warning: Citation 'zimmerman2003play' on page 16 undefined on input line 
+48.
+
+
+LaTeX Warning: Citation 'lankoski2015formal' on page 16 undefined on input line
+ 50.
+
+
+LaTeX Warning: Citation '' on page 16 undefined on input line 50.
+
+
+
+[16]
+
+LaTeX Warning: Citation 'adler1987membership' on page 17 undefined on input lin
+e 64.
+
+
+LaTeX Warning: Citation 'knott2022interviews' on page 17 undefined on input lin
+e 66.
+
+) (./chapters/design.tex
+
+LaTeX Warning: Citation 'bogost2007persuasive' on page 17 undefined on input li
+ne 14.
+
+
+
+[17]
+
+LaTeX Warning: Citation 'deterding2017alibis' on page 18 undefined on input lin
+e 16.
+
+
+LaTeX Warning: Citation 'bowman2010functions' on page 18 undefined on input lin
+e 16.
+
+
+LaTeX Warning: Citation 'goodnight1982spheres' on page 18 undefined on input li
+ne 16.
+
+
+LaTeX Warning: Citation '' on page 18 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'cirlin1997sociological' on page 18 undefined on input 
+line 18.
+
+
+LaTeX Warning: Citation 'bowman2021magic' on page 18 undefined on input line 28
+.
+
+
+LaTeX Warning: Citation 'bowman2025transformative' on page 18 undefined on inpu
+t line 28.
+
+
+
+[18]) (./chapters/results.tex
+
+[19]
+
+[20]
+
+[21]
+
+LaTeX Warning: Citation 'bogost2007persuasive' on page 22 undefined on input li
+ne 42.
+
+
 Overfull \hbox (13.49135pt too wide) in paragraph at lines 46--47
 \OT1/cmr/m/n/12 field: play-ers spon-ta-neously adopted a po-lite and col-lab-o
 -ra-tive form of counter-argumentation---
@@ -1177,32 +1864,113 @@ dently across both playtest groups---
 
 
 
-[24]
+[22]
+
+LaTeX Warning: Citation 'bogost2007persuasive' on page 23 undefined on input li
+ne 54.
+
+
+LaTeX Warning: Citation '' on page 23 undefined on input line 54.
+
+
+
+[23]
+
+[24]) (./chapters/discussion.tex
+
+LaTeX Warning: Citation 'deterding2017alibis' on page 25 undefined on input lin
+e 9.
+
+
+LaTeX Warning: Citation '' on page 25 undefined on input line 9.
+
+
+LaTeX Warning: Citation 'bowman2025transformative' on page 25 undefined on inpu
+t line 11.
+
+
+LaTeX Warning: Citation '' on page 25 undefined on input line 11.
+
+
+Overfull \hbox (69.21107pt too wide) in paragraph at lines 11--12
+[]\OT1/cmr/m/n/12 This has a di-rect im-pli-ca-tion for the frame-work. [][]'s
+ []
+
+
 
 [25]
 
-[26]) (./chapters/discussion.tex
+LaTeX Warning: Citation 'bogost2007persuasive' on page 26 undefined on input li
+ne 16.
+
+
+LaTeX Warning: Citation 'montola2015steering' on page 26 undefined on input lin
+e 22.
+
+
+LaTeX Warning: Citation 'pohjola2015steering' on page 26 undefined on input lin
+e 22.
+
+
+
+[26]
+
+LaTeX Warning: Citation 'bogost2007persuasive' on page 27 undefined on input li
+ne 26.
+
+
+LaTeX Warning: Citation '' on page 27 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'nguyen2020games' on page 27 undefined on input line 26
+.
+
+
+LaTeX Warning: Citation '' on page 27 undefined on input line 26.
+
+
+Overfull \hbox (99.8178pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/12 Several of the strongest re-sults were pro-ce-du-ral rhetoric e
+f-fects in [][]'s
+ []
+
+
+Overfull \hbox (70.33127pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/12 from the for-mat's struc-tural logic rather than from in-struc-
+tion. [][]'s
+ []
+
+
 
 [27]
 
-[28]
+LaTeX Warning: Citation 'bowman2025transformative' on page 28 undefined on inpu
+t line 39.
 
-[29]
 
-[30]) (./chapters/conclusion.tex
+LaTeX Warning: Citation '' on page 28 undefined on input line 39.
 
-[31]
 
-[32]) (./chapters/annexes.tex (./chapters/annex_format.tex
+LaTeX Warning: Citation 'bowman2025transformative' on page 28 undefined on inpu
+t line 45.
 
-[33]
+
+LaTeX Warning: Citation '' on page 28 undefined on input line 45.
+
+
+
+[28]) (./chapters/conclusion.tex
+
+[29]) (./chapters/annexes.tex (./chapters/annex_format.tex
+
+[30]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 11.
 
 
 
-[34]
+[31]
 Underfull \hbox (badness 6691) in paragraph at lines 82--82
 []\OT1/cmr/m/n/12 ``This House...'' pol-
  []
@@ -1219,13 +1987,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
 
 
+[32]
+
+[33]
+
+[34]
+
 [35]
-
-[36]
-
-[37]
-
-[38]
 Overfull \hbox (11.25615pt too wide) in paragraph at lines 182--183
 [] []\OT1/cmr/bx/n/12 Po-etic Ap-peal.[] \OT1/cmr/m/n/12 Lan-guage was used wit
 h aes-thetic care, where rhythm, im-agery, or metaphor
@@ -1233,15 +2001,15 @@ h aes-thetic care, where rhythm, im-agery, or metaphor
 
 
 
+[36]
+
+[37]
+
+[38]
+
 [39]
 
 [40]
-
-[41]
-
-[42]
-
-[43]
 Overfull \hbox (0.5963pt too wide) in paragraph at lines 327--328
 [] []\OT1/cmr/bx/n/12 Re-silience.[] \OT1/cmr/m/n/12 You en-coun-tered a gen-ui
 nely dif-fi-cult mo-ment and came out in-tact, or stronger.
@@ -1249,26 +2017,26 @@ nely dif-fi-cult mo-ment and came out in-tact, or stronger.
 
 
 
-[44]
+[41]
 
-[45]
+[42]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 337.
 
 
 
+[43]
+
+[44]) (./chapters/annex_materials.tex
+
+[45]
+
 [46]
 
-[47]) (./chapters/annex_materials.tex
+[47]
 
-[48]
-
-[49]
-
-[50]
-
-[51]) (./chapters/annex_reports.tex
+[48]) (./chapters/annex_reports.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 6.
@@ -1281,7 +2049,18 @@ an ap-pro-pri-ate atmosphere-setting.
 
 
 
+[49]
+
+[50]
+
+[51]
+
 [52]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 104.
+
+
 
 [53]
 
@@ -1289,31 +2068,20 @@ an ap-pro-pri-ate atmosphere-setting.
 
 [55]
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 104.
-
-
-
 [56]
-
-[57]
-
-[58]
-
-[59]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 194.
 
 
 
+[57]
+
+[58]
+
+[59]) (./chapters/annex_clues.tex
+
 [60]
-
-[61]
-
-[62]) (./chapters/annex_clues.tex
-
-[63]
 Overfull \hbox (5.50777pt too wide) in paragraph at lines 40--46
 \OT1/cmr/m/it/12 Mechanic: \OT1/cmr/m/n/12 The Hud-dle phase builds emo-tional 
 in-vest-ment be-fore speeches be-gin through
@@ -1321,13 +2089,13 @@ in-vest-ment be-fore speeches be-gin through
 
 
 
+[61]
+
+[62]
+
+[63]
+
 [64]
-
-[65]
-
-[66]
-
-[67]
 Overfull \hbox (4.67894pt too wide) in paragraph at lines 127--133
 \OT1/cmr/m/n/12 pa-thetic rea-son-ing con-tex-tu-ally avail-able and strate-gi-
 cally use-ful, re-ward-ing perspective-
@@ -1335,7 +2103,7 @@ cally use-ful, re-ward-ing perspective-
 
 
 
-[68]
+[65]
 Overfull \hbox (11.25945pt too wide) in paragraph at lines 141--147
 \OT1/cmr/m/it/12 Strength: \OT1/cmr/m/n/12 Mod-er-ate. Self-report; forward-loo
 king; ac-tual im-prove-ment be-hav-ior untested.
@@ -1349,6 +2117,12 @@ Overfull \hbox (5.5581pt too wide) in paragraph at lines 141--147
 
 
 
+[66]
+
+[67]
+
+[68]
+
 [69]
 
 [70]
@@ -1357,39 +2131,38 @@ Overfull \hbox (5.5581pt too wide) in paragraph at lines 141--147
 
 [72]
 
-[73]
+[73]))
 
 [74]
 
-[75]
+LaTeX Warning: Empty bibliography on input line 102.
 
-[76]))
-
-[77]
-
-[78]
-
-[79]
-
-[80]
-
-[81] (./thesis_proposal.aux)
+(./thesis_proposal.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `thesis_proposal.out' has not changed.
 (rerunfilecheck)             Checksum: 1555CFC278432B64C4B9653B6BE9D1CE;25100.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis_proposal
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'thesis_proposal.run.xml'.
 \openout1 = `thesis_proposal.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31715 strings out of 474662
- 613386 string characters out of 5751110
- 1531968 words of memory out of 5000000
- 53961 multiletter control sequences out of 15000+600000
- 566775 words of font info for 63 fonts, out of 8000000 for 9000
+ 31193 strings out of 474662
+ 595016 string characters out of 5751110
+ 1524889 words of memory out of 5000000
+ 53504 multiletter control sequences out of 15000+600000
+ 567133 words of font info for 64 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  84i,11n,107p,2996b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/andreiolaru/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jkna
@@ -1397,14 +2170,15 @@ ppen/ec/tcrm1200.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025basic/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025basic/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis_proposal.pdf (81 pages, 573707 bytes).
+nts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025basic/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025bas
+ic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis_proposal.pdf (74 pages, 551166 bytes).
 PDF statistics:
- 1214 PDF objects out of 1440 (max. 8388607)
- 1102 compressed objects within 12 object streams
- 324 named destinations out of 1000 (max. 500000)
+ 979 PDF objects out of 1000 (max. 8388607)
+ 875 compressed objects within 9 object streams
+ 255 named destinations out of 1000 (max. 500000)
  962 words of extra memory for PDF output out of 10000 (max. 10000000)
 

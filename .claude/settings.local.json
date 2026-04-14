@@ -130,7 +130,10 @@
       "Bash(sed -n '376,495p' chapters/annexes.tex)",
       "Bash(sed -n '496,777p' chapters/annexes.tex)",
       "Bash(sed -n '778,1116p' chapters/annexes.tex)",
-      "Bash(texcount -sum -1 chapters/introduction.tex chapters/background.tex chapters/theoretical_framework.tex chapters/methods.tex chapters/design.tex chapters/results.tex chapters/conclusion.tex)"
+      "Bash(texcount -sum -1 chapters/introduction.tex chapters/background.tex chapters/theoretical_framework.tex chapters/methods.tex chapters/design.tex chapters/results.tex chapters/conclusion.tex)",
+      "Bash(texcount -inc chapters/introduction.tex chapters/background.tex chapters/theoretical_framework.tex chapters/methods.tex chapters/design.tex chapters/results.tex chapters/discussion.tex chapters/conclusion.tex)",
+      "Bash(detex chapters/introduction.tex chapters/background.tex chapters/theoretical_framework.tex chapters/methods.tex chapters/design.tex chapters/results.tex chapters/discussion.tex chapters/conclusion.tex)",
+      "Bash(biber thesis_proposal)"
     ]
   }
 }

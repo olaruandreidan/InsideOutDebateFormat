@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.7)  14 APR 2026 21:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.1.7)  14 APR 2026 21:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -910,13 +910,13 @@ Package pdftex.def Info: otherdocuments/uppsala_University_template/Uppsala_Univ
 [10]
 
 [11]
-
-[12]
 Overfull \hbox (10.64972pt too wide) in paragraph at lines 71--72
 []\OT1/cmr/m/n/12 Design in-ter-ven-tions might there-fore di-ver-sify au-di-ences de-baters must per-suade, strengthen
  []
 
-) (./chapters/methods.tex
+
+
+[12]) (./chapters/methods.tex
 
 [13]
 
@@ -1132,28 +1132,23 @@ L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `thesis_proposal.out' has not changed.
 (rerunfilecheck)             Checksum: 90C0418F3043B47075B9DCE19D5A4E40;25206.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'thesis_proposal.run.xml'.
 \openout1 = `thesis_proposal.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31689 strings out of 474662
- 612656 string characters out of 5751110
- 1530702 words of memory out of 5000000
- 53939 multiletter control sequences out of 15000+600000
+ 31684 strings out of 474662
+ 612596 string characters out of 5751110
+ 1531682 words of memory out of 5000000
+ 53934 multiletter control sequences out of 15000+600000
  566775 words of font info for 63 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 84i,11n,107p,3041b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,107p,2830b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/andreiolaru/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis_proposal.pdf (79 pages, 567619 bytes).
+Output written on thesis_proposal.pdf (79 pages, 566937 bytes).
 PDF statistics:
- 1194 PDF objects out of 1200 (max. 8388607)
- 1085 compressed objects within 11 object streams
+ 1190 PDF objects out of 1200 (max. 8388607)
+ 1081 compressed objects within 11 object streams
  319 named destinations out of 1000 (max. 500000)
  962 words of extra memory for PDF output out of 10000 (max. 10000000)
 

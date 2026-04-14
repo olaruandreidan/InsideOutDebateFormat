@@ -133,7 +133,11 @@
       "Bash(texcount -sum -1 chapters/introduction.tex chapters/background.tex chapters/theoretical_framework.tex chapters/methods.tex chapters/design.tex chapters/results.tex chapters/conclusion.tex)",
       "Bash(texcount -inc chapters/introduction.tex chapters/background.tex chapters/theoretical_framework.tex chapters/methods.tex chapters/design.tex chapters/results.tex chapters/discussion.tex chapters/conclusion.tex)",
       "Bash(detex chapters/introduction.tex chapters/background.tex chapters/theoretical_framework.tex chapters/methods.tex chapters/design.tex chapters/results.tex chapters/discussion.tex chapters/conclusion.tex)",
-      "Bash(biber thesis_proposal)"
+      "Bash(biber thesis_proposal)",
+      "Bash(biber --version)",
+      "Bash(kpsewhich biblatex.sty)",
+      "Bash(biber --tool references.bib)",
+      "Bash(biber --debug thesis_proposal)"
     ]
   }
 }

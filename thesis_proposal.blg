@@ -1,9 +1,9 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'thesis_proposal.blg'
-[54] biber-darwin:342> INFO - === Tue Apr 14, 2026, 08:24:02
+[54] biber-darwin:342> INFO - === Tue Apr 14, 2026, 21:16:48
 [68] Biber.pm:421> INFO - Reading 'thesis_proposal.bcf'
-[159] Biber.pm:1002> INFO - Found 59 citekeys in bib section 0
-[177] Biber.pm:4487> INFO - Processing section 0
-[184] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
-[186] bibtex.pm:1713> INFO - LaTeX decoding ...
-[241] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[169] Biber.pm:1002> INFO - Found 59 citekeys in bib section 0
+[187] Biber.pm:4487> INFO - Processing section 0
+[194] Biber.pm:4678> INFO - Looking for bibtex file 'references.bib' for section 0
+[196] bibtex.pm:1713> INFO - LaTeX decoding ...
+[252] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'

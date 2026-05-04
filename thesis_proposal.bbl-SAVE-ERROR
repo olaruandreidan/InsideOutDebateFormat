@@ -922,80 +922,6 @@
       \field{pages}{214\bibrangedash 227}
       \range{pages}{14}
     \endentry
-    \entry{hammer2024education}{inbook}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=cc5c358e0b241f0b2470ef6599f2ed15}{%
-           family={Hammer},
-           familyi={H\bibinitperiod},
-           given={Jessica},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=15f5339888407685776946bc81c14795}{%
-           family={To},
-           familyi={T\bibinitperiod},
-           given={Alexandra},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ff2c5c146df16e7b9243d97240c6d63e}{%
-           family={Schrier},
-           familyi={S\bibinitperiod},
-           given={Karen},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bffbff2a3e9238d9de010343ec7c3090}{%
-           family={Bowman},
-           familyi={B\bibinitperiod},
-           given={Sarah\bibnamedelima Lynne},
-           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=484954df445b171c21bdd889cd6de765}{%
-           family={Kaufman},
-           familyi={K\bibinitperiod},
-           given={Geoff},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=4e30e680021e8a5cc3386a4e76898191}{%
-           family={Zagal},
-           familyi={Z\bibinitperiod},
-           given={José\bibnamedelima P.},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=4ad251c02d478d38f2fe79e126ae6bf1}{%
-           family={Deterding},
-           familyi={D\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Routledge}%
-      }
-      \strng{namehash}{7edb654b4ddcaccb98b48a39d29f5617}
-      \strng{fullhash}{ddc6c340cb0bd34b7b47135f89f39a5a}
-      \strng{fullhashraw}{ddc6c340cb0bd34b7b47135f89f39a5a}
-      \strng{bibnamehash}{ddc6c340cb0bd34b7b47135f89f39a5a}
-      \strng{authorbibnamehash}{ddc6c340cb0bd34b7b47135f89f39a5a}
-      \strng{authornamehash}{7edb654b4ddcaccb98b48a39d29f5617}
-      \strng{authorfullhash}{ddc6c340cb0bd34b7b47135f89f39a5a}
-      \strng{authorfullhashraw}{ddc6c340cb0bd34b7b47135f89f39a5a}
-      \strng{editorbibnamehash}{8ba25a0647a76fd1de9090f44cf188cb}
-      \strng{editornamehash}{8ba25a0647a76fd1de9090f44cf188cb}
-      \strng{editorfullhash}{8ba25a0647a76fd1de9090f44cf188cb}
-      \strng{editorfullhashraw}{8ba25a0647a76fd1de9090f44cf188cb}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{The Routledge Handbook of Role-Playing Game Studies}
-      \field{chapter}{15}
-      \field{title}{Learning and Role-Playing Games}
-      \field{year}{2024}
-      \field{pages}{299\bibrangedash 317}
-      \range{pages}{19}
-    \endentry
     \entry{harder2018larp}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4eaa082f890759cf96aa1b9f695e6b55}{%
@@ -1698,41 +1624,35 @@
       \field{pages}{290\bibrangedash 304}
       \range{pages}{15}
     \endentry
-    \entry{mezuk2011impact}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=55333f4b3b8fa1d7273a79207e68cf36}{%
-           family={Mezuk},
+    \entry{montola2015steering}{online}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=074da2e44888e0ebfb2149ea9edd6be4}{%
+           family={Montola},
            familyi={M\bibinitperiod},
-           given={Briana},
-           giveni={B\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=40592c6b543937f33557568db76b0fdb}{%
-           family={Bondarenko},
-           familyi={B\bibinitperiod},
-           given={Irina},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b2e217d156b83a1281917a08a97ed3af}{%
-           family={Smith},
+        {{un=0,uniquepart=base,hash=1679e5176b59be4076bbd48d3978f722}{%
+           family={Stenros},
            familyi={S\bibinitperiod},
-           given={Suzanne},
-           giveni={S\bibinitperiod},
+           given={Jaakko},
+           giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=3f25284add24ef22480961e3626db8e5}{%
-           family={Tucker},
-           familyi={T\bibinitperiod},
-           given={Eric},
+        {{un=0,uniquepart=base,hash=5c65bee714c78463e98b13957ee187b8}{%
+           family={Saitta},
+           familyi={S\bibinitperiod},
+           given={Eleanor},
            giveni={E\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{b537b8b197d9a45bb6358f6b62af7dbe}
-      \strng{fullhash}{fd9d884eabd9867fd8c2d9d8a3f5724e}
-      \strng{fullhashraw}{fd9d884eabd9867fd8c2d9d8a3f5724e}
-      \strng{bibnamehash}{fd9d884eabd9867fd8c2d9d8a3f5724e}
-      \strng{authorbibnamehash}{fd9d884eabd9867fd8c2d9d8a3f5724e}
-      \strng{authornamehash}{b537b8b197d9a45bb6358f6b62af7dbe}
-      \strng{authorfullhash}{fd9d884eabd9867fd8c2d9d8a3f5724e}
-      \strng{authorfullhashraw}{fd9d884eabd9867fd8c2d9d8a3f5724e}
+      \strng{namehash}{713b3db00be2327090255d134f7bc106}
+      \strng{fullhash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{fullhashraw}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{bibnamehash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{authorbibnamehash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{authornamehash}{713b3db00be2327090255d134f7bc106}
+      \strng{authorfullhash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{authorfullhashraw}{7a6077df3bd41648b3348dee2b7de125}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1740,13 +1660,51 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Educational Research and Reviews}
-      \field{number}{9}
-      \field{title}{Impact of Participating in a Policy Debate Program on Academic Achievement: Evidence from the {Chicago Urban Debate League}}
-      \field{volume}{6}
-      \field{year}{2011}
-      \field{pages}{622\bibrangedash 635}
-      \range{pages}{14}
+      \field{title}{The Art of Steering: Bringing the Player and the Character Back Together}
+      \field{urlday}{19}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nordiclarp.org/2015/04/29/the-art-of-steering-bringing-the-player-and-the-character-back-together/
+      \endverb
+      \verb{url}
+      \verb https://nordiclarp.org/2015/04/29/the-art-of-steering-bringing-the-player-and-the-character-back-together/
+      \endverb
+    \endentry
+    \entry{nguyen2020games}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=73273e00fa56a74d86132765ba45c973}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={C.\bibnamedelimi Thi},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{fullhash}{73273e00fa56a74d86132765ba45c973}
+      \strng{fullhashraw}{73273e00fa56a74d86132765ba45c973}
+      \strng{bibnamehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authorbibnamehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authornamehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authorfullhash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authorfullhashraw}{73273e00fa56a74d86132765ba45c973}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Games: Agency as Art}
+      \field{year}{2020}
     \endentry
     \entry{pohjola2015steering}{online}{}{}
       \name{author}{1}{}{%
@@ -1857,45 +1815,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Rules of Play: Game Design Fundamentals}
       \field{year}{2004}
-    \endentry
-    \entry{schueler2025debate}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=6fec825aec30d6e6911fa0b078385354}{%
-           family={Schueler},
-           familyi={S\bibinitperiod},
-           given={Beth\bibnamedelima E.},
-           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0ad6a1d80c7ce0e21d6496e4ff0ccbfc}{%
-           family={Larned},
-           familyi={L\bibinitperiod},
-           given={Katherine\bibnamedelima E.},
-           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{fullhash}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{fullhashraw}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{bibnamehash}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{authorbibnamehash}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{authornamehash}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{authorfullhash}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{authorfullhashraw}{e358e50f0014df17bbac9203ddddc9ba}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Educational Evaluation and Policy Analysis}
-      \field{note}{originally published in 2023}
-      \field{number}{1}
-      \field{title}{Interscholastic Policy Debate Promotes Critical Thinking and College-Going: Evidence From {Boston} Public Schools}
-      \field{volume}{47}
-      \field{year}{2025}
-      \field{pages}{108\bibrangedash 134}
-      \range{pages}{27}
     \endentry
     \entry{seo2022good}{book}{}{}
       \name{author}{1}{}{%
@@ -3337,80 +3256,6 @@
       \field{pages}{214\bibrangedash 227}
       \range{pages}{14}
     \endentry
-    \entry{hammer2024education}{inbook}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=cc5c358e0b241f0b2470ef6599f2ed15}{%
-           family={Hammer},
-           familyi={H\bibinitperiod},
-           given={Jessica},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=15f5339888407685776946bc81c14795}{%
-           family={To},
-           familyi={T\bibinitperiod},
-           given={Alexandra},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ff2c5c146df16e7b9243d97240c6d63e}{%
-           family={Schrier},
-           familyi={S\bibinitperiod},
-           given={Karen},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bffbff2a3e9238d9de010343ec7c3090}{%
-           family={Bowman},
-           familyi={B\bibinitperiod},
-           given={Sarah\bibnamedelima Lynne},
-           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=484954df445b171c21bdd889cd6de765}{%
-           family={Kaufman},
-           familyi={K\bibinitperiod},
-           given={Geoff},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=4e30e680021e8a5cc3386a4e76898191}{%
-           family={Zagal},
-           familyi={Z\bibinitperiod},
-           given={José\bibnamedelima P.},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=4ad251c02d478d38f2fe79e126ae6bf1}{%
-           family={Deterding},
-           familyi={D\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Routledge}%
-      }
-      \strng{namehash}{7edb654b4ddcaccb98b48a39d29f5617}
-      \strng{fullhash}{ddc6c340cb0bd34b7b47135f89f39a5a}
-      \strng{fullhashraw}{ddc6c340cb0bd34b7b47135f89f39a5a}
-      \strng{bibnamehash}{ddc6c340cb0bd34b7b47135f89f39a5a}
-      \strng{authorbibnamehash}{ddc6c340cb0bd34b7b47135f89f39a5a}
-      \strng{authornamehash}{7edb654b4ddcaccb98b48a39d29f5617}
-      \strng{authorfullhash}{ddc6c340cb0bd34b7b47135f89f39a5a}
-      \strng{authorfullhashraw}{ddc6c340cb0bd34b7b47135f89f39a5a}
-      \strng{editorbibnamehash}{8ba25a0647a76fd1de9090f44cf188cb}
-      \strng{editornamehash}{8ba25a0647a76fd1de9090f44cf188cb}
-      \strng{editorfullhash}{8ba25a0647a76fd1de9090f44cf188cb}
-      \strng{editorfullhashraw}{8ba25a0647a76fd1de9090f44cf188cb}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{The Routledge Handbook of Role-Playing Game Studies}
-      \field{chapter}{15}
-      \field{title}{Learning and Role-Playing Games}
-      \field{year}{2024}
-      \field{pages}{299\bibrangedash 317}
-      \range{pages}{19}
-    \endentry
     \entry{harder2018larp}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4eaa082f890759cf96aa1b9f695e6b55}{%
@@ -4113,41 +3958,35 @@
       \field{pages}{290\bibrangedash 304}
       \range{pages}{15}
     \endentry
-    \entry{mezuk2011impact}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=55333f4b3b8fa1d7273a79207e68cf36}{%
-           family={Mezuk},
+    \entry{montola2015steering}{online}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=074da2e44888e0ebfb2149ea9edd6be4}{%
+           family={Montola},
            familyi={M\bibinitperiod},
-           given={Briana},
-           giveni={B\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=40592c6b543937f33557568db76b0fdb}{%
-           family={Bondarenko},
-           familyi={B\bibinitperiod},
-           given={Irina},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b2e217d156b83a1281917a08a97ed3af}{%
-           family={Smith},
+        {{un=0,uniquepart=base,hash=1679e5176b59be4076bbd48d3978f722}{%
+           family={Stenros},
            familyi={S\bibinitperiod},
-           given={Suzanne},
-           giveni={S\bibinitperiod},
+           given={Jaakko},
+           giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=3f25284add24ef22480961e3626db8e5}{%
-           family={Tucker},
-           familyi={T\bibinitperiod},
-           given={Eric},
+        {{un=0,uniquepart=base,hash=5c65bee714c78463e98b13957ee187b8}{%
+           family={Saitta},
+           familyi={S\bibinitperiod},
+           given={Eleanor},
            giveni={E\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{b537b8b197d9a45bb6358f6b62af7dbe}
-      \strng{fullhash}{fd9d884eabd9867fd8c2d9d8a3f5724e}
-      \strng{fullhashraw}{fd9d884eabd9867fd8c2d9d8a3f5724e}
-      \strng{bibnamehash}{fd9d884eabd9867fd8c2d9d8a3f5724e}
-      \strng{authorbibnamehash}{fd9d884eabd9867fd8c2d9d8a3f5724e}
-      \strng{authornamehash}{b537b8b197d9a45bb6358f6b62af7dbe}
-      \strng{authorfullhash}{fd9d884eabd9867fd8c2d9d8a3f5724e}
-      \strng{authorfullhashraw}{fd9d884eabd9867fd8c2d9d8a3f5724e}
+      \strng{namehash}{713b3db00be2327090255d134f7bc106}
+      \strng{fullhash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{fullhashraw}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{bibnamehash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{authorbibnamehash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{authornamehash}{713b3db00be2327090255d134f7bc106}
+      \strng{authorfullhash}{7a6077df3bd41648b3348dee2b7de125}
+      \strng{authorfullhashraw}{7a6077df3bd41648b3348dee2b7de125}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -4155,13 +3994,51 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Educational Research and Reviews}
-      \field{number}{9}
-      \field{title}{Impact of Participating in a Policy Debate Program on Academic Achievement: Evidence from the {Chicago Urban Debate League}}
-      \field{volume}{6}
-      \field{year}{2011}
-      \field{pages}{622\bibrangedash 635}
-      \range{pages}{14}
+      \field{title}{The Art of Steering: Bringing the Player and the Character Back Together}
+      \field{urlday}{19}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nordiclarp.org/2015/04/29/the-art-of-steering-bringing-the-player-and-the-character-back-together/
+      \endverb
+      \verb{url}
+      \verb https://nordiclarp.org/2015/04/29/the-art-of-steering-bringing-the-player-and-the-character-back-together/
+      \endverb
+    \endentry
+    \entry{nguyen2020games}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=73273e00fa56a74d86132765ba45c973}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={C.\bibnamedelimi Thi},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{fullhash}{73273e00fa56a74d86132765ba45c973}
+      \strng{fullhashraw}{73273e00fa56a74d86132765ba45c973}
+      \strng{bibnamehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authorbibnamehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authornamehash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authorfullhash}{73273e00fa56a74d86132765ba45c973}
+      \strng{authorfullhashraw}{73273e00fa56a74d86132765ba45c973}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Games: Agency as Art}
+      \field{year}{2020}
     \endentry
     \entry{pohjola2015steering}{online}{}{}
       \name{author}{1}{}{%
@@ -4272,45 +4149,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Rules of Play: Game Design Fundamentals}
       \field{year}{2004}
-    \endentry
-    \entry{schueler2025debate}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=6fec825aec30d6e6911fa0b078385354}{%
-           family={Schueler},
-           familyi={S\bibinitperiod},
-           given={Beth\bibnamedelima E.},
-           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0ad6a1d80c7ce0e21d6496e4ff0ccbfc}{%
-           family={Larned},
-           familyi={L\bibinitperiod},
-           given={Katherine\bibnamedelima E.},
-           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{fullhash}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{fullhashraw}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{bibnamehash}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{authorbibnamehash}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{authornamehash}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{authorfullhash}{e358e50f0014df17bbac9203ddddc9ba}
-      \strng{authorfullhashraw}{e358e50f0014df17bbac9203ddddc9ba}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Educational Evaluation and Policy Analysis}
-      \field{note}{originally published in 2023}
-      \field{number}{1}
-      \field{title}{Interscholastic Policy Debate Promotes Critical Thinking and College-Going: Evidence From {Boston} Public Schools}
-      \field{volume}{47}
-      \field{year}{2025}
-      \field{pages}{108\bibrangedash 134}
-      \range{pages}{27}
     \endentry
     \entry{seo2022good}{book}{}{}
       \name{author}{1}{}{%

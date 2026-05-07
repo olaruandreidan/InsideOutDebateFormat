@@ -137,7 +137,10 @@
       "Bash(biber --version)",
       "Bash(kpsewhich biblatex.sty)",
       "Bash(biber --tool references.bib)",
-      "Bash(biber --debug thesis_proposal)"
+      "Bash(biber --debug thesis_proposal)",
+      "Bash(awk '{print $NF}')",
+      "Bash(awk '/\\\\\\\\subsubsection\\\\{Field 3:/,/\\\\\\\\subsubsection\\\\{Field 4:/' chapters/results.tex)",
+      "Bash(awk '/\\\\\\\\subsubsection\\\\{Field 3:/,/\\\\\\\\subsubsection\\\\{Field 4:/')"
     ]
   }
 }

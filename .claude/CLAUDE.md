@@ -4,36 +4,26 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Master's thesis proposal for Uppsala University by Andrei Dan Olaru. The thesis is titled **"Applying Transformative Game Design Theory to Competitive Debate"** and uses Research through Design methodology to create a new competitive debate format called "Inside Out" that addresses problems in existing formats (World Schools, British Parliamentary).
+This is the Master's thesis manuscript for Uppsala University by Andrei Dan Olaru, titled **"Applying Transformative Game Design Theory to Competitive Debate"**. It uses Research through Design to develop a new competitive debate format ("Inside Out") that addresses problems in World Schools and British Parliamentary, and argues that debate is a class of role-playing games whose transformative potential is unlocked by treating it as one in design.
 
-The thesis argues that debate is a class of role-playing games with transformative potential, and applies transformative game design theory to improve format design.
+The repo holds the full manuscript (intro through conclusion plus annexes), the research material that fed it (playtest transcripts, debrief notes, supervisor annotations), and a separate source-annotations document. The main entry-point file is still named `thesis_proposal.tex` for historical reasons.
 
 ## Repository Structure
 
-```
-MastersThesis/
-├── thesis_proposal.tex                    # Main LaTeX document (entry point)
-├── references.bib                         # Bibliography (biblatex/biber, APA style)
-├── chapters/
-│   ├── introduction.tex                   # Research question, motivation, problem statement
-│   ├── background.tex                     # Literature review: debate as transformative game & RPG
-│   ├── theoretical_framework.tex          # Transformational container, bleed, procedural rhetoric
-│   ├── methods.tex                        # Research through Design, observation, interviews
-│   ├── design.tex                         # The "Inside Out" debate format design
-│   └── conclusion.tex                     # Conclusion + Timeline Annex
-├── Sources/
-│   ├── On debate/                         # Reference PDFs on competitive debate
-│   ├── On games/                          # Reference PDFs on game design & RPGs
-│   └── On research/                       # Reference PDFs on research methodology
-├── Uppsala_University_template/
-│   ├── main.tex                           # Title page template (referenced by thesis_proposal.tex)
-│   └── Uppsala_University_seal_svg.png    # University logo
-├── InsideOutDebateFormat.rtf              # Inside Out format description (RTF)
-├── InsideOut_Debate_Format.pptx           # Inside Out format presentation
-├── annotated-thesis_proposal_JJ.pdf       # Supervisor-annotated proposal
-├── Andrei Olaru MA Thesis Proposal UU.docx # Original thesis proposal (Word)
-└── .gitignore
-```
+Two LaTeX documents live at the root:
+- `thesis_proposal.tex` — the main thesis manuscript. Inputs files from `chapters/` in this order: `introduction`, `background`, `theoretical_framework`, `methods`, `design`, `results`, `discussion`, `conclusion`, `annexes`.
+- `source_annotations.tex` — a *separate* self-contained document (own preamble, custom `\entry{...}` macro) compiled independently to `source_annotations.pdf`. Don't confuse the two when editing.
+
+Directories:
+- `chapters/` — body chapters listed above, plus the annex hub `annexes.tex` which inputs `annex_format.tex` (Annexes A–B), `annex_materials.tex` (C–E), `annex_reports.tex` (F–H), and `annex_clues.tex` (I).
+- `sources/` — reference PDFs grouped under `On debate/`, `On games/`, `On research/`. Reading material; cited in `references.bib`.
+- `otherdocuments/` — **research material and source artifacts**, not output. Includes playtest transcripts (`transcriptPlaytest1.txt`, `transcriptPlaytest2.txt`, `transcriptPlaytest2Debrief.txt`), playtest notes (`Notes from first playtest.txt`, `Notes after Playtest 2.txt`), the supervisor-annotated PDF (`annotated-thesis_proposal_JJ.pdf`), the Uppsala title-page template (`uppsala_University_template/`), the Inside Out format description (`InsideOutDebateFormat.rtf`, `.pptx`), and working notes (`On the discussion.md`, `Results remake points.txt`, `SummaryResultsSection.txt`, `commendations.txt`). When integrating playtest evidence into a chapter, this is where the raw material lives.
+- `scripts/wordcount.sh` — body word count (see below).
+- `tools/texcount.pl` — vendored TeXcount 3.1.1 used as a fallback by the wordcount script.
+- `docs/` — public web pages for the Inside Out format (`index.html`).
+- `references.bib` — bibliography (biblatex/biber, APA style).
+
+Title-page seal is loaded from `otherdocuments/uppsala_University_template/Uppsala_University_seal_svg.png` (referenced by `thesis_proposal.tex`).
 
 ## LaTeX Compilation
 
@@ -45,6 +35,9 @@ The main document is `thesis_proposal.tex` at the repository root. It uses **bib
 # Recommended: latexmk handles the full build cycle automatically
 latexmk -pdf thesis_proposal.tex
 
+# The source-annotations document compiles independently
+latexmk -pdf source_annotations.tex
+
 # Manual compilation (must use pdflatex + biber, not bibtex)
 pdflatex thesis_proposal.tex
 biber thesis_proposal
@@ -55,6 +48,8 @@ pdflatex thesis_proposal.tex
 latexmk -c              # Clean auxiliary files
 latexmk -C              # Clean all generated files including PDF
 ```
+
+VSCode (LaTeX Workshop, see `.vscode/settings.json`) auto-builds on save with `latexmk`, so during interactive editing manual recompiles are usually unnecessary.
 
 ### Key Packages
 
@@ -71,6 +66,12 @@ latexmk -C              # Clean all generated files including PDF
 ### Citations
 
 Use `\textcite{key}` for in-text citations and `\parencite{key}` for parenthetical (APA style via biblatex). Bibliography entries are in `references.bib`.
+
+## Editorial Conventions
+
+- **Commenting out prose**: prefix each line with `%` rather than wrapping blocks in `\iffalse … \fi`. This was a deliberate switch (commit `c9322b3`) so commented passages stay searchable and diff cleanly. Don't reintroduce `\iffalse` to hide content.
+- **Drafting against research material**: when revising a chapter to better reflect playtest evidence or supervisor feedback, the source material is in `otherdocuments/` (transcripts, notes, the annotated PDF). Read from there; write to `chapters/`.
+- **Annexes are not body text** — they live in their own `chapters/annex_*.tex` files (orchestrated by `chapters/annexes.tex`) and are excluded from the body word count.
 
 ## Word Count
 
@@ -95,13 +96,11 @@ If you add a new body chapter, also append its name to the `chapters=( … )` ar
 
 ## Common Issues
 
-### Bibliography Not Showing
-- This project uses **biber**, not bibtex. Run `biber thesis_proposal` (not `bibtex`)
-- Or just use `latexmk -pdf` which handles everything automatically
-
 ### Adding a New Chapter
 1. Create `chapters/newchapter.tex` with a `\section{TITLE}` heading
 2. Add `\input{chapters/newchapter}` in `thesis_proposal.tex` between existing `\input` lines
+3. Append the chapter name to the `chapters=( … )` array in `scripts/wordcount.sh` so it counts toward the body total.
 
-### Image Paths
-- Images reference paths relative to the root (e.g., `Uppsala_University_template/Uppsala_University_seal_svg.png`)
+### Adding a New Annex
+1. Either add a section to one of the existing `chapters/annex_*.tex` files, or create a new `chapters/annex_<topic>.tex` and `\input` it from `chapters/annexes.tex`.
+2. Annexes are intentionally excluded from the body word count — leave them out of `scripts/wordcount.sh`'s `chapters=( … )` array.

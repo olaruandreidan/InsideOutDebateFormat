@@ -29,6 +29,13 @@ chapters=(
   conclusion
 )
 
+annexes=(
+  annex_format
+  annex_materials
+  annex_reports
+  annex_clues
+)
+
 printf "%-25s %10s\n" "Chapter" "Words"
 printf "%-25s %10s\n" "-------------------------" "----------"
 
@@ -46,3 +53,16 @@ done
 
 printf "%-25s %10s\n" "-------------------------" "----------"
 printf "%-25s %10s\n" "TOTAL (body)" "$total"
+
+annex_total=0
+for ax in "${annexes[@]}"; do
+  file="chapters/${ax}.tex"
+  if [[ ! -f "$file" ]]; then
+    echo "error: missing annex file: $file" >&2
+    exit 1
+  fi
+  count=$("${TEXCOUNT[@]}" -1 -sum -merge "$file")
+  annex_total=$((annex_total + count))
+done
+
+printf "%-25s %10s\n" "TOTAL (with annexes)" "$((total + annex_total))"

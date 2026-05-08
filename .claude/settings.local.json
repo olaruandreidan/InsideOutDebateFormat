@@ -140,7 +140,24 @@
       "Bash(biber --debug thesis_proposal)",
       "Bash(awk '{print $NF}')",
       "Bash(awk '/\\\\\\\\subsubsection\\\\{Field 3:/,/\\\\\\\\subsubsection\\\\{Field 4:/' chapters/results.tex)",
-      "Bash(awk '/\\\\\\\\subsubsection\\\\{Field 3:/,/\\\\\\\\subsubsection\\\\{Field 4:/')"
+      "Bash(awk '/\\\\\\\\subsubsection\\\\{Field 3:/,/\\\\\\\\subsubsection\\\\{Field 4:/')",
+      "Bash(texcount --version)",
+      "Bash(kpsewhich texcount.pl)",
+      "Read(//usr/local/**)",
+      "Bash(chmod +x *)",
+      "Bash(./scripts/wordcount.sh)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(curl -fsSL -o tools/texcount.pl https://mirror.ctan.org/support/texcount/texcount.pl)",
+      "Bash(perl tools/texcount.pl -ver)",
+      "Bash(perl tools/texcount.pl -1 -sum -merge /tmp/wc_test.tex)",
+      "Bash(perl tools/texcount.pl -v -merge /tmp/wc_test.tex)",
+      "Bash(perl tools/texcount.pl -1 -sum -merge chapters/background.tex)",
+      "Bash(perl -0777 -pe 's/\\\\\\\\iffalse.*?\\\\\\\\fi//gs' chapters/background.tex)",
+      "Bash(perl tools/texcount.pl -1 -sum -merge /tmp/bg_stripped.tex)",
+      "Bash(awk 'NR>=22 && NR<=44' chapters/discussion.tex)",
+      "Bash(awk 'NR>=4 && NR<=17' chapters/discussion.tex)",
+      "Bash(awk NR>=22 && NR<=28 *)",
+      "Bash(/Users/andreiolaru/Documents/repos/MastersThesis/scripts/wordcount.sh *)"
     ]
   }
 }

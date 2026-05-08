@@ -35,6 +35,12 @@
     ],
     "latex-workshop.latex.recipes": [
         {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
             "name": "pdflatex -> biber -> pdflatex x2",
             "tools": [
                 "pdflatex",
@@ -44,16 +50,11 @@
             ]
         },
         {
-            "name": "latexmk",
-            "tools": [
-                "latexmk"
-            ]
-        },
-        {
             "name": "pdflatex",
             "tools": [
                 "pdflatex"
             ]
         }
-    ]
+    ],
+    "latex-workshop.latex.autoBuild.run": "onSave"
 }

@@ -157,7 +157,22 @@
       "Bash(awk 'NR>=22 && NR<=44' chapters/discussion.tex)",
       "Bash(awk 'NR>=4 && NR<=17' chapters/discussion.tex)",
       "Bash(awk NR>=22 && NR<=28 *)",
-      "Bash(/Users/andreiolaru/Documents/repos/MastersThesis/scripts/wordcount.sh *)"
+      "Bash(/Users/andreiolaru/Documents/repos/MastersThesis/scripts/wordcount.sh *)",
+      "Read(//usr/**)",
+      "Read(//Library/Perl/**)",
+      "Read(//opt/**)",
+      "Bash(brew list *)",
+      "Bash(brew --prefix biber)",
+      "Bash(perl -V)",
+      "Bash(tlmgr update *)",
+      "Bash(/opt/homebrew/bin/biber thesis_proposal)",
+      "Bash(echo \"p1 exit=$?\")",
+      "Bash(echo \"p2 exit=$?\")",
+      "Bash(perl -e 'print join\\(\"\\\\n\", @INC\\)')",
+      "Bash(perl -MUnicode::UCD -e 'use Unicode::UCD; print \"Unicode::UCD loaded OK\\\\n\"; print \"Version: \", $Unicode::UCD::VERSION, \"\\\\n\"')",
+      "Read(//System/Library/Perl/5.34/unicore/**)",
+      "Read(//private/var/folders/xq/ll14spp91xz1d1y20ls8n22h0000gn/T/par-616e647265696f6c617275/cache-dcc15f9fea3fe4843317c81e274edd3cffcb0a6f/inc/lib/version/**)",
+      "Bash(cp /System/Library/Perl/5.34/unicore/version __TRACKED_VAR__/inc/lib/unicore/version)"
     ]
   }
 }

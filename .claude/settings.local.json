@@ -172,7 +172,17 @@
       "Bash(perl -MUnicode::UCD -e 'use Unicode::UCD; print \"Unicode::UCD loaded OK\\\\n\"; print \"Version: \", $Unicode::UCD::VERSION, \"\\\\n\"')",
       "Read(//System/Library/Perl/5.34/unicore/**)",
       "Read(//private/var/folders/xq/ll14spp91xz1d1y20ls8n22h0000gn/T/par-616e647265696f6c617275/cache-dcc15f9fea3fe4843317c81e274edd3cffcb0a6f/inc/lib/version/**)",
-      "Bash(cp /System/Library/Perl/5.34/unicore/version __TRACKED_VAR__/inc/lib/unicore/version)"
+      "Bash(cp /System/Library/Perl/5.34/unicore/version __TRACKED_VAR__/inc/lib/unicore/version)",
+      "WebFetch(domain:crimesolutions.ojp.gov)",
+      "WebFetch(domain:experts.umich.edu)",
+      "WebFetch(domain:files.eric.ed.gov)",
+      "WebFetch(domain:consensus.app)",
+      "WebFetch(domain:scholarworks.iu.edu)",
+      "WebFetch(domain:isetl.org)",
+      "WebFetch(domain:tll.mit.edu)",
+      "WebFetch(domain:ablconnect.harvard.edu)",
+      "WebFetch(domain:www.debating.net.au)",
+      "WebFetch(domain:go.gale.com)"
     ]
   }
 }

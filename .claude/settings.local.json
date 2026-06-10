@@ -182,7 +182,16 @@
       "WebFetch(domain:tll.mit.edu)",
       "WebFetch(domain:ablconnect.harvard.edu)",
       "WebFetch(domain:www.debating.net.au)",
-      "WebFetch(domain:go.gale.com)"
+      "WebFetch(domain:go.gale.com)",
+      "Bash(latexmk -pdf -interaction=nonstopmode thesis_proposal.tex)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(latexmk -pdf -interaction=nonstopmode thesis_proposal.tex > /tmp/latexmk2.log 2>&1; echo \"EXIT: $?\"; grep -ci \"undefined\" thesis_proposal.log; echo \"--- conclusion contradiction check \\(should be empty\\):\"; grep -niE \"pretence|retrofitted|misguided|wanton|lightning strikes|failed yet to shine\" chapters/conclusion.tex)",
+      "Bash(cat /Users/andreiolaru/Documents/repos/MastersThesis/.claude/settings.local.json 2>/dev/null; echo \"---GLOBAL---\"; cat /Users/andreiolaru/.claude/settings.json 2>/dev/null)",
+      "Read(//Users/andreiolaru/.claude/**)",
+      "Bash(command -v latexmk pdflatex biber)"
+    ],
+    "additionalDirectories": [
+      "/tmp"
     ]
   }
 }

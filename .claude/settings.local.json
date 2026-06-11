@@ -188,7 +188,18 @@
       "Bash(latexmk -pdf -interaction=nonstopmode thesis_proposal.tex > /tmp/latexmk2.log 2>&1; echo \"EXIT: $?\"; grep -ci \"undefined\" thesis_proposal.log; echo \"--- conclusion contradiction check \\(should be empty\\):\"; grep -niE \"pretence|retrofitted|misguided|wanton|lightning strikes|failed yet to shine\" chapters/conclusion.tex)",
       "Bash(cat /Users/andreiolaru/Documents/repos/MastersThesis/.claude/settings.local.json 2>/dev/null; echo \"---GLOBAL---\"; cat /Users/andreiolaru/.claude/settings.json 2>/dev/null)",
       "Read(//Users/andreiolaru/.claude/**)",
-      "Bash(command -v latexmk pdflatex biber)"
+      "Bash(command -v latexmk pdflatex biber)",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\adolaru2\\\\repoes\\\\MastersThesis\\\\diff_work\\\\old\\\\chapters\")",
+      "Bash(latexdiff --flatten diff_work/old/thesis_proposal.tex thesis_proposal.tex)",
+      "Bash(echo \"Exit code: $?\")",
+      "Bash(ls \"C:/Users/adolaru2/AppData/Local/Programs/MiKTeX/miktex/bin/x64/\" | grep -i perl)",
+      "Read(//c/Users/adolaru2/AppData/Local/Programs/MiKTeX/miktex/bin/x64/**)",
+      "Bash(perl --version)",
+      "Bash(perl -MAlgorithm::Diff -e 'print \"OK\\\\n\"')",
+      "Bash(ls \"C:/Users/adolaru2/AppData/Local/Programs/MiKTeX/scripts/latexdiff/\" 2>&1)",
+      "Read(//c/Users/adolaru2/AppData/Local/Programs/MiKTeX/scripts/latexdiff/**)",
+      "Bash(perl \"C:/Users/adolaru2/AppData/Local/Programs/MiKTeX/scripts/latexdiff/latexdiff-so\" --flatten diff_work/old/thesis_proposal.tex thesis_proposal.tex)",
+      "Bash(echo \"Exit: $?\")"
     ],
     "additionalDirectories": [
       "/tmp"

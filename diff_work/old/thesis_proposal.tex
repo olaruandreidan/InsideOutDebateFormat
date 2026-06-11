@@ -1,0 +1,104 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Uppsala University Thesis Proposal
+% LaTeX Document
+% Author: Andrei Olaru
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+
+% Language and encoding
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+
+% Mathematics
+\usepackage{amsmath}
+
+% Graphics and figures
+\usepackage{graphicx}
+\usepackage{float}
+
+% Page layout
+\usepackage[margin=1in,marginparwidth=2cm]{geometry}
+
+% Bibliography
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{references.bib}
+
+% Diagrams
+\usepackage{tikz}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    citecolor=blue,
+}
+
+% Section formatting
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+% Todo notes
+\usepackage[colorinlistoftodos]{todonotes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TITLE PAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\center
+
+\textsc{\LARGE Uppsala University}\\[1.5cm]
+\includegraphics[scale=.1]{otherdocuments/uppsala_University_template/Uppsala_University_seal_svg.png}\\[1cm]
+\textsc{\Large Master's Thesis}\\[0.5cm]
+
+\HRule \\[0.4cm]
+{\huge \bfseries Applying Transformative Game Design Theory to Competitive Debate}\\[0.4cm]
+\HRule \\[1.5cm]
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+Andrei Dan \textsc{Olaru}
+\end{flushleft}
+\end{minipage}\\[2cm]
+
+{\large \today}\\[2cm]
+
+\vfill
+
+\end{titlepage}
+\setcounter{page}{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{chapters/introduction}
+\input{chapters/background}
+\input{chapters/theoretical_framework}
+\input{chapters/methods}
+\input{chapters/design}
+\input{chapters/results}
+\input{chapters/discussion}
+\input{chapters/conclusion}
+\input{chapters/annexes}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% REFERENCES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\printbibliography[title={REFERENCES}]
+
+\end{document}

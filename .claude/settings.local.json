@@ -199,7 +199,12 @@
       "Bash(ls \"C:/Users/adolaru2/AppData/Local/Programs/MiKTeX/scripts/latexdiff/\" 2>&1)",
       "Read(//c/Users/adolaru2/AppData/Local/Programs/MiKTeX/scripts/latexdiff/**)",
       "Bash(perl \"C:/Users/adolaru2/AppData/Local/Programs/MiKTeX/scripts/latexdiff/latexdiff-so\" --flatten diff_work/old/thesis_proposal.tex thesis_proposal.tex)",
-      "Bash(echo \"Exit: $?\")"
+      "Bash(echo \"Exit: $?\")",
+      "PowerShell($h = Get-Content docs\\\\index.html -Raw; foreach \\($t in 'div','details','summary','section','table','ul','ol','li','span','a','p','main','nav'\\) { $open = \\([regex]::Matches\\($h, \"<$t\\(\\\\s|>\\)\"\\)\\).Count; $close = \\([regex]::Matches\\($h, \"</$t>\"\\)\\).Count; if \\($open -ne $close\\) { \"MISMATCH ${t}: $open open vs $close close\" } }; \"tag check done\"; foreach \\($s in 'Point of Information','Yes, we are','Thank you for speaking your truth','bleed check','carry the decision','what do you need to know'\\) { if \\($h -notmatch [regex]::Escape\\($s\\)\\) { \"MISSING: $s\" } }; \"phrase check done\")",
+      "PowerShell(Start-Process \\(Resolve-Path docs\\\\index.html\\).Path)",
+      "PowerShell(git diff --stat -- docs/; Start-Process \\(Resolve-Path docs\\\\index.html\\).Path)",
+      "PowerShell($h = Get-Content docs\\\\index.html -Raw; $open = \\([regex]::Matches\\($h, '<div\\(\\\\s|>\\)'\\)\\).Count; $close = \\([regex]::Matches\\($h, '</div>'\\)\\).Count; \"div: $open vs $close\"; Start-Process \\(Resolve-Path docs\\\\index.html\\).Path)",
+      "PowerShell($h = Get-Content docs\\\\index.html -Raw; $open = \\([regex]::Matches\\($h, '<div\\(\\\\s|>\\)'\\)\\).Count; $close = \\([regex]::Matches\\($h, '</div>'\\)\\).Count; \"div: $open vs $close\"; $open2 = \\([regex]::Matches\\($h, '<span\\(\\\\s|>\\)'\\)\\).Count; $close2 = \\([regex]::Matches\\($h, '</span>'\\)\\).Count; \"span: $open2 vs $close2\"; \"details: \" + \\([regex]::Matches\\($h, '<details class=\"ci\"'\\)\\).Count; Start-Process \\(Resolve-Path docs\\\\index.html\\).Path)"
     ],
     "additionalDirectories": [
       "/tmp"
